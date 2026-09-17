@@ -1,0 +1,10 @@
+folios/
+__pycache__/
+*.npz
+corpus_*.txt
+raw_*.txt
+*.pyc
+ZL3b-n.txt
+IT2a-n.txt
+GC2a-n.txt
+voynich_clean.txt

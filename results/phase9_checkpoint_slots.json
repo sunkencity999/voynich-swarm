@@ -1,0 +1,37 @@
+{
+ "S1_medial_or_scribe1_q": {
+  "H": 8.747,
+  "p": 0.00759962001899905,
+  "n": 95,
+  "note": "medial = excludes line-first and line-last tokens; folios with >=10 medial tokens"
+ },
+ "medial_means": {
+  "minor": {
+   "n": 9,
+   "mean": 0.00265
+  },
+  "moderate": {
+   "n": 63,
+   "mean": 0.00731
+  },
+  "dominant": {
+   "n": 22,
+   "mean": 0.01639
+  }
+ },
+ "X2_or_position_by_rp": {
+  "moderate": {
+   "medial": 47,
+   "first": 12,
+   "last": 13
+  },
+  "dominant": {
+   "medial": 80,
+   "first": 9,
+   "last": 8
+  },
+  "minor": {
+   "medial": 1
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "zodiac_Lz": {
+  "n_words": 341,
+  "n_pages": 12,
+  "within_minus_across_editdist": -0.03995137984350394,
+  "ed_null_mean": 1.5305242915991657e-05,
+  "ed_null_std": 0.002799854245482608,
+  "ed_z": -14.274559167107972,
+  "ed_p_more_similar": 0.0,
+  "within_minus_across_prefixshare": 0.039553773832282285,
+  "pf_null_mean": -5.9680697370404334e-06,
+  "pf_null_std": 0.00489596335530083,
+  "pf_z": 8.080073119662595,
+  "pf_p_more_shared": 0.0
+ },
+ "pharma_LfLc": {
+  "n_words": 240,
+  "n_pages": 15,
+  "within_minus_across_editdist": -0.014531476699313428,
+  "ed_null_mean": -5.683475258401382e-05,
+  "ed_null_std": 0.00429992340550615,
+  "ed_z": -3.3662557635780916,
+  "ed_p_more_similar": 0.0015,
+  "within_minus_across_prefixshare": 0.018158710148738502,
+  "pf_null_mean": 7.657580492771237e-06,
+  "pf_null_std": 0.006204163864390388,
+  "pf_z": 2.9256243008709166,
+  "pf_p_more_shared": 0.0076
+ },
+ "astro_Ls": {
+  "n_words": 80,
+  "n_pages": 4,
+  "within_minus_across_editdist": -0.047128158926298847,
+  "ed_null_mean": -0.00011733240274165504,
+  "ed_null_std": 0.007989006318021673,
+  "ed_z": -5.884439772880106,
+  "ed_p_more_similar": 0.0001,
+  "within_minus_across_prefixshare": 0.012734326261050602,
+  "pf_null_mean": 0.0001318753661247376,
+  "pf_null_std": 0.012973858233453008,
+  "pf_z": 0.971372637819529,
+  "pf_p_more_shared": 0.168
+ },
+ "balneo_LnLt": {
+  "n_words": 115,
+  "n_pages": 10,
+  "within_minus_across_editdist": -0.004892021719167139,
+  "ed_null_mean": -2.0396317523605634e-05,
+  "ed_null_std": 0.009631884567933893,
+  "ed_z": -0.5057811238583533,
+  "ed_p_more_similar": 0.2918,
+  "within_minus_across_prefixshare": 0.008883564122650733,
+  "pf_null_mean": -3.195020636093637e-05,
+  "pf_null_std": 0.015465376032481163,
+  "pf_z": 0.5764822213366722,
+  "pf_p_more_shared": 0.272
+ }
+}

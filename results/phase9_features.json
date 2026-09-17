@@ -1,0 +1,228 @@
+{
+ "a2": {
+  "f100r": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 15,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "yes"
+  },
+  "f100v": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 1,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 0,
+   "num_distinct_plants": 15,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "yes"
+  },
+  "f101r": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 1,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 14,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "yes"
+  },
+  "f101v": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 15,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f102r1": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 3,
+   "foliage_emphasis": 2,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 3,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f102r2": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 0,
+   "foliage_emphasis": 1,
+   "bloom_emphasis": 3,
+   "num_distinct_plants": 3,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f102v1": {
+   "drawing_subject": "plants_in_containers",
+   "underground_parts_emphasis": 0,
+   "foliage_emphasis": 2,
+   "bloom_emphasis": 0,
+   "num_distinct_plants": 6,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "yes"
+  },
+  "f102v2": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 0,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 0,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f10r": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 1,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 2,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f10v": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 2,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f11r": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 2,
+   "num_distinct_plants": 3,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f11v": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 1,
+   "bloom_emphasis": 3,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f13r": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f13v": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 1,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 2,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f14r": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 0,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f14v": {
+   "drawing_subject": "plants",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 2,
+   "num_distinct_plants": 3,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f15r": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f15v": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 1,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f16r": {
+   "drawing_subject": "plant",
+   "underground_parts_emphasis": 2,
+   "foliage_emphasis": 3,
+   "bloom_emphasis": 2,
+   "num_distinct_plants": 1,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "no"
+  },
+  "f16v": {
+   "drawing_subject": "plants_in_containers",
+   "underground_parts_emphasis": 0,
+   "foliage_emphasis": 1,
+   "bloom_emphasis": 3,
+   "num_distinct_plants": 2,
+   "num_human_figures": 0,
+   "water_or_pools_emphasis": 0,
+   "containers_or_vessels": "yes"
+  }
+ },
+ "raw_a2": {
+  "f100r": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 15, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"yes\"}",
+  "f100v": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 1, \"foliage_emphasis\": 3, \"bloom_emphasis\": 0, \"num_distinct_plants\": 15, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"yes\"}",
+  "f101r": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 1, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 14, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"yes\"}",
+  "f101v": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 15, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f102r1": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 3, \"foliage_emphasis\": 2, \"bloom_emphasis\": 1, \"num_distinct_plants\": 3, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f102r2": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 0, \"foliage_emphasis\": 1, \"bloom_emphasis\": 3, \"num_distinct_plants\": 3, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f102v1": "{\"drawing_subject\": \"plants_in_containers\", \"underground_parts_emphasis\": 0, \"foliage_emphasis\": 2, \"bloom_emphasis\": 0, \"num_distinct_plants\": 6, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"yes\"}",
+  "f102v2": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 0, \"foliage_emphasis\": 3, \"bloom_emphasis\": 0, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f10r": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 1, \"foliage_emphasis\": 3, \"bloom_emphasis\": 2, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f10v": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 2, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f11r": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 2, \"num_distinct_plants\": 3, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f11v": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 1, \"bloom_emphasis\": 3, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f13r": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f13v": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 1, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 2, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f14r": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 0, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f14v": "{\"drawing_subject\": \"plants\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 2, \"num_distinct_plants\": 3, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f15r": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f15v": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 1, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f16r": "{\"drawing_subject\": \"plant\", \"underground_parts_emphasis\": 2, \"foliage_emphasis\": 3, \"bloom_emphasis\": 2, \"num_distinct_plants\": 1, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"no\"}",
+  "f16v": "{\"drawing_subject\": \"plants_in_containers\", \"underground_parts_emphasis\": 0, \"foliage_emphasis\": 1, \"bloom_emphasis\": 3, \"num_distinct_plants\": 2, \"num_human_figures\": 0, \"water_or_pools_emphasis\": 0, \"containers_or_vessels\": \"yes\"}"
+ },
+ "p7x": {},
+ "raw_p7x": {}
+}

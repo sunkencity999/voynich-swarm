@@ -1,0 +1,159 @@
+{
+ "consensus": {
+  "f1v": "Atropa belladonna (deadly nightshade)",
+  "f2r": "Centaurea (knapweed/cornflower)",
+  "f2v": "Nymphoides/Nymphaea (water lily)",
+  "f9v": "Viola tricolor (heartsease)",
+  "f15v": "Paris quadrifolia (herb Paris)",
+  "f16r": "Cannabis (hemp)",
+  "f17v": "Dioscorea communis/Tamus (black bryony)"
+ },
+ "candidates": [
+  {
+   "folio": "f1v",
+   "id": "Atropa belladonna (deadly nightshade)",
+   "kind": "para-initial",
+   "word": "kchsy",
+   "prefix2": "kch",
+   "gallows": "k",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": "kchey",
+   "pharma_text_dist": 1
+  },
+  {
+   "folio": "f2r",
+   "id": "Centaurea (knapweed/cornflower)",
+   "kind": "para-initial",
+   "word": "kydainy",
+   "prefix2": "ky",
+   "gallows": null,
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": null,
+   "pharma_text_dist": null
+  },
+  {
+   "folio": "f2r",
+   "id": "Centaurea (knapweed/cornflower)",
+   "kind": "label",
+   "word": "ytoail",
+   "prefix2": "yt",
+   "gallows": "t",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": null,
+   "pharma_text_dist": null
+  },
+  {
+   "folio": "f2r",
+   "id": "Centaurea (knapweed/cornflower)",
+   "kind": "label",
+   "word": "ios",
+   "prefix2": "io",
+   "gallows": null,
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": null,
+   "pharma_text_dist": null
+  },
+  {
+   "folio": "f2r",
+   "id": "Centaurea (knapweed/cornflower)",
+   "kind": "label",
+   "word": "an",
+   "prefix2": "an",
+   "gallows": "",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": null,
+   "pharma_text_dist": null
+  },
+  {
+   "folio": "f2r",
+   "id": "Centaurea (knapweed/cornflower)",
+   "kind": "label",
+   "word": "on",
+   "prefix2": "on",
+   "gallows": "",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": null,
+   "pharma_text_dist": null
+  },
+  {
+   "folio": "f2v",
+   "id": "Nymphoides/Nymphaea (water lily)",
+   "kind": "para-initial",
+   "word": "kooiin",
+   "prefix2": "ko",
+   "gallows": "k",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": "koiin",
+   "pharma_text_dist": 1
+  },
+  {
+   "folio": "f9v",
+   "id": "Viola tricolor (heartsease)",
+   "kind": "para-initial",
+   "word": "fochor",
+   "prefix2": "fo",
+   "gallows": null,
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": "kochor",
+   "pharma_text_dist": 1
+  },
+  {
+   "folio": "f15v",
+   "id": "Paris quadrifolia (herb Paris)",
+   "kind": "para-initial",
+   "word": "poror",
+   "prefix2": "po",
+   "gallows": "p",
+   "pharma_label_match": "oror",
+   "pharma_label_dist": 1,
+   "pharma_text_match": "doror",
+   "pharma_text_dist": 1
+  },
+  {
+   "folio": "f16r",
+   "id": "Cannabis (hemp)",
+   "kind": "para-initial",
+   "word": "pocheody",
+   "prefix2": "po",
+   "gallows": null,
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": "pcheody",
+   "pharma_text_dist": 1
+  },
+  {
+   "folio": "f17v",
+   "id": "Dioscorea communis/Tamus (black bryony)",
+   "kind": "para-initial",
+   "word": "pchodol",
+   "prefix2": "pch",
+   "gallows": "p",
+   "pharma_label_match": null,
+   "pharma_label_dist": null,
+   "pharma_text_match": "tchodol",
+   "pharma_text_dist": 1
+  }
+ ],
+ "sig_test": {
+  "obs_modal_first_glyph": 0.42857142857142855,
+  "null_mean": 0.4875642857142857,
+  "null_std": 0.14031468259972377,
+  "p": 0.83855
+ },
+ "recurrence_test": {
+  "obs": 6,
+  "n": 7,
+  "null_mean": 3.95655,
+  "null_std": 1.2788909638823789,
+  "p": 0.11,
+  "herbal_base_rate": 0.5630252100840336
+ }
+}

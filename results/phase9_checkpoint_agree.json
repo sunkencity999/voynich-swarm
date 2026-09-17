@@ -1,0 +1,68 @@
+{
+ "n": 12,
+ "spearman_rho": 0.209,
+ "perm_p_two_sided": 1.0,
+ "note": "PARTIAL: 20 pre-crash folios only; WP1 completion deferred (host RAM under test)",
+ "pairs": [
+  [
+   "f10r",
+   1,
+   1
+  ],
+  [
+   "f10v",
+   1,
+   2
+  ],
+  [
+   "f11r",
+   1,
+   2
+  ],
+  [
+   "f11v",
+   1,
+   2
+  ],
+  [
+   "f13r",
+   2,
+   2
+  ],
+  [
+   "f13v",
+   1,
+   1
+  ],
+  [
+   "f14r",
+   1,
+   0
+  ],
+  [
+   "f14v",
+   1,
+   2
+  ],
+  [
+   "f15r",
+   1,
+   2
+  ],
+  [
+   "f15v",
+   1,
+   2
+  ],
+  [
+   "f16r",
+   1,
+   2
+  ],
+  [
+   "f16v",
+   1,
+   0
+  ]
+ ]
+}

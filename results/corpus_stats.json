@@ -1,0 +1,38 @@
+{
+  "voynich": {
+    "chars": 224979,
+    "words": 37942,
+    "uniq": 7695,
+    "mean_wordlen": 4.93
+  },
+  "latin": {
+    "chars": 224987,
+    "words": 30880,
+    "uniq": 8373,
+    "mean_wordlen": 6.286
+  },
+  "english": {
+    "chars": 224985,
+    "words": 41744,
+    "uniq": 4330,
+    "mean_wordlen": 4.39
+  },
+  "italian": {
+    "chars": 224984,
+    "words": 45631,
+    "uniq": 7661,
+    "mean_wordlen": 3.931
+  },
+  "charshuf": {
+    "chars": 224979,
+    "words": 37942,
+    "uniq": 31686,
+    "mean_wordlen": 4.93
+  },
+  "wordshuf": {
+    "chars": 224979,
+    "words": 37942,
+    "uniq": 7695,
+    "mean_wordlen": 4.93
+  }
+}

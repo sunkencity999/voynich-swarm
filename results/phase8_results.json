@@ -1,0 +1,3593 @@
+{
+ "n_folios": 129,
+ "covariate_source": "ZL3b-n.txt IVTFF headers: $Q quire, $H = Lisa Fagin Davis scribes ('LFD hands', voynich.nu/transcr.html), $L Currier",
+ "crosstab_dialect_scribe": {
+  "?|3": 2,
+  "A|1": 95,
+  "B|2": 20,
+  "B|3": 6,
+  "B|5": 6
+ },
+ "crosstab_quire_dialect_scribe": {
+  "A|A|1": 15,
+  "B|A|1": 14,
+  "C|A|1": 16,
+  "D|A|1": 12,
+  "D|B|2": 4,
+  "E|A|1": 8,
+  "E|B|2": 8,
+  "F|A|1": 8,
+  "F|B|2": 4,
+  "F|B|5": 4,
+  "G|A|1": 12,
+  "G|B|2": 4,
+  "H|?|3": 2,
+  "H|B|5": 2,
+  "O|A|1": 6,
+  "Q|A|1": 4,
+  "Q|B|3": 6
+ },
+ "confirmatory": {
+  "C2_dialect_vs_rootprom_given_scribe": {
+   "status": "untestable",
+   "reason": "scribe and dialect perfectly confounded in herbal section (no within-scribe dialect variance)",
+   "within_scribe_dialect_variance": false
+  },
+  "C1_dialect_vs_rootprom_given_quire": {
+   "chi2": 20.31,
+   "p": 0.00024998750062496874,
+   "n": 127,
+   "mixed_quires": [
+    "D",
+    "E",
+    "F",
+    "G",
+    "Q"
+   ],
+   "n_in_mixed_quires": 74,
+   "fdr_survives": true
+  },
+  "C3_scribe_vs_rootprom_within_B": {
+   "chi2": 3.777,
+   "p": 0.21718914054297286,
+   "n": 32,
+   "table": {
+    "dominant|2": 14,
+    "dominant|3": 5,
+    "dominant|5": 2,
+    "moderate|2": 6,
+    "moderate|3": 1,
+    "moderate|5": 4
+   },
+   "fdr_survives": false
+  },
+  "C4_quire_vs_rootprom_within_scribe1": {
+   "chi2": 25.336,
+   "p": 0.3799310034498275,
+   "n": 95,
+   "fdr_survives": false
+  },
+  "C5_or_vs_rootprom_given_scribe": {
+   "H": 18.437,
+   "p": 0.0013499325033748313,
+   "n": 129,
+   "n_strata": 4,
+   "fdr_survives": true
+  },
+  "C6_or_vs_rootprom_given_quire": {
+   "H": 18.437,
+   "p": 0.00014999250037498125,
+   "n": 129,
+   "n_strata": 10,
+   "fdr_survives": true
+  },
+  "C7_or_vs_rootprom_given_scribe_x_quire": {
+   "H": 18.437,
+   "p": 0.0011499425028748563,
+   "n": 129,
+   "n_strata": 17,
+   "fdr_survives": true
+  },
+  "C8_or_vs_rootprom_scribe1_given_quire": {
+   "H": 10.046,
+   "p": 0.0038998050097495125,
+   "n": 95,
+   "fdr_survives": true
+  }
+ },
+ "confirmatory_fdr": {
+  "C1_dialect_vs_rootprom_given_quire": true,
+  "C3_scribe_vs_rootprom_within_B": false,
+  "C4_quire_vs_rootprom_within_scribe1": false,
+  "C5_or_vs_rootprom_given_scribe": true,
+  "C6_or_vs_rootprom_given_quire": true,
+  "C7_or_vs_rootprom_given_scribe_x_quire": true,
+  "C8_or_vs_rootprom_scribe1_given_quire": true
+ },
+ "or_share_by_rootprom": {
+  "_rare": {
+   "n": 1,
+   "mean_or_share": 0.0
+  },
+  "dominant": {
+   "n": 44,
+   "mean_or_share": 0.02185
+  },
+  "minor": {
+   "n": 9,
+   "mean_or_share": 0.00185
+  },
+  "moderate": {
+   "n": 75,
+   "mean_or_share": 0.01039
+  }
+ },
+ "or_share_by_rootprom_scribe1": {
+  "_rare": {
+   "n": 1,
+   "mean_or_share": 0.0
+  },
+  "dominant": {
+   "n": 22,
+   "mean_or_share": 0.01524
+  },
+  "minor": {
+   "n": 9,
+   "mean_or_share": 0.00185
+  },
+  "moderate": {
+   "n": 63,
+   "mean_or_share": 0.009
+  }
+ },
+ "logistic_descriptive": {
+  "n": 74,
+  "quires": [
+   "D",
+   "E",
+   "F",
+   "G",
+   "Q"
+  ],
+  "coef_root_dominant": 2.034,
+  "LRT_chi2_1df": 14.205,
+  "LRT_p": 0.00016392803742943754,
+  "note": "descriptive only; permutation tests are primary"
+ },
+ "E1_within_scribe1": {
+  "n_folios": 95,
+  "n_tests": 333,
+  "min_p": 0.004099795010249488,
+  "fdr_survivors": [],
+  "top10": [
+   [
+    "leaf_arrangement|p2:ck",
+    0.0041
+   ],
+   [
+    "root_prominence|p2:or",
+    0.0042
+   ],
+   [
+    "leaf_arrangement|p2:op",
+    0.0052
+   ],
+   [
+    "root_prominence|fam:oteo",
+    0.00615
+   ],
+   [
+    "root_prominence|p2:ch",
+    0.009
+   ],
+   [
+    "plant_count|p2:cp",
+    0.00945
+   ],
+   [
+    "leaf_arrangement|p2:sh",
+    0.010249
+   ],
+   [
+    "stem_count|p2:sh",
+    0.010499
+   ],
+   [
+    "stem_count|p2:yt",
+    0.023488
+   ],
+   [
+    "leaf_shape|p2:yt",
+    0.027486
+   ]
+  ],
+  "tests": {
+   "leaf_shape|fam:cth": {
+    "H": 4.965,
+    "p": 0.427786,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:dch": {
+    "H": 6.359,
+    "p": 0.292354,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:kch": {
+    "H": 1.751,
+    "p": 0.858071,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:lk": {
+    "H": 0.531,
+    "p": 0.470765,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:ol_dy": {
+    "H": 0.442,
+    "p": 0.696152,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:oteo": {
+    "H": 1.875,
+    "p": 0.307346,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:qoke": {
+    "H": 0.505,
+    "p": 0.97901,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ai": {
+    "H": 1.818,
+    "p": 0.803098,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ar": {
+    "H": 2.78,
+    "p": 0.544728,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ch": {
+    "H": 4.618,
+    "p": 0.550225,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ck": {
+    "H": 3.453,
+    "p": 0.416792,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:cp": {
+    "H": 2.718,
+    "p": 0.66067,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ct": {
+    "H": 4.965,
+    "p": 0.425787,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:da": {
+    "H": 2.264,
+    "p": 0.763618,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:dc": {
+    "H": 6.414,
+    "p": 0.296352,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:do": {
+    "H": 8.989,
+    "p": 0.087456,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:dy": {
+    "H": 1.611,
+    "p": 0.807596,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ka": {
+    "H": 3.013,
+    "p": 0.327336,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:kc": {
+    "H": 1.757,
+    "p": 0.853073,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ke": {
+    "H": 2.995,
+    "p": 0.56022,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ko": {
+    "H": 5.383,
+    "p": 0.392304,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:od": {
+    "H": 2.295,
+    "p": 0.785107,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ok": {
+    "H": 5.577,
+    "p": 0.547726,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ol": {
+    "H": 1.884,
+    "p": 0.895052,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:op": {
+    "H": 6.911,
+    "p": 0.102449,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:or": {
+    "H": 0.613,
+    "p": 0.987006,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ot": {
+    "H": 3.311,
+    "p": 0.613193,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:pc": {
+    "H": 4.139,
+    "p": 0.294353,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:qo": {
+    "H": 7.22,
+    "p": 0.189905,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:sa": {
+    "H": 1.302,
+    "p": 0.909545,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:sh": {
+    "H": 3.831,
+    "p": 0.664168,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:so": {
+    "H": 1.978,
+    "p": 0.856572,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:tc": {
+    "H": 8.618,
+    "p": 0.141429,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:to": {
+    "H": 5.33,
+    "p": 0.333333,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yc": {
+    "H": 1.553,
+    "p": 0.902049,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yk": {
+    "H": 6.409,
+    "p": 0.237881,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yt": {
+    "H": 11.699,
+    "p": 0.027486,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:cth": {
+    "H": 1.939,
+    "p": 0.733133,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:dch": {
+    "H": 0.312,
+    "p": 0.991004,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:kch": {
+    "H": 4.794,
+    "p": 0.273863,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:lk": {
+    "H": 0.308,
+    "p": 0.548226,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:ol_dy": {
+    "H": 0.227,
+    "p": 0.717641,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:oteo": {
+    "H": 1.942,
+    "p": 0.103448,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:qoke": {
+    "H": 1.651,
+    "p": 0.556222,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ai": {
+    "H": 1.394,
+    "p": 0.754623,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ar": {
+    "H": 3.931,
+    "p": 0.166917,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ch": {
+    "H": 5.431,
+    "p": 0.241379,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ck": {
+    "H": 10.803,
+    "p": 0.0041,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:cp": {
+    "H": 5.01,
+    "p": 0.18041,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ct": {
+    "H": 1.939,
+    "p": 0.741129,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:da": {
+    "H": 2.089,
+    "p": 0.707146,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:dc": {
+    "H": 0.312,
+    "p": 0.993503,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:do": {
+    "H": 1.312,
+    "p": 0.845077,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:dy": {
+    "H": 1.903,
+    "p": 0.667166,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ka": {
+    "H": 3.495,
+    "p": 0.207396,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:kc": {
+    "H": 4.91,
+    "p": 0.255872,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ke": {
+    "H": 5.156,
+    "p": 0.157421,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ko": {
+    "H": 1.916,
+    "p": 0.803098,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:od": {
+    "H": 4.727,
+    "p": 0.354323,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ok": {
+    "H": 4.498,
+    "p": 0.336832,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ol": {
+    "H": 4.024,
+    "p": 0.406297,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:op": {
+    "H": 10.052,
+    "p": 0.0052,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:or": {
+    "H": 9.398,
+    "p": 0.055472,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ot": {
+    "H": 3.41,
+    "p": 0.495252,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:pc": {
+    "H": 3.057,
+    "p": 0.372814,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:qo": {
+    "H": 6.225,
+    "p": 0.164918,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:sa": {
+    "H": 4.816,
+    "p": 0.137431,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:sh": {
+    "H": 13.499,
+    "p": 0.010249,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:so": {
+    "H": 0.769,
+    "p": 0.927536,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:tc": {
+    "H": 4.244,
+    "p": 0.365317,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:to": {
+    "H": 0.471,
+    "p": 0.983008,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yc": {
+    "H": 7.205,
+    "p": 0.108946,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yk": {
+    "H": 2.975,
+    "p": 0.627186,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yt": {
+    "H": 6.654,
+    "p": 0.167916,
+    "fdr_survives": false
+   },
+   "root_type|fam:cth": {
+    "H": 10.28,
+    "p": 0.044478,
+    "fdr_survives": false
+   },
+   "root_type|fam:dch": {
+    "H": 3.035,
+    "p": 0.72064,
+    "fdr_survives": false
+   },
+   "root_type|fam:kch": {
+    "H": 4.381,
+    "p": 0.518741,
+    "fdr_survives": false
+   },
+   "root_type|fam:lk": {
+    "H": 0.39,
+    "p": 0.375812,
+    "fdr_survives": false
+   },
+   "root_type|fam:ol_dy": {
+    "H": 1.507,
+    "p": 0.085957,
+    "fdr_survives": false
+   },
+   "root_type|fam:oteo": {
+    "H": 1.607,
+    "p": 0.275862,
+    "fdr_survives": false
+   },
+   "root_type|fam:qoke": {
+    "H": 1.571,
+    "p": 0.734133,
+    "fdr_survives": false
+   },
+   "root_type|p2:ai": {
+    "H": 2.583,
+    "p": 0.561719,
+    "fdr_survives": false
+   },
+   "root_type|p2:ar": {
+    "H": 2.163,
+    "p": 0.630185,
+    "fdr_survives": false
+   },
+   "root_type|p2:ch": {
+    "H": 2.187,
+    "p": 0.812094,
+    "fdr_survives": false
+   },
+   "root_type|p2:ck": {
+    "H": 5.017,
+    "p": 0.311344,
+    "fdr_survives": false
+   },
+   "root_type|p2:cp": {
+    "H": 3.377,
+    "p": 0.526737,
+    "fdr_survives": false
+   },
+   "root_type|p2:ct": {
+    "H": 10.28,
+    "p": 0.043478,
+    "fdr_survives": false
+   },
+   "root_type|p2:da": {
+    "H": 3.716,
+    "p": 0.529735,
+    "fdr_survives": false
+   },
+   "root_type|p2:dc": {
+    "H": 2.988,
+    "p": 0.724638,
+    "fdr_survives": false
+   },
+   "root_type|p2:do": {
+    "H": 5.722,
+    "p": 0.350825,
+    "fdr_survives": false
+   },
+   "root_type|p2:dy": {
+    "H": 0.351,
+    "p": 0.994003,
+    "fdr_survives": false
+   },
+   "root_type|p2:ka": {
+    "H": 1.247,
+    "p": 0.826087,
+    "fdr_survives": false
+   },
+   "root_type|p2:kc": {
+    "H": 4.34,
+    "p": 0.503248,
+    "fdr_survives": false
+   },
+   "root_type|p2:ke": {
+    "H": 1.297,
+    "p": 0.90005,
+    "fdr_survives": false
+   },
+   "root_type|p2:ko": {
+    "H": 1.314,
+    "p": 0.936032,
+    "fdr_survives": false
+   },
+   "root_type|p2:od": {
+    "H": 7.526,
+    "p": 0.107446,
+    "fdr_survives": false
+   },
+   "root_type|p2:ok": {
+    "H": 1.2,
+    "p": 0.96002,
+    "fdr_survives": false
+   },
+   "root_type|p2:ol": {
+    "H": 4.156,
+    "p": 0.436282,
+    "fdr_survives": false
+   },
+   "root_type|p2:op": {
+    "H": 1.782,
+    "p": 0.718641,
+    "fdr_survives": false
+   },
+   "root_type|p2:or": {
+    "H": 5.468,
+    "p": 0.236382,
+    "fdr_survives": false
+   },
+   "root_type|p2:ot": {
+    "H": 3.711,
+    "p": 0.5992,
+    "fdr_survives": false
+   },
+   "root_type|p2:pc": {
+    "H": 2.321,
+    "p": 0.68066,
+    "fdr_survives": false
+   },
+   "root_type|p2:qo": {
+    "H": 2.872,
+    "p": 0.713143,
+    "fdr_survives": false
+   },
+   "root_type|p2:sa": {
+    "H": 3.464,
+    "p": 0.35932,
+    "fdr_survives": false
+   },
+   "root_type|p2:sh": {
+    "H": 2.389,
+    "p": 0.724638,
+    "fdr_survives": false
+   },
+   "root_type|p2:so": {
+    "H": 3.733,
+    "p": 0.588706,
+    "fdr_survives": false
+   },
+   "root_type|p2:tc": {
+    "H": 3.708,
+    "p": 0.596702,
+    "fdr_survives": false
+   },
+   "root_type|p2:to": {
+    "H": 3.775,
+    "p": 0.387806,
+    "fdr_survives": false
+   },
+   "root_type|p2:yc": {
+    "H": 3.853,
+    "p": 0.485757,
+    "fdr_survives": false
+   },
+   "root_type|p2:yk": {
+    "H": 1.263,
+    "p": 0.915542,
+    "fdr_survives": false
+   },
+   "root_type|p2:yt": {
+    "H": 3.491,
+    "p": 0.596202,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:cth": {
+    "H": 2.758,
+    "p": 0.431284,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:dch": {
+    "H": 1.606,
+    "p": 0.715642,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:kch": {
+    "H": 4.311,
+    "p": 0.274863,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:lk": {
+    "H": 0.254,
+    "p": 0.431784,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:ol_dy": {
+    "H": 0.059,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:oteo": {
+    "H": 4.593,
+    "p": 0.00615,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:qoke": {
+    "H": 0.506,
+    "p": 0.905047,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ai": {
+    "H": 0.749,
+    "p": 0.793103,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ar": {
+    "H": 2.726,
+    "p": 0.198401,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ch": {
+    "H": 13.406,
+    "p": 0.009,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ck": {
+    "H": 1.714,
+    "p": 0.627186,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:cp": {
+    "H": 1.734,
+    "p": 0.534733,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ct": {
+    "H": 2.758,
+    "p": 0.442779,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:da": {
+    "H": 3.102,
+    "p": 0.309845,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:dc": {
+    "H": 1.597,
+    "p": 0.728136,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:do": {
+    "H": 4.095,
+    "p": 0.226387,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:dy": {
+    "H": 2.073,
+    "p": 0.598701,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ka": {
+    "H": 2.079,
+    "p": 0.297851,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:kc": {
+    "H": 4.334,
+    "p": 0.268366,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ke": {
+    "H": 5.456,
+    "p": 0.047976,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ko": {
+    "H": 2.373,
+    "p": 0.441779,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:od": {
+    "H": 2.209,
+    "p": 0.461769,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ok": {
+    "H": 5.055,
+    "p": 0.212394,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ol": {
+    "H": 1.4,
+    "p": 0.804098,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:op": {
+    "H": 2.057,
+    "p": 0.458271,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:or": {
+    "H": 10.046,
+    "p": 0.0042,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ot": {
+    "H": 5.661,
+    "p": 0.104948,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:pc": {
+    "H": 3.017,
+    "p": 0.215392,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:qo": {
+    "H": 3.407,
+    "p": 0.435282,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:sa": {
+    "H": 2.795,
+    "p": 0.344328,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:sh": {
+    "H": 2.951,
+    "p": 0.429285,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:so": {
+    "H": 1.552,
+    "p": 0.763618,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:tc": {
+    "H": 4.548,
+    "p": 0.129935,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:to": {
+    "H": 1.557,
+    "p": 0.713643,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yc": {
+    "H": 3.447,
+    "p": 0.242379,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yk": {
+    "H": 4.069,
+    "p": 0.234883,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yt": {
+    "H": 6.282,
+    "p": 0.067966,
+    "fdr_survives": false
+   },
+   "flower_present|fam:cth": {
+    "H": 4.178,
+    "p": 0.038981,
+    "fdr_survives": false
+   },
+   "flower_present|fam:dch": {
+    "H": 1.032,
+    "p": 0.29985,
+    "fdr_survives": false
+   },
+   "flower_present|fam:kch": {
+    "H": 0.039,
+    "p": 0.82009,
+    "fdr_survives": false
+   },
+   "flower_present|fam:lk": {
+    "H": 0.413,
+    "p": 0.137931,
+    "fdr_survives": false
+   },
+   "flower_present|fam:ol_dy": {
+    "H": 0.242,
+    "p": 0.313843,
+    "fdr_survives": false
+   },
+   "flower_present|fam:oteo": {
+    "H": 0.001,
+    "p": 0.938031,
+    "fdr_survives": false
+   },
+   "flower_present|fam:qoke": {
+    "H": 0.274,
+    "p": 0.491254,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ai": {
+    "H": 2.609,
+    "p": 0.067966,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ar": {
+    "H": 0.212,
+    "p": 0.570715,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ch": {
+    "H": 1.799,
+    "p": 0.16092,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ck": {
+    "H": 0.984,
+    "p": 0.236382,
+    "fdr_survives": false
+   },
+   "flower_present|p2:cp": {
+    "H": 0.575,
+    "p": 0.442779,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ct": {
+    "H": 4.178,
+    "p": 0.036982,
+    "fdr_survives": false
+   },
+   "flower_present|p2:da": {
+    "H": 2.239,
+    "p": 0.147926,
+    "fdr_survives": false
+   },
+   "flower_present|p2:dc": {
+    "H": 1.098,
+    "p": 0.292854,
+    "fdr_survives": false
+   },
+   "flower_present|p2:do": {
+    "H": 2.251,
+    "p": 0.145427,
+    "fdr_survives": false
+   },
+   "flower_present|p2:dy": {
+    "H": 0.019,
+    "p": 0.88006,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ka": {
+    "H": 0.445,
+    "p": 0.385307,
+    "fdr_survives": false
+   },
+   "flower_present|p2:kc": {
+    "H": 0.049,
+    "p": 0.803598,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ke": {
+    "H": 0.071,
+    "p": 0.755122,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ko": {
+    "H": 0.25,
+    "p": 0.657171,
+    "fdr_survives": false
+   },
+   "flower_present|p2:od": {
+    "H": 0.091,
+    "p": 0.726137,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ok": {
+    "H": 0.03,
+    "p": 0.86057,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ol": {
+    "H": 0.969,
+    "p": 0.278861,
+    "fdr_survives": false
+   },
+   "flower_present|p2:op": {
+    "H": 2.674,
+    "p": 0.054973,
+    "fdr_survives": false
+   },
+   "flower_present|p2:or": {
+    "H": 3.261,
+    "p": 0.062469,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ot": {
+    "H": 0.122,
+    "p": 0.72014,
+    "fdr_survives": false
+   },
+   "flower_present|p2:pc": {
+    "H": 0.043,
+    "p": 0.795602,
+    "fdr_survives": false
+   },
+   "flower_present|p2:qo": {
+    "H": 1.098,
+    "p": 0.30085,
+    "fdr_survives": false
+   },
+   "flower_present|p2:sa": {
+    "H": 0.006,
+    "p": 0.935532,
+    "fdr_survives": false
+   },
+   "flower_present|p2:sh": {
+    "H": 1.633,
+    "p": 0.212894,
+    "fdr_survives": false
+   },
+   "flower_present|p2:so": {
+    "H": 0.001,
+    "p": 0.976512,
+    "fdr_survives": false
+   },
+   "flower_present|p2:tc": {
+    "H": 1.073,
+    "p": 0.273363,
+    "fdr_survives": false
+   },
+   "flower_present|p2:to": {
+    "H": 0.413,
+    "p": 0.432284,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yc": {
+    "H": 1.081,
+    "p": 0.251874,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yk": {
+    "H": 2.323,
+    "p": 0.102449,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yt": {
+    "H": 0.636,
+    "p": 0.409795,
+    "fdr_survives": false
+   },
+   "flower_color|fam:cth": {
+    "H": 6.404,
+    "p": 0.129435,
+    "fdr_survives": false
+   },
+   "flower_color|fam:dch": {
+    "H": 4.902,
+    "p": 0.291854,
+    "fdr_survives": false
+   },
+   "flower_color|fam:kch": {
+    "H": 4.138,
+    "p": 0.325837,
+    "fdr_survives": false
+   },
+   "flower_color|fam:lk": {
+    "H": 0.783,
+    "p": 0.235382,
+    "fdr_survives": false
+   },
+   "flower_color|fam:ol_dy": {
+    "H": 0.756,
+    "p": 0.103448,
+    "fdr_survives": false
+   },
+   "flower_color|fam:oteo": {
+    "H": 0.442,
+    "p": 0.877061,
+    "fdr_survives": false
+   },
+   "flower_color|fam:qoke": {
+    "H": 0.707,
+    "p": 0.898551,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ai": {
+    "H": 5.51,
+    "p": 0.092454,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ar": {
+    "H": 2.138,
+    "p": 0.525237,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ch": {
+    "H": 4.005,
+    "p": 0.361819,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ck": {
+    "H": 2.34,
+    "p": 0.722639,
+    "fdr_survives": false
+   },
+   "flower_color|p2:cp": {
+    "H": 2.282,
+    "p": 0.652174,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ct": {
+    "H": 6.404,
+    "p": 0.127436,
+    "fdr_survives": false
+   },
+   "flower_color|p2:da": {
+    "H": 4.486,
+    "p": 0.414793,
+    "fdr_survives": false
+   },
+   "flower_color|p2:dc": {
+    "H": 4.92,
+    "p": 0.306847,
+    "fdr_survives": false
+   },
+   "flower_color|p2:do": {
+    "H": 2.728,
+    "p": 0.601699,
+    "fdr_survives": false
+   },
+   "flower_color|p2:dy": {
+    "H": 4.931,
+    "p": 0.313843,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ka": {
+    "H": 1.745,
+    "p": 0.535232,
+    "fdr_survives": false
+   },
+   "flower_color|p2:kc": {
+    "H": 4.123,
+    "p": 0.341329,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ke": {
+    "H": 2.838,
+    "p": 0.515742,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ko": {
+    "H": 7.398,
+    "p": 0.082459,
+    "fdr_survives": false
+   },
+   "flower_color|p2:od": {
+    "H": 1.457,
+    "p": 0.777111,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ok": {
+    "H": 0.649,
+    "p": 0.961019,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ol": {
+    "H": 2.827,
+    "p": 0.51924,
+    "fdr_survives": false
+   },
+   "flower_color|p2:op": {
+    "H": 4.953,
+    "p": 0.125437,
+    "fdr_survives": false
+   },
+   "flower_color|p2:or": {
+    "H": 6.172,
+    "p": 0.096952,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ot": {
+    "H": 0.985,
+    "p": 0.926537,
+    "fdr_survives": false
+   },
+   "flower_color|p2:pc": {
+    "H": 0.728,
+    "p": 0.914543,
+    "fdr_survives": false
+   },
+   "flower_color|p2:qo": {
+    "H": 1.28,
+    "p": 0.875562,
+    "fdr_survives": false
+   },
+   "flower_color|p2:sa": {
+    "H": 1.076,
+    "p": 0.835582,
+    "fdr_survives": false
+   },
+   "flower_color|p2:sh": {
+    "H": 6.034,
+    "p": 0.172914,
+    "fdr_survives": false
+   },
+   "flower_color|p2:so": {
+    "H": 8.835,
+    "p": 0.047476,
+    "fdr_survives": false
+   },
+   "flower_color|p2:tc": {
+    "H": 8.774,
+    "p": 0.049475,
+    "fdr_survives": false
+   },
+   "flower_color|p2:to": {
+    "H": 2.831,
+    "p": 0.412294,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yc": {
+    "H": 4.702,
+    "p": 0.197401,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yk": {
+    "H": 3.374,
+    "p": 0.452274,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yt": {
+    "H": 3.631,
+    "p": 0.441779,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:cth": {
+    "H": 7.895,
+    "p": 0.152924,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:dch": {
+    "H": 3.964,
+    "p": 0.54073,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:kch": {
+    "H": 1.518,
+    "p": 0.910545,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:lk": {
+    "H": 0.731,
+    "p": 0.243378,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:ol_dy": {
+    "H": 0.819,
+    "p": 0.294853,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:oteo": {
+    "H": 0.556,
+    "p": 0.927536,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:qoke": {
+    "H": 2.42,
+    "p": 0.625687,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ai": {
+    "H": 4.072,
+    "p": 0.338331,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ar": {
+    "H": 1.526,
+    "p": 0.809595,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ch": {
+    "H": 8.504,
+    "p": 0.083458,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ck": {
+    "H": 8.709,
+    "p": 0.070965,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:cp": {
+    "H": 5.569,
+    "p": 0.25987,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ct": {
+    "H": 7.895,
+    "p": 0.151424,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:da": {
+    "H": 5.895,
+    "p": 0.282359,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:dc": {
+    "H": 3.898,
+    "p": 0.557721,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:do": {
+    "H": 4.829,
+    "p": 0.432284,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:dy": {
+    "H": 0.982,
+    "p": 0.952524,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ka": {
+    "H": 2.49,
+    "p": 0.490255,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:kc": {
+    "H": 1.51,
+    "p": 0.928036,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ke": {
+    "H": 8.167,
+    "p": 0.068966,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ko": {
+    "H": 0.706,
+    "p": 0.978511,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:od": {
+    "H": 2.125,
+    "p": 0.7991,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ok": {
+    "H": 2.974,
+    "p": 0.676662,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ol": {
+    "H": 5.013,
+    "p": 0.315342,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:op": {
+    "H": 7.561,
+    "p": 0.050975,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:or": {
+    "H": 4.736,
+    "p": 0.322839,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ot": {
+    "H": 3.825,
+    "p": 0.606197,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:pc": {
+    "H": 4.357,
+    "p": 0.28036,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:qo": {
+    "H": 2.398,
+    "p": 0.793103,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:sa": {
+    "H": 2.744,
+    "p": 0.47976,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:sh": {
+    "H": 6.419,
+    "p": 0.197401,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:so": {
+    "H": 0.344,
+    "p": 0.997501,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:tc": {
+    "H": 7.978,
+    "p": 0.11944,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:to": {
+    "H": 2.71,
+    "p": 0.646677,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yc": {
+    "H": 3.542,
+    "p": 0.47926,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yk": {
+    "H": 9.064,
+    "p": 0.042479,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yt": {
+    "H": 3.641,
+    "p": 0.623688,
+    "fdr_survives": false
+   },
+   "stem_count|fam:cth": {
+    "H": 0.255,
+    "p": 0.643178,
+    "fdr_survives": false
+   },
+   "stem_count|fam:dch": {
+    "H": 1.089,
+    "p": 0.301349,
+    "fdr_survives": false
+   },
+   "stem_count|fam:kch": {
+    "H": 2.953,
+    "p": 0.066967,
+    "fdr_survives": false
+   },
+   "stem_count|fam:lk": {
+    "H": 0.109,
+    "p": 0.561219,
+    "fdr_survives": false
+   },
+   "stem_count|fam:ol_dy": {
+    "H": 0.014,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "stem_count|fam:oteo": {
+    "H": 0.296,
+    "p": 0.343828,
+    "fdr_survives": false
+   },
+   "stem_count|fam:qoke": {
+    "H": 0.285,
+    "p": 0.44028,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ai": {
+    "H": 0.523,
+    "p": 0.413793,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ar": {
+    "H": 0.722,
+    "p": 0.323838,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ch": {
+    "H": 5.052,
+    "p": 0.057471,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ck": {
+    "H": 2.854,
+    "p": 0.041479,
+    "fdr_survives": false
+   },
+   "stem_count|p2:cp": {
+    "H": 0.044,
+    "p": 0.810095,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ct": {
+    "H": 0.255,
+    "p": 0.633683,
+    "fdr_survives": false
+   },
+   "stem_count|p2:da": {
+    "H": 0.004,
+    "p": 0.950525,
+    "fdr_survives": false
+   },
+   "stem_count|p2:dc": {
+    "H": 1.069,
+    "p": 0.284358,
+    "fdr_survives": false
+   },
+   "stem_count|p2:do": {
+    "H": 0.015,
+    "p": 0.90055,
+    "fdr_survives": false
+   },
+   "stem_count|p2:dy": {
+    "H": 0.066,
+    "p": 0.786607,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ka": {
+    "H": 0.0,
+    "p": 0.998001,
+    "fdr_survives": false
+   },
+   "stem_count|p2:kc": {
+    "H": 2.953,
+    "p": 0.065967,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ke": {
+    "H": 2.279,
+    "p": 0.074463,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ko": {
+    "H": 0.005,
+    "p": 0.938031,
+    "fdr_survives": false
+   },
+   "stem_count|p2:od": {
+    "H": 0.236,
+    "p": 0.596702,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ok": {
+    "H": 4.419,
+    "p": 0.065467,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ol": {
+    "H": 0.085,
+    "p": 0.77961,
+    "fdr_survives": false
+   },
+   "stem_count|p2:op": {
+    "H": 1.618,
+    "p": 0.216392,
+    "fdr_survives": false
+   },
+   "stem_count|p2:or": {
+    "H": 0.151,
+    "p": 0.651674,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ot": {
+    "H": 0.122,
+    "p": 0.704648,
+    "fdr_survives": false
+   },
+   "stem_count|p2:pc": {
+    "H": 1.204,
+    "p": 0.166917,
+    "fdr_survives": false
+   },
+   "stem_count|p2:qo": {
+    "H": 0.059,
+    "p": 0.810595,
+    "fdr_survives": false
+   },
+   "stem_count|p2:sa": {
+    "H": 0.151,
+    "p": 0.701149,
+    "fdr_survives": false
+   },
+   "stem_count|p2:sh": {
+    "H": 6.397,
+    "p": 0.010499,
+    "fdr_survives": false
+   },
+   "stem_count|p2:so": {
+    "H": 0.126,
+    "p": 0.718141,
+    "fdr_survives": false
+   },
+   "stem_count|p2:tc": {
+    "H": 0.611,
+    "p": 0.415292,
+    "fdr_survives": false
+   },
+   "stem_count|p2:to": {
+    "H": 1.059,
+    "p": 0.392804,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yc": {
+    "H": 0.14,
+    "p": 0.667166,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yk": {
+    "H": 1.509,
+    "p": 0.275862,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yt": {
+    "H": 5.407,
+    "p": 0.023488,
+    "fdr_survives": false
+   },
+   "plant_count|fam:cth": {
+    "H": 1.321,
+    "p": 0.305347,
+    "fdr_survives": false
+   },
+   "plant_count|fam:dch": {
+    "H": 1.63,
+    "p": 0.17991,
+    "fdr_survives": false
+   },
+   "plant_count|fam:kch": {
+    "H": 1.741,
+    "p": 0.098451,
+    "fdr_survives": false
+   },
+   "plant_count|fam:lk": {
+    "H": 0.016,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|fam:ol_dy": {
+    "H": 0.016,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|fam:oteo": {
+    "H": 0.355,
+    "p": 0.329335,
+    "fdr_survives": false
+   },
+   "plant_count|fam:qoke": {
+    "H": 0.029,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ai": {
+    "H": 0.077,
+    "p": 0.628186,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ar": {
+    "H": 0.011,
+    "p": 0.917041,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ch": {
+    "H": 3.628,
+    "p": 0.069465,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ck": {
+    "H": 0.671,
+    "p": 0.36082,
+    "fdr_survives": false
+   },
+   "plant_count|p2:cp": {
+    "H": 3.468,
+    "p": 0.00945,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ct": {
+    "H": 1.321,
+    "p": 0.289355,
+    "fdr_survives": false
+   },
+   "plant_count|p2:da": {
+    "H": 0.0,
+    "p": 0.987006,
+    "fdr_survives": false
+   },
+   "plant_count|p2:dc": {
+    "H": 1.63,
+    "p": 0.188906,
+    "fdr_survives": false
+   },
+   "plant_count|p2:do": {
+    "H": 0.62,
+    "p": 0.415292,
+    "fdr_survives": false
+   },
+   "plant_count|p2:dy": {
+    "H": 0.102,
+    "p": 0.798601,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ka": {
+    "H": 0.077,
+    "p": 0.823088,
+    "fdr_survives": false
+   },
+   "plant_count|p2:kc": {
+    "H": 1.741,
+    "p": 0.112444,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ke": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ko": {
+    "H": 0.077,
+    "p": 0.825087,
+    "fdr_survives": false
+   },
+   "plant_count|p2:od": {
+    "H": 0.131,
+    "p": 0.776112,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ok": {
+    "H": 0.006,
+    "p": 0.947526,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ol": {
+    "H": 1.0,
+    "p": 0.364318,
+    "fdr_survives": false
+   },
+   "plant_count|p2:op": {
+    "H": 0.045,
+    "p": 0.773113,
+    "fdr_survives": false
+   },
+   "plant_count|p2:or": {
+    "H": 0.671,
+    "p": 0.583708,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ot": {
+    "H": 0.045,
+    "p": 0.826087,
+    "fdr_survives": false
+   },
+   "plant_count|p2:pc": {
+    "H": 0.917,
+    "p": 0.457271,
+    "fdr_survives": false
+   },
+   "plant_count|p2:qo": {
+    "H": 0.001,
+    "p": 0.975512,
+    "fdr_survives": false
+   },
+   "plant_count|p2:sa": {
+    "H": 0.045,
+    "p": 0.934033,
+    "fdr_survives": false
+   },
+   "plant_count|p2:sh": {
+    "H": 0.979,
+    "p": 0.336832,
+    "fdr_survives": false
+   },
+   "plant_count|p2:so": {
+    "H": 0.002,
+    "p": 0.985007,
+    "fdr_survives": false
+   },
+   "plant_count|p2:tc": {
+    "H": 0.083,
+    "p": 0.776112,
+    "fdr_survives": false
+   },
+   "plant_count|p2:to": {
+    "H": 0.524,
+    "p": 0.562219,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yc": {
+    "H": 0.435,
+    "p": 0.396302,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yk": {
+    "H": 1.497,
+    "p": 0.357321,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yt": {
+    "H": 1.248,
+    "p": 0.301849,
+    "fdr_survives": false
+   }
+  }
+ },
+ "E2_within_scribe2": {
+  "n_folios": 20,
+  "n_tests": 333,
+  "min_p": 0.0009499525023748813,
+  "fdr_survivors": [],
+  "top10": [
+   [
+    "stem_count|p2:dy",
+    0.00095
+   ],
+   [
+    "root_prominence|fam:ol_dy",
+    0.00285
+   ],
+   [
+    "plant_count|p2:ok",
+    0.00565
+   ],
+   [
+    "flower_color|p2:ch",
+    0.015099
+   ],
+   [
+    "leaf_arrangement|fam:ol_dy",
+    0.016449
+   ],
+   [
+    "flower_shape|fam:oteo",
+    0.021489
+   ],
+   [
+    "plant_count|fam:oteo",
+    0.027486
+   ],
+   [
+    "root_prominence|p2:tc",
+    0.028986
+   ],
+   [
+    "flower_color|fam:oteo",
+    0.032484
+   ],
+   [
+    "flower_color|p2:or",
+    0.034983
+   ]
+  ],
+  "tests": {
+   "leaf_shape|fam:cth": {
+    "H": 0.006,
+    "p": 0.98001,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:dch": {
+    "H": 0.006,
+    "p": 0.943028,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:kch": {
+    "H": 0.265,
+    "p": 0.636682,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:lk": {
+    "H": 0.077,
+    "p": 0.892054,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:ol_dy": {
+    "H": 1.32,
+    "p": 0.253373,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:oteo": {
+    "H": 1.923,
+    "p": 0.112444,
+    "fdr_survives": false
+   },
+   "leaf_shape|fam:qoke": {
+    "H": 0.039,
+    "p": 0.87956,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ai": {
+    "H": 0.904,
+    "p": 0.345827,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ar": {
+    "H": 0.039,
+    "p": 0.874563,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ch": {
+    "H": 0.567,
+    "p": 0.490255,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ck": {
+    "H": 0.039,
+    "p": 0.90055,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:cp": {
+    "H": 0.077,
+    "p": 0.776612,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ct": {
+    "H": 0.006,
+    "p": 0.972514,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:da": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:dc": {
+    "H": 0.006,
+    "p": 0.953523,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:do": {
+    "H": 1.923,
+    "p": 0.13943,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:dy": {
+    "H": 1.509,
+    "p": 0.250875,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ka": {
+    "H": 0.308,
+    "p": 0.606197,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:kc": {
+    "H": 0.265,
+    "p": 0.637681,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ke": {
+    "H": 0.077,
+    "p": 0.8006,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ko": {
+    "H": 1.923,
+    "p": 0.12044,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:od": {
+    "H": 1.923,
+    "p": 0.185407,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ok": {
+    "H": 0.353,
+    "p": 0.597201,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ol": {
+    "H": 0.308,
+    "p": 0.587706,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:op": {
+    "H": 0.039,
+    "p": 0.856072,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:or": {
+    "H": 4.083,
+    "p": 0.045977,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:ot": {
+    "H": 2.903,
+    "p": 0.081459,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:pc": {
+    "H": 0.76,
+    "p": 0.398801,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:qo": {
+    "H": 0.265,
+    "p": 0.634183,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:sa": {
+    "H": 0.014,
+    "p": 0.922039,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:sh": {
+    "H": 0.308,
+    "p": 0.594203,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:so": {
+    "H": 0.039,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:tc": {
+    "H": 2.388,
+    "p": 0.103948,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:to": {
+    "H": 0.353,
+    "p": 0.555222,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yc": {
+    "H": 0.692,
+    "p": 0.390305,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yk": {
+    "H": 0.157,
+    "p": 0.702149,
+    "fdr_survives": false
+   },
+   "leaf_shape|p2:yt": {
+    "H": 1.71,
+    "p": 0.22089,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:cth": {
+    "H": 0.591,
+    "p": 0.686657,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:dch": {
+    "H": 0.322,
+    "p": 0.824588,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:kch": {
+    "H": 0.163,
+    "p": 0.927036,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:lk": {
+    "H": 0.962,
+    "p": 0.417791,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:ol_dy": {
+    "H": 6.402,
+    "p": 0.016449,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:oteo": {
+    "H": 0.154,
+    "p": 0.928536,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|fam:qoke": {
+    "H": 0.849,
+    "p": 0.665667,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ai": {
+    "H": 3.271,
+    "p": 0.196402,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ar": {
+    "H": 2.197,
+    "p": 0.337831,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ch": {
+    "H": 1.009,
+    "p": 0.627686,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ck": {
+    "H": 0.291,
+    "p": 0.837081,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:cp": {
+    "H": 1.663,
+    "p": 0.226887,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ct": {
+    "H": 0.591,
+    "p": 0.664668,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:da": {
+    "H": 1.466,
+    "p": 0.50025,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:dc": {
+    "H": 0.322,
+    "p": 0.827586,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:do": {
+    "H": 1.809,
+    "p": 0.354823,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:dy": {
+    "H": 0.554,
+    "p": 0.762619,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ka": {
+    "H": 0.322,
+    "p": 0.872564,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:kc": {
+    "H": 0.163,
+    "p": 0.935032,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ke": {
+    "H": 1.951,
+    "p": 0.404798,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ko": {
+    "H": 0.551,
+    "p": 0.655172,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:od": {
+    "H": 0.006,
+    "p": 0.997501,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ok": {
+    "H": 0.063,
+    "p": 0.973513,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ol": {
+    "H": 2.128,
+    "p": 0.370815,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:op": {
+    "H": 1.397,
+    "p": 0.47926,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:or": {
+    "H": 0.429,
+    "p": 0.830585,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:ot": {
+    "H": 3.156,
+    "p": 0.214893,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:pc": {
+    "H": 4.046,
+    "p": 0.123938,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:qo": {
+    "H": 1.854,
+    "p": 0.417791,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:sa": {
+    "H": 0.071,
+    "p": 0.968016,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:sh": {
+    "H": 1.916,
+    "p": 0.383308,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:so": {
+    "H": 0.949,
+    "p": 0.455772,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:tc": {
+    "H": 5.489,
+    "p": 0.048476,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:to": {
+    "H": 4.323,
+    "p": 0.107946,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yc": {
+    "H": 0.703,
+    "p": 0.527736,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yk": {
+    "H": 0.385,
+    "p": 0.833583,
+    "fdr_survives": false
+   },
+   "leaf_arrangement|p2:yt": {
+    "H": 1.466,
+    "p": 0.507246,
+    "fdr_survives": false
+   },
+   "root_type|fam:cth": {
+    "H": 0.778,
+    "p": 0.512744,
+    "fdr_survives": false
+   },
+   "root_type|fam:dch": {
+    "H": 0.571,
+    "p": 0.635682,
+    "fdr_survives": false
+   },
+   "root_type|fam:kch": {
+    "H": 0.016,
+    "p": 0.952524,
+    "fdr_survives": false
+   },
+   "root_type|fam:lk": {
+    "H": 0.254,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "root_type|fam:ol_dy": {
+    "H": 0.099,
+    "p": 0.769115,
+    "fdr_survives": false
+   },
+   "root_type|fam:oteo": {
+    "H": 0.254,
+    "p": 0.918541,
+    "fdr_survives": false
+   },
+   "root_type|fam:qoke": {
+    "H": 0.254,
+    "p": 0.670665,
+    "fdr_survives": false
+   },
+   "root_type|p2:ai": {
+    "H": 2.683,
+    "p": 0.123438,
+    "fdr_survives": false
+   },
+   "root_type|p2:ar": {
+    "H": 0.571,
+    "p": 0.531734,
+    "fdr_survives": false
+   },
+   "root_type|p2:ch": {
+    "H": 1.016,
+    "p": 0.375812,
+    "fdr_survives": false
+   },
+   "root_type|p2:ck": {
+    "H": 0.254,
+    "p": 0.727636,
+    "fdr_survives": false
+   },
+   "root_type|p2:cp": {
+    "H": 0.254,
+    "p": 0.916542,
+    "fdr_survives": false
+   },
+   "root_type|p2:ct": {
+    "H": 0.778,
+    "p": 0.54023,
+    "fdr_survives": false
+   },
+   "root_type|p2:da": {
+    "H": 0.016,
+    "p": 0.942029,
+    "fdr_survives": false
+   },
+   "root_type|p2:dc": {
+    "H": 0.571,
+    "p": 0.638181,
+    "fdr_survives": false
+   },
+   "root_type|p2:do": {
+    "H": 0.254,
+    "p": 0.591204,
+    "fdr_survives": false
+   },
+   "root_type|p2:dy": {
+    "H": 0.397,
+    "p": 0.598201,
+    "fdr_survives": false
+   },
+   "root_type|p2:ka": {
+    "H": 0.004,
+    "p": 0.989505,
+    "fdr_survives": false
+   },
+   "root_type|p2:kc": {
+    "H": 0.016,
+    "p": 0.944528,
+    "fdr_survives": false
+   },
+   "root_type|p2:ke": {
+    "H": 1.286,
+    "p": 0.291354,
+    "fdr_survives": false
+   },
+   "root_type|p2:ko": {
+    "H": 0.571,
+    "p": 0.213893,
+    "fdr_survives": false
+   },
+   "root_type|p2:od": {
+    "H": 0.063,
+    "p": 0.837581,
+    "fdr_survives": false
+   },
+   "root_type|p2:ok": {
+    "H": 0.016,
+    "p": 0.953523,
+    "fdr_survives": false
+   },
+   "root_type|p2:ol": {
+    "H": 0.063,
+    "p": 0.81909,
+    "fdr_survives": false
+   },
+   "root_type|p2:op": {
+    "H": 0.099,
+    "p": 0.785107,
+    "fdr_survives": false
+   },
+   "root_type|p2:or": {
+    "H": 1.921,
+    "p": 0.208896,
+    "fdr_survives": false
+   },
+   "root_type|p2:ot": {
+    "H": 0.063,
+    "p": 0.84058,
+    "fdr_survives": false
+   },
+   "root_type|p2:pc": {
+    "H": 0.397,
+    "p": 0.574713,
+    "fdr_survives": false
+   },
+   "root_type|p2:qo": {
+    "H": 2.683,
+    "p": 0.125437,
+    "fdr_survives": false
+   },
+   "root_type|p2:sa": {
+    "H": 0.254,
+    "p": 0.631184,
+    "fdr_survives": false
+   },
+   "root_type|p2:sh": {
+    "H": 0.0,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "root_type|p2:so": {
+    "H": 0.671,
+    "p": 0.198401,
+    "fdr_survives": false
+   },
+   "root_type|p2:tc": {
+    "H": 0.254,
+    "p": 0.634183,
+    "fdr_survives": false
+   },
+   "root_type|p2:to": {
+    "H": 1.016,
+    "p": 0.341829,
+    "fdr_survives": false
+   },
+   "root_type|p2:yc": {
+    "H": 0.194,
+    "p": 0.864568,
+    "fdr_survives": false
+   },
+   "root_type|p2:yk": {
+    "H": 2.286,
+    "p": 0.161919,
+    "fdr_survives": false
+   },
+   "root_type|p2:yt": {
+    "H": 0.571,
+    "p": 0.511744,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:cth": {
+    "H": 1.43,
+    "p": 0.131434,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:dch": {
+    "H": 0.17,
+    "p": 0.665667,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:kch": {
+    "H": 0.333,
+    "p": 0.596702,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:lk": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:ol_dy": {
+    "H": 6.75,
+    "p": 0.00285,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:oteo": {
+    "H": 1.531,
+    "p": 0.205397,
+    "fdr_survives": false
+   },
+   "root_prominence|fam:qoke": {
+    "H": 0.027,
+    "p": 0.912044,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ai": {
+    "H": 2.328,
+    "p": 0.124438,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ar": {
+    "H": 2.204,
+    "p": 0.151924,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ch": {
+    "H": 3.599,
+    "p": 0.064968,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ck": {
+    "H": 1.15,
+    "p": 0.22039,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:cp": {
+    "H": 1.531,
+    "p": 0.218891,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ct": {
+    "H": 1.43,
+    "p": 0.132434,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:da": {
+    "H": 1.531,
+    "p": 0.248876,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:dc": {
+    "H": 0.17,
+    "p": 0.676662,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:do": {
+    "H": 0.007,
+    "p": 0.966017,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:dy": {
+    "H": 0.109,
+    "p": 0.790605,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ka": {
+    "H": 0.027,
+    "p": 0.886057,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:kc": {
+    "H": 0.333,
+    "p": 0.593703,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ke": {
+    "H": 0.551,
+    "p": 0.488256,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ko": {
+    "H": 0.245,
+    "p": 0.561219,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:od": {
+    "H": 0.823,
+    "p": 0.385307,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ok": {
+    "H": 3.293,
+    "p": 0.08046,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ol": {
+    "H": 0.206,
+    "p": 0.684158,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:op": {
+    "H": 0.083,
+    "p": 0.790105,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:or": {
+    "H": 0.027,
+    "p": 0.915042,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:ot": {
+    "H": 0.9,
+    "p": 0.365817,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:pc": {
+    "H": 0.061,
+    "p": 0.825087,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:qo": {
+    "H": 0.435,
+    "p": 0.562219,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:sa": {
+    "H": 0.206,
+    "p": 0.655672,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:sh": {
+    "H": 0.614,
+    "p": 0.445777,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:so": {
+    "H": 0.68,
+    "p": 0.321839,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:tc": {
+    "H": 4.252,
+    "p": 0.028986,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:to": {
+    "H": 0.138,
+    "p": 0.715642,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yc": {
+    "H": 0.383,
+    "p": 0.526237,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yk": {
+    "H": 0.043,
+    "p": 0.85907,
+    "fdr_survives": false
+   },
+   "root_prominence|p2:yt": {
+    "H": 0.061,
+    "p": 0.853573,
+    "fdr_survives": false
+   },
+   "flower_present|fam:cth": {
+    "H": 0.368,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|fam:dch": {
+    "H": 0.271,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|fam:kch": {
+    "H": 0.188,
+    "p": 0.807596,
+    "fdr_survives": false
+   },
+   "flower_present|fam:lk": {
+    "H": 1.271,
+    "p": 0.188406,
+    "fdr_survives": false
+   },
+   "flower_present|fam:ol_dy": {
+    "H": 0.752,
+    "p": 0.746627,
+    "fdr_survives": false
+   },
+   "flower_present|fam:oteo": {
+    "H": 2.714,
+    "p": 0.04098,
+    "fdr_survives": false
+   },
+   "flower_present|fam:qoke": {
+    "H": 0.008,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ai": {
+    "H": 0.368,
+    "p": 0.706147,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ar": {
+    "H": 0.068,
+    "p": 0.904048,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ch": {
+    "H": 2.173,
+    "p": 0.205397,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ck": {
+    "H": 0.368,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:cp": {
+    "H": 0.188,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ct": {
+    "H": 0.368,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:da": {
+    "H": 0.188,
+    "p": 0.793603,
+    "fdr_survives": false
+   },
+   "flower_present|p2:dc": {
+    "H": 0.271,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:do": {
+    "H": 0.188,
+    "p": 0.950525,
+    "fdr_survives": false
+   },
+   "flower_present|p2:dy": {
+    "H": 0.008,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ka": {
+    "H": 0.91,
+    "p": 0.495252,
+    "fdr_survives": false
+   },
+   "flower_present|p2:kc": {
+    "H": 0.188,
+    "p": 0.808096,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ke": {
+    "H": 0.068,
+    "p": 0.846077,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ko": {
+    "H": 0.91,
+    "p": 0.256872,
+    "fdr_survives": false
+   },
+   "flower_present|p2:od": {
+    "H": 0.368,
+    "p": 0.708646,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ok": {
+    "H": 0.188,
+    "p": 0.791604,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ol": {
+    "H": 0.609,
+    "p": 0.604198,
+    "fdr_survives": false
+   },
+   "flower_present|p2:op": {
+    "H": 0.068,
+    "p": 0.95902,
+    "fdr_survives": false
+   },
+   "flower_present|p2:or": {
+    "H": 0.008,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:ot": {
+    "H": 2.173,
+    "p": 0.188406,
+    "fdr_survives": false
+   },
+   "flower_present|p2:pc": {
+    "H": 1.692,
+    "p": 0.146927,
+    "fdr_survives": false
+   },
+   "flower_present|p2:qo": {
+    "H": 1.271,
+    "p": 0.408296,
+    "fdr_survives": false
+   },
+   "flower_present|p2:sa": {
+    "H": 1.474,
+    "p": 0.455772,
+    "fdr_survives": false
+   },
+   "flower_present|p2:sh": {
+    "H": 0.068,
+    "p": 0.90055,
+    "fdr_survives": false
+   },
+   "flower_present|p2:so": {
+    "H": 0.12,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:tc": {
+    "H": 0.91,
+    "p": 0.711144,
+    "fdr_survives": false
+   },
+   "flower_present|p2:to": {
+    "H": 0.609,
+    "p": 0.694653,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yc": {
+    "H": 0.271,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yk": {
+    "H": 0.068,
+    "p": 0.898051,
+    "fdr_survives": false
+   },
+   "flower_present|p2:yt": {
+    "H": 1.271,
+    "p": 0.3993,
+    "fdr_survives": false
+   },
+   "flower_color|fam:cth": {
+    "H": 0.006,
+    "p": 0.966017,
+    "fdr_survives": false
+   },
+   "flower_color|fam:dch": {
+    "H": 0.463,
+    "p": 0.510745,
+    "fdr_survives": false
+   },
+   "flower_color|fam:kch": {
+    "H": 0.366,
+    "p": 0.571214,
+    "fdr_survives": false
+   },
+   "flower_color|fam:lk": {
+    "H": 0.0,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "flower_color|fam:ol_dy": {
+    "H": 2.641,
+    "p": 0.086457,
+    "fdr_survives": false
+   },
+   "flower_color|fam:oteo": {
+    "H": 3.571,
+    "p": 0.032484,
+    "fdr_survives": false
+   },
+   "flower_color|fam:qoke": {
+    "H": 0.823,
+    "p": 0.394803,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ai": {
+    "H": 0.023,
+    "p": 0.894553,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ar": {
+    "H": 0.366,
+    "p": 0.557221,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ch": {
+    "H": 5.851,
+    "p": 0.015099,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ck": {
+    "H": 0.143,
+    "p": 0.71964,
+    "fdr_survives": false
+   },
+   "flower_color|p2:cp": {
+    "H": 1.286,
+    "p": 0.191904,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ct": {
+    "H": 0.006,
+    "p": 0.963018,
+    "fdr_survives": false
+   },
+   "flower_color|p2:da": {
+    "H": 0.366,
+    "p": 0.569715,
+    "fdr_survives": false
+   },
+   "flower_color|p2:dc": {
+    "H": 0.463,
+    "p": 0.507746,
+    "fdr_survives": false
+   },
+   "flower_color|p2:do": {
+    "H": 0.691,
+    "p": 0.382309,
+    "fdr_survives": false
+   },
+   "flower_color|p2:dy": {
+    "H": 0.28,
+    "p": 0.61919,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ka": {
+    "H": 0.173,
+    "p": 0.691154,
+    "fdr_survives": false
+   },
+   "flower_color|p2:kc": {
+    "H": 0.366,
+    "p": 0.575212,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ke": {
+    "H": 1.12,
+    "p": 0.313843,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ko": {
+    "H": 1.463,
+    "p": 0.146427,
+    "fdr_survives": false
+   },
+   "flower_color|p2:od": {
+    "H": 1.463,
+    "p": 0.23938,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ok": {
+    "H": 1.851,
+    "p": 0.176412,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ol": {
+    "H": 0.823,
+    "p": 0.376312,
+    "fdr_survives": false
+   },
+   "flower_color|p2:op": {
+    "H": 0.173,
+    "p": 0.663168,
+    "fdr_survives": false
+   },
+   "flower_color|p2:or": {
+    "H": 4.166,
+    "p": 0.034983,
+    "fdr_survives": false
+   },
+   "flower_color|p2:ot": {
+    "H": 0.206,
+    "p": 0.662169,
+    "fdr_survives": false
+   },
+   "flower_color|p2:pc": {
+    "H": 0.366,
+    "p": 0.555222,
+    "fdr_survives": false
+   },
+   "flower_color|p2:qo": {
+    "H": 0.206,
+    "p": 0.695152,
+    "fdr_survives": false
+   },
+   "flower_color|p2:sa": {
+    "H": 0.116,
+    "p": 0.76012,
+    "fdr_survives": false
+   },
+   "flower_color|p2:sh": {
+    "H": 1.12,
+    "p": 0.30035,
+    "fdr_survives": false
+   },
+   "flower_color|p2:so": {
+    "H": 0.006,
+    "p": 0.858571,
+    "fdr_survives": false
+   },
+   "flower_color|p2:tc": {
+    "H": 0.571,
+    "p": 0.449775,
+    "fdr_survives": false
+   },
+   "flower_color|p2:to": {
+    "H": 0.013,
+    "p": 0.925037,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yc": {
+    "H": 0.013,
+    "p": 0.884058,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yk": {
+    "H": 2.063,
+    "p": 0.167416,
+    "fdr_survives": false
+   },
+   "flower_color|p2:yt": {
+    "H": 0.143,
+    "p": 0.748126,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:cth": {
+    "H": 1.638,
+    "p": 0.296352,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:dch": {
+    "H": 1.688,
+    "p": 0.263868,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:kch": {
+    "H": 0.255,
+    "p": 0.875062,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:lk": {
+    "H": 0.321,
+    "p": 0.866067,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:ol_dy": {
+    "H": 0.561,
+    "p": 0.702149,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:oteo": {
+    "H": 4.588,
+    "p": 0.021489,
+    "fdr_survives": false
+   },
+   "flower_shape|fam:qoke": {
+    "H": 2.21,
+    "p": 0.372314,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ai": {
+    "H": 0.171,
+    "p": 0.926537,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ar": {
+    "H": 0.493,
+    "p": 0.790605,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ch": {
+    "H": 4.6,
+    "p": 0.098451,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ck": {
+    "H": 0.029,
+    "p": 0.983508,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:cp": {
+    "H": 1.864,
+    "p": 0.191404,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ct": {
+    "H": 1.638,
+    "p": 0.297851,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:da": {
+    "H": 0.245,
+    "p": 0.902549,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:dc": {
+    "H": 1.688,
+    "p": 0.235382,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:do": {
+    "H": 1.6,
+    "p": 0.398801,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:dy": {
+    "H": 1.445,
+    "p": 0.508746,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ka": {
+    "H": 0.448,
+    "p": 0.807096,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:kc": {
+    "H": 0.255,
+    "p": 0.893553,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ke": {
+    "H": 0.073,
+    "p": 0.961019,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ko": {
+    "H": 0.721,
+    "p": 0.503248,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:od": {
+    "H": 0.933,
+    "p": 0.636182,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ok": {
+    "H": 1.15,
+    "p": 0.605697,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ol": {
+    "H": 0.6,
+    "p": 0.758121,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:op": {
+    "H": 0.233,
+    "p": 0.888056,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:or": {
+    "H": 0.448,
+    "p": 0.805597,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:ot": {
+    "H": 3.135,
+    "p": 0.231884,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:pc": {
+    "H": 0.668,
+    "p": 0.717141,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:qo": {
+    "H": 1.314,
+    "p": 0.557221,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:sa": {
+    "H": 1.48,
+    "p": 0.521239,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:sh": {
+    "H": 0.829,
+    "p": 0.698151,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:so": {
+    "H": 0.483,
+    "p": 0.66017,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:tc": {
+    "H": 0.417,
+    "p": 0.795602,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:to": {
+    "H": 1.587,
+    "p": 0.465767,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yc": {
+    "H": 0.6,
+    "p": 0.696152,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yk": {
+    "H": 1.588,
+    "p": 0.477261,
+    "fdr_survives": false
+   },
+   "flower_shape|p2:yt": {
+    "H": 1.314,
+    "p": 0.537731,
+    "fdr_survives": false
+   },
+   "stem_count|fam:cth": {
+    "H": 1.413,
+    "p": 0.202399,
+    "fdr_survives": false
+   },
+   "stem_count|fam:dch": {
+    "H": 0.692,
+    "p": 0.392304,
+    "fdr_survives": false
+   },
+   "stem_count|fam:kch": {
+    "H": 3.468,
+    "p": 0.05947,
+    "fdr_survives": false
+   },
+   "stem_count|fam:lk": {
+    "H": 0.157,
+    "p": 0.632684,
+    "fdr_survives": false
+   },
+   "stem_count|fam:ol_dy": {
+    "H": 1.231,
+    "p": 0.251874,
+    "fdr_survives": false
+   },
+   "stem_count|fam:oteo": {
+    "H": 0.83,
+    "p": 0.251374,
+    "fdr_survives": false
+   },
+   "stem_count|fam:qoke": {
+    "H": 1.32,
+    "p": 0.264868,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ai": {
+    "H": 0.226,
+    "p": 0.656172,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ar": {
+    "H": 0.567,
+    "p": 0.477761,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ch": {
+    "H": 0.567,
+    "p": 0.474763,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ck": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "stem_count|p2:cp": {
+    "H": 0.567,
+    "p": 0.355822,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ct": {
+    "H": 1.413,
+    "p": 0.190405,
+    "fdr_survives": false
+   },
+   "stem_count|p2:da": {
+    "H": 4.41,
+    "p": 0.037481,
+    "fdr_survives": false
+   },
+   "stem_count|p2:dc": {
+    "H": 0.692,
+    "p": 0.368316,
+    "fdr_survives": false
+   },
+   "stem_count|p2:do": {
+    "H": 0.454,
+    "p": 0.506747,
+    "fdr_survives": false
+   },
+   "stem_count|p2:dy": {
+    "H": 9.308,
+    "p": 0.00095,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ka": {
+    "H": 0.057,
+    "p": 0.834583,
+    "fdr_survives": false
+   },
+   "stem_count|p2:kc": {
+    "H": 3.468,
+    "p": 0.062969,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ke": {
+    "H": 0.76,
+    "p": 0.415292,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ko": {
+    "H": 0.567,
+    "p": 0.362319,
+    "fdr_survives": false
+   },
+   "stem_count|p2:od": {
+    "H": 1.144,
+    "p": 0.322339,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ok": {
+    "H": 3.769,
+    "p": 0.055972,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ol": {
+    "H": 2.267,
+    "p": 0.148926,
+    "fdr_survives": false
+   },
+   "stem_count|p2:op": {
+    "H": 0.006,
+    "p": 0.951524,
+    "fdr_survives": false
+   },
+   "stem_count|p2:or": {
+    "H": 1.509,
+    "p": 0.233883,
+    "fdr_survives": false
+   },
+   "stem_count|p2:ot": {
+    "H": 0.1,
+    "p": 0.765117,
+    "fdr_survives": false
+   },
+   "stem_count|p2:pc": {
+    "H": 0.904,
+    "p": 0.365817,
+    "fdr_survives": false
+   },
+   "stem_count|p2:qo": {
+    "H": 0.19,
+    "p": 0.726137,
+    "fdr_survives": false
+   },
+   "stem_count|p2:sa": {
+    "H": 2.388,
+    "p": 0.133933,
+    "fdr_survives": false
+   },
+   "stem_count|p2:sh": {
+    "H": 3.925,
+    "p": 0.042979,
+    "fdr_survives": false
+   },
+   "stem_count|p2:so": {
+    "H": 0.19,
+    "p": 0.569215,
+    "fdr_survives": false
+   },
+   "stem_count|p2:tc": {
+    "H": 0.692,
+    "p": 0.42029,
+    "fdr_survives": false
+   },
+   "stem_count|p2:to": {
+    "H": 1.231,
+    "p": 0.272364,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yc": {
+    "H": 1.144,
+    "p": 0.174413,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yk": {
+    "H": 0.006,
+    "p": 0.954523,
+    "fdr_survives": false
+   },
+   "stem_count|p2:yt": {
+    "H": 0.692,
+    "p": 0.448276,
+    "fdr_survives": false
+   },
+   "plant_count|fam:cth": {
+    "H": 0.036,
+    "p": 0.932034,
+    "fdr_survives": false
+   },
+   "plant_count|fam:dch": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|fam:kch": {
+    "H": 2.893,
+    "p": 0.085457,
+    "fdr_survives": false
+   },
+   "plant_count|fam:lk": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|fam:ol_dy": {
+    "H": 3.571,
+    "p": 0.074963,
+    "fdr_survives": false
+   },
+   "plant_count|fam:oteo": {
+    "H": 3.223,
+    "p": 0.027486,
+    "fdr_survives": false
+   },
+   "plant_count|fam:qoke": {
+    "H": 0.723,
+    "p": 0.43978,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ai": {
+    "H": 1.08,
+    "p": 0.321339,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ar": {
+    "H": 0.893,
+    "p": 0.403798,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ch": {
+    "H": 2.009,
+    "p": 0.176412,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ck": {
+    "H": 0.438,
+    "p": 0.45927,
+    "fdr_survives": false
+   },
+   "plant_count|p2:cp": {
+    "H": 0.438,
+    "p": 0.537231,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ct": {
+    "H": 0.036,
+    "p": 0.932534,
+    "fdr_survives": false
+   },
+   "plant_count|p2:da": {
+    "H": 1.286,
+    "p": 0.288356,
+    "fdr_survives": false
+   },
+   "plant_count|p2:dc": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|p2:do": {
+    "H": 0.571,
+    "p": 0.436782,
+    "fdr_survives": false
+   },
+   "plant_count|p2:dy": {
+    "H": 2.893,
+    "p": 0.093453,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ka": {
+    "H": 0.056,
+    "p": 0.831584,
+    "fdr_survives": false
+   },
+   "plant_count|p2:kc": {
+    "H": 2.893,
+    "p": 0.101449,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ke": {
+    "H": 0.806,
+    "p": 0.392304,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ko": {
+    "H": 0.036,
+    "p": 0.71914,
+    "fdr_survives": false
+   },
+   "plant_count|p2:od": {
+    "H": 0.223,
+    "p": 0.671164,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ok": {
+    "H": 7.0,
+    "p": 0.00565,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ol": {
+    "H": 2.58,
+    "p": 0.124438,
+    "fdr_survives": false
+   },
+   "plant_count|p2:op": {
+    "H": 2.286,
+    "p": 0.09945,
+    "fdr_survives": false
+   },
+   "plant_count|p2:or": {
+    "H": 3.938,
+    "p": 0.049475,
+    "fdr_survives": false
+   },
+   "plant_count|p2:ot": {
+    "H": 0.143,
+    "p": 0.735132,
+    "fdr_survives": false
+   },
+   "plant_count|p2:pc": {
+    "H": 2.286,
+    "p": 0.13993,
+    "fdr_survives": false
+   },
+   "plant_count|p2:qo": {
+    "H": 0.143,
+    "p": 0.747626,
+    "fdr_survives": false
+   },
+   "plant_count|p2:sa": {
+    "H": 3.571,
+    "p": 0.055472,
+    "fdr_survives": false
+   },
+   "plant_count|p2:sh": {
+    "H": 4.723,
+    "p": 0.037981,
+    "fdr_survives": false
+   },
+   "plant_count|p2:so": {
+    "H": 0.002,
+    "p": 1.0,
+    "fdr_survives": false
+   },
+   "plant_count|p2:tc": {
+    "H": 0.223,
+    "p": 0.647676,
+    "fdr_survives": false
+   },
+   "plant_count|p2:to": {
+    "H": 0.109,
+    "p": 0.764118,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yc": {
+    "H": 1.286,
+    "p": 0.273863,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yk": {
+    "H": 0.143,
+    "p": 0.733133,
+    "fdr_survives": false
+   },
+   "plant_count|p2:yt": {
+    "H": 2.009,
+    "p": 0.17991,
+    "fdr_survives": false
+   }
+  }
+ },
+ "E2_power_sim": {
+  "sims": 500,
+  "perm_per_sim": 400,
+  "power_at_alpha05": 0.264,
+  "note": "pooled effect planted into scribe-2 category mix (n=20)"
+ }
+}

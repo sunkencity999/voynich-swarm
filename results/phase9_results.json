@@ -1,0 +1,382 @@
+{
+ "seed": 20260917,
+ "n_perm": 20000,
+ "parser_note": "uniform simple parser, whole-page tokens; see docstring",
+ "v101_mapping_check": {
+  "aligned_token_pairs": 20866,
+  "zl_or_tokens_aligned": 305,
+  "gc_counterpart_startswith_oy": 259,
+  "match_fraction": 0.8492,
+  "gc_prefix_distribution_of_zl_or": {
+   "oy": 259,
+   "Ay": 23,
+   "ay": 7,
+   "ox": 4,
+   "os": 3,
+   "ok": 2,
+   "oX": 2,
+   "1o": 1
+  }
+ },
+ "WP2": {
+  "coverage": {
+   "B0_ZL": {
+    "herbal_folios_covered": 129,
+    "of": 129
+   },
+   "R12_IT": {
+    "herbal_folios_covered": 129,
+    "of": 129
+   },
+   "R34_GC": {
+    "herbal_folios_covered": 129,
+    "of": 129
+   }
+  },
+  "tests": {
+   "B0_ZL_all_sxq": {
+    "H": 18.455,
+    "p": 0.0008499575021248938,
+    "n": 129,
+    "n_strata": 17
+   },
+   "B0_ZL_scribe1_q": {
+    "H": 10.066,
+    "p": 0.004749762511874406,
+    "n": 95
+   },
+   "B0_ZL_means": {
+    "minor": {
+     "n": 9,
+     "mean_or_share": 0.00185
+    },
+    "moderate": {
+     "n": 75,
+     "mean_or_share": 0.01037
+    },
+    "dominant": {
+     "n": 44,
+     "mean_or_share": 0.02183
+    }
+   },
+   "R12_IT_all_sxq": {
+    "H": 20.989,
+    "p": 0.0018999050047497626,
+    "n": 129,
+    "n_strata": 17
+   },
+   "R12_IT_scribe1_q": {
+    "H": 9.524,
+    "p": 0.006749662516874156,
+    "n": 95
+   },
+   "R12_IT_means": {
+    "minor": {
+     "n": 9,
+     "mean_or_share": 0.00198
+    },
+    "moderate": {
+     "n": 75,
+     "mean_or_share": 0.0096
+    },
+    "dominant": {
+     "n": 44,
+     "mean_or_share": 0.02296
+    }
+   },
+   "R34_GC_all_sxq": {
+    "H": 16.805,
+    "p": 0.0015999200039998,
+    "n": 129,
+    "n_strata": 17
+   },
+   "R34_GC_scribe1_q": {
+    "H": 7.939,
+    "p": 0.008699565021748913,
+    "n": 95
+   },
+   "R34_GC_means": {
+    "minor": {
+     "n": 9,
+     "mean_or_share": 0.0054
+    },
+    "moderate": {
+     "n": 75,
+     "mean_or_share": 0.01026
+    },
+    "dominant": {
+     "n": 44,
+     "mean_or_share": 0.02188
+    }
+   }
+  }
+ },
+ "WP3": {
+  "design_matrix": {
+   "A|?|4": 8,
+   "B|B|2": 19,
+   "C|?|1": 1,
+   "C|?|4": 6,
+   "C|B|2": 3,
+   "H|?|3": 2,
+   "H|A|1": 95,
+   "H|B|2": 20,
+   "H|B|3": 6,
+   "H|B|5": 6,
+   "P|A|1": 16,
+   "S|A|3": 2,
+   "S|B|3": 22,
+   "S|B|@": 1,
+   "T|?|3": 1,
+   "T|A|1": 1,
+   "T|B|2": 4,
+   "T|B|5": 1,
+   "Z|?|4": 12
+  },
+  "D1_scribe3_AvsB_sectstrat": {
+   "H": 0.339,
+   "p": 0.6048197590120494,
+   "n": 30,
+   "folios_A": [
+    "f58r",
+    "f58v"
+   ],
+   "mean_or_A": 0.01721,
+   "n_A": 2,
+   "mean_or_B": 0.01411,
+   "n_B": 28,
+   "direction_dialect_driven": "A lower",
+   "observed_direction": "A higher"
+  },
+  "D2_withinB_scribe_sectstrat": {
+   "H": 7.814,
+   "p": 0.17459127043647818,
+   "n": 81,
+   "per_scribe": {
+    "2": {
+     "n": 46,
+     "mean_or": 0.02565
+    },
+    "3": {
+     "n": 28,
+     "mean_or": 0.01411
+    },
+    "5": {
+     "n": 7,
+     "mean_or": 0.01235
+    }
+   },
+   "sections": {
+    "H": 32,
+    "T": 5,
+    "B": 19,
+    "C": 3,
+    "S": 22
+   }
+  },
+  "D3_withinA_scribe": {
+   "status": "structurally untestable stratified (no shared section between scribe-1 A and scribe-3 A)",
+   "exploratory_unstratified": {
+    "H": 0.673,
+    "p": 0.416079196040198,
+    "n": 114,
+    "mean_or_scribe1": 0.0119,
+    "mean_or_scribe3": 0.01721,
+    "caveat": "section-confounded; exploratory only"
+   }
+  },
+  "or_share_by_cell": {
+   "A|?|4": {
+    "n": 8,
+    "mean_or": 0.0123
+   },
+   "B|B|2": {
+    "n": 19,
+    "mean_or": 0.01615
+   },
+   "C|?|4": {
+    "n": 6,
+    "mean_or": 0.00697
+   },
+   "C|B|2": {
+    "n": 3,
+    "mean_or": 0.04719
+   },
+   "H|?|3": {
+    "n": 2,
+    "mean_or": 0.0
+   },
+   "H|A|1": {
+    "n": 95,
+    "mean_or": 0.00966
+   },
+   "H|B|2": {
+    "n": 20,
+    "mean_or": 0.0305
+   },
+   "H|B|3": {
+    "n": 6,
+    "mean_or": 0.02342
+   },
+   "H|B|5": {
+    "n": 6,
+    "mean_or": 0.01441
+   },
+   "P|A|1": {
+    "n": 16,
+    "mean_or": 0.02476
+   },
+   "S|A|3": {
+    "n": 2,
+    "mean_or": 0.01721
+   },
+   "S|B|3": {
+    "n": 22,
+    "mean_or": 0.01156
+   },
+   "T|B|2": {
+    "n": 4,
+    "mean_or": 0.03038
+   },
+   "Z|?|4": {
+    "n": 12,
+    "mean_or": 0.01008
+   }
+  }
+ },
+ "SLOT": {
+  "S1_medial_or_scribe1_q": {
+   "H": 8.747,
+   "p": 0.00759962001899905,
+   "n": 95,
+   "note": "medial = excludes line-first and line-last tokens; folios with >=10 medial tokens"
+  },
+  "medial_means": {
+   "minor": {
+    "n": 9,
+    "mean": 0.00265
+   },
+   "moderate": {
+    "n": 63,
+    "mean": 0.00731
+   },
+   "dominant": {
+    "n": 22,
+    "mean": 0.01639
+   }
+  },
+  "X2_or_position_by_rp": {
+   "moderate": {
+    "medial": 47,
+    "first": 12,
+    "last": 13
+   },
+   "dominant": {
+    "medial": 80,
+    "first": 9,
+    "last": 8
+   },
+   "minor": {
+    "medial": 1
+   }
+  }
+ },
+ "X1_agreement_partial": {
+  "n": 12,
+  "spearman_rho": 0.209,
+  "perm_p_two_sided": 1.0,
+  "note": "PARTIAL: 20 pre-crash folios only; WP1 completion deferred (host RAM under test)",
+  "pairs": [
+   [
+    "f10r",
+    1,
+    1
+   ],
+   [
+    "f10v",
+    1,
+    2
+   ],
+   [
+    "f11r",
+    1,
+    2
+   ],
+   [
+    "f11v",
+    1,
+    2
+   ],
+   [
+    "f13r",
+    2,
+    2
+   ],
+   [
+    "f13v",
+    1,
+    1
+   ],
+   [
+    "f14r",
+    1,
+    0
+   ],
+   [
+    "f14v",
+    1,
+    2
+   ],
+   [
+    "f15r",
+    1,
+    2
+   ],
+   [
+    "f15v",
+    1,
+    2
+   ],
+   [
+    "f16r",
+    1,
+    2
+   ],
+   [
+    "f16v",
+    1,
+    0
+   ]
+  ]
+ },
+ "confirmatory_family": {
+  "R1_IT_all_sxq": {
+   "p": 0.0018999050047497626,
+   "fdr_survives": true
+  },
+  "R2_IT_scribe1_q": {
+   "p": 0.006749662516874156,
+   "fdr_survives": true
+  },
+  "R3_GC_all_sxq": {
+   "p": 0.0015999200039998,
+   "fdr_survives": true
+  },
+  "R4_GC_scribe1_q": {
+   "p": 0.008699565021748913,
+   "fdr_survives": true
+  },
+  "D1_scribe3_AvsB": {
+   "p": 0.6048197590120494,
+   "fdr_survives": false
+  },
+  "D2_withinB_scribe": {
+   "p": 0.17459127043647818,
+   "fdr_survives": false
+  },
+  "S1_medial_scribe1": {
+   "p": 0.00759962001899905,
+   "fdr_survives": true
+  }
+ }
+}

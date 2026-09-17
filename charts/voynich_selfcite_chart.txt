@@ -1,0 +1,26 @@
+Voynich Phase 3 — self-citation generator vs the real manuscript
+
+A Timm & Schinner-style self-citation generator (each word = a recency-weighted
+copy of an earlier word + small EVA-class mutations) was tuned on ONLY three knobs
+(recency scale tau=250, exact-copy prob 0.78, second-mutation prob 0.2) to match
+Voynich's unigram entropy, type-token ratio, and repeat rate. Everything plotted
+here is HELD OUT.
+
+LEFT — long-range mutual information (bits, shuffle-corrected) vs word distance.
+Real Voynich (gold) peaks at d=1 (0.18) then decays to a low plateau (~0.03-0.05).
+The generator (teal) is DEAD FLAT at ~0.12 across all distances: no short-range
+peak, and it overshoots the long-range value 3-4x. Natural languages decay to the
+noise floor by d=8. The generator reproduces neither the peak nor the decay shape.
+
+RIGHT — BPE compression (chars/token) vs vocab size. The generator lands in the
+right order of magnitude (natural-language-scale, unlike char-shuffled gibberish)
+but the curve is too steep: it undershoots real Voynich at vocab 500 and overshoots
+it at vocab 2000.
+
+Verdict: the generator matches its tuned metrics but fails multiple held-out ones
+simultaneously (MI-vs-distance shape, order-1 char entropy 2.96 vs real 2.14, and
+the near-repeat enrichment), and cannot resolve internal tensions (taming adjacent-
+exact repeats requires high tau, which flattens the MI curve). A simple, coarsely-
+tuned self-citation process does NOT reproduce ALL Voynich statistics — meaning-
+bearing hypotheses survive this falsification round. Not a refutation of self-
+citation as a class; a reimplementation with a coarse grid.

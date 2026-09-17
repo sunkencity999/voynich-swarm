@@ -1,0 +1,93 @@
+{
+ "coverage": {
+  "B0_ZL": {
+   "herbal_folios_covered": 129,
+   "of": 129
+  },
+  "R12_IT": {
+   "herbal_folios_covered": 129,
+   "of": 129
+  },
+  "R34_GC": {
+   "herbal_folios_covered": 129,
+   "of": 129
+  }
+ },
+ "tests": {
+  "B0_ZL_all_sxq": {
+   "H": 18.455,
+   "p": 0.0008499575021248938,
+   "n": 129,
+   "n_strata": 17
+  },
+  "B0_ZL_scribe1_q": {
+   "H": 10.066,
+   "p": 0.004749762511874406,
+   "n": 95
+  },
+  "B0_ZL_means": {
+   "minor": {
+    "n": 9,
+    "mean_or_share": 0.00185
+   },
+   "moderate": {
+    "n": 75,
+    "mean_or_share": 0.01037
+   },
+   "dominant": {
+    "n": 44,
+    "mean_or_share": 0.02183
+   }
+  },
+  "R12_IT_all_sxq": {
+   "H": 20.989,
+   "p": 0.0018999050047497626,
+   "n": 129,
+   "n_strata": 17
+  },
+  "R12_IT_scribe1_q": {
+   "H": 9.524,
+   "p": 0.006749662516874156,
+   "n": 95
+  },
+  "R12_IT_means": {
+   "minor": {
+    "n": 9,
+    "mean_or_share": 0.00198
+   },
+   "moderate": {
+    "n": 75,
+    "mean_or_share": 0.0096
+   },
+   "dominant": {
+    "n": 44,
+    "mean_or_share": 0.02296
+   }
+  },
+  "R34_GC_all_sxq": {
+   "H": 16.805,
+   "p": 0.0015999200039998,
+   "n": 129,
+   "n_strata": 17
+  },
+  "R34_GC_scribe1_q": {
+   "H": 7.939,
+   "p": 0.008699565021748913,
+   "n": 95
+  },
+  "R34_GC_means": {
+   "minor": {
+    "n": 9,
+    "mean_or_share": 0.0054
+   },
+   "moderate": {
+    "n": 75,
+    "mean_or_share": 0.01026
+   },
+   "dominant": {
+    "n": 44,
+    "mean_or_share": 0.02188
+   }
+  }
+ }
+}

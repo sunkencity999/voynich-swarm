@@ -1,0 +1,133 @@
+{
+ "design_matrix": {
+  "A|?|4": 8,
+  "B|B|2": 19,
+  "C|?|1": 1,
+  "C|?|4": 6,
+  "C|B|2": 3,
+  "H|?|3": 2,
+  "H|A|1": 95,
+  "H|B|2": 20,
+  "H|B|3": 6,
+  "H|B|5": 6,
+  "P|A|1": 16,
+  "S|A|3": 2,
+  "S|B|3": 22,
+  "S|B|@": 1,
+  "T|?|3": 1,
+  "T|A|1": 1,
+  "T|B|2": 4,
+  "T|B|5": 1,
+  "Z|?|4": 12
+ },
+ "D1_scribe3_AvsB_sectstrat": {
+  "H": 0.339,
+  "p": 0.6048197590120494,
+  "n": 30,
+  "folios_A": [
+   "f58r",
+   "f58v"
+  ],
+  "mean_or_A": 0.01721,
+  "n_A": 2,
+  "mean_or_B": 0.01411,
+  "n_B": 28,
+  "direction_dialect_driven": "A lower",
+  "observed_direction": "A higher"
+ },
+ "D2_withinB_scribe_sectstrat": {
+  "H": 7.814,
+  "p": 0.17459127043647818,
+  "n": 81,
+  "per_scribe": {
+   "2": {
+    "n": 46,
+    "mean_or": 0.02565
+   },
+   "3": {
+    "n": 28,
+    "mean_or": 0.01411
+   },
+   "5": {
+    "n": 7,
+    "mean_or": 0.01235
+   }
+  },
+  "sections": {
+   "H": 32,
+   "T": 5,
+   "B": 19,
+   "C": 3,
+   "S": 22
+  }
+ },
+ "D3_withinA_scribe": {
+  "status": "structurally untestable stratified (no shared section between scribe-1 A and scribe-3 A)",
+  "exploratory_unstratified": {
+   "H": 0.673,
+   "p": 0.416079196040198,
+   "n": 114,
+   "mean_or_scribe1": 0.0119,
+   "mean_or_scribe3": 0.01721,
+   "caveat": "section-confounded; exploratory only"
+  }
+ },
+ "or_share_by_cell": {
+  "A|?|4": {
+   "n": 8,
+   "mean_or": 0.0123
+  },
+  "B|B|2": {
+   "n": 19,
+   "mean_or": 0.01615
+  },
+  "C|?|4": {
+   "n": 6,
+   "mean_or": 0.00697
+  },
+  "C|B|2": {
+   "n": 3,
+   "mean_or": 0.04719
+  },
+  "H|?|3": {
+   "n": 2,
+   "mean_or": 0.0
+  },
+  "H|A|1": {
+   "n": 95,
+   "mean_or": 0.00966
+  },
+  "H|B|2": {
+   "n": 20,
+   "mean_or": 0.0305
+  },
+  "H|B|3": {
+   "n": 6,
+   "mean_or": 0.02342
+  },
+  "H|B|5": {
+   "n": 6,
+   "mean_or": 0.01441
+  },
+  "P|A|1": {
+   "n": 16,
+   "mean_or": 0.02476
+  },
+  "S|A|3": {
+   "n": 2,
+   "mean_or": 0.01721
+  },
+  "S|B|3": {
+   "n": 22,
+   "mean_or": 0.01156
+  },
+  "T|B|2": {
+   "n": 4,
+   "mean_or": 0.03038
+  },
+  "Z|?|4": {
+   "n": 12,
+   "mean_or": 0.01008
+  }
+ }
+}

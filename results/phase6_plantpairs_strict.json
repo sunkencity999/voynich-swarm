@@ -1,0 +1,20 @@
+{
+ "exact_raw": {
+  "obs": 0,
+  "n": 7,
+  "null_mean": 0.76195,
+  "null_std": 0.8010506834776435,
+  "p": 1.0,
+  "matched": []
+ },
+ "exact_stripped": {
+  "obs": 1,
+  "n": 7,
+  "null_mean": 3.41985,
+  "null_std": 1.292971762065978,
+  "p": 0.9922,
+  "matched": [
+   "oror"
+  ]
+ }
+}

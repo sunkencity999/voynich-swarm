@@ -1,0 +1,30 @@
+[
+ {
+  "name": "voynich",
+  "shared": 300,
+  "gw_self_acc": 0.0033333333333333335,
+  "conc": 0.003333333333333335,
+  "rho_identity": 0.08697679398572675
+ },
+ {
+  "name": "latin",
+  "shared": 300,
+  "gw_self_acc": 0.0,
+  "conc": 0.003333333333333335,
+  "rho_identity": 0.14392749261603263
+ },
+ {
+  "name": "italian",
+  "shared": 300,
+  "gw_self_acc": 0.0033333333333333335,
+  "conc": 0.003333333333333335,
+  "rho_identity": 0.0629062922718245
+ },
+ {
+  "name": "voynich_wshuf",
+  "shared": 300,
+  "gw_self_acc": 0.01,
+  "conc": 0.003333333333333335,
+  "rho_identity": 0.027743065528099443
+ }
+]

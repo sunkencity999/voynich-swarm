@@ -1,0 +1,166 @@
+{
+ "anchoring_all": {
+  "per_section": {
+   "astro": {
+    "n_label_words": 151,
+    "n_pages": 5,
+    "same_page_rate": 0.08609271523178808,
+    "cross_page_rate": 0.061258278145695365,
+    "null_mean": 0.06604470198675497,
+    "null_std": 0.02602093484812945,
+    "z": 0.7704570708947563,
+    "p_perm": 0.3066
+   },
+   "balneo": {
+    "n_label_words": 126,
+    "n_pages": 11,
+    "same_page_rate": 0.25396825396825395,
+    "cross_page_rate": 0.2388888888888889,
+    "null_mean": 0.24034484126984126,
+    "null_std": 0.02054161765849922,
+    "z": 0.6632103140511877,
+    "p_perm": 0.319
+   },
+   "cosmo": {
+    "n_label_words": 215,
+    "n_pages": 5,
+    "same_page_rate": 0.22325581395348837,
+    "cross_page_rate": 0.1058139534883721,
+    "null_mean": 0.12957790697674418,
+    "null_std": 0.04757840346989573,
+    "z": 1.968916570225333,
+    "p_perm": 0.08485
+   },
+   "herbal": {
+    "n_label_words": 26,
+    "n_pages": 4,
+    "same_page_rate": 0.34615384615384615,
+    "cross_page_rate": 0.1794871794871795,
+    "null_mean": 0.2208480769230769,
+    "null_std": 0.10298583660232348,
+    "z": 1.2167281770466503,
+    "p_perm": 0.08235
+   },
+   "pharma": {
+    "n_label_words": 243,
+    "n_pages": 15,
+    "same_page_rate": 0.0823045267489712,
+    "cross_page_rate": 0.07995296884185774,
+    "null_mean": 0.08003991769547324,
+    "null_std": 0.012942023659091632,
+    "z": 0.17498106271093805,
+    "p_perm": 0.4961
+   },
+   "text": {
+    "n_label_words": 55,
+    "n_pages": 2,
+    "same_page_rate": 0.2545454545454545,
+    "cross_page_rate": 0.3090909090909091,
+    "null_mean": 0.2818045454545454,
+    "null_std": 0.027272723863636158,
+    "z": -0.9995001249375228,
+    "p_perm": 1.0
+   },
+   "zodiac": {
+    "n_label_words": 350,
+    "n_pages": 12,
+    "same_page_rate": 0.12857142857142856,
+    "cross_page_rate": 0.10779220779220779,
+    "null_mean": 0.10943557142857144,
+    "null_std": 0.013092098878362334,
+    "z": 1.461634022218047,
+    "p_perm": 0.09165
+   }
+  },
+  "pooled": {
+   "n_label_words": 1166,
+   "same_page_rate": 0.15523156089193826,
+   "null_mean": 0.1261654373927959,
+   "null_std": 0.011146656280424078,
+   "z": 2.607609202966877,
+   "p_perm": 0.00665
+  }
+ },
+ "anchoring_len3": {
+  "per_section": {
+   "astro": {
+    "n_label_words": 137,
+    "n_pages": 5,
+    "same_page_rate": 0.0364963503649635,
+    "cross_page_rate": 0.043795620437956206,
+    "null_mean": 0.04229854014598539,
+    "null_std": 0.014603710744907,
+    "z": -0.397309278605466,
+    "p_perm": 0.7295
+   },
+   "balneo": {
+    "n_label_words": 116,
+    "n_pages": 11,
+    "same_page_rate": 0.20689655172413793,
+    "cross_page_rate": 0.19137931034482758,
+    "null_mean": 0.19292586206896553,
+    "null_std": 0.018992644470827217,
+    "z": 0.7355842245471101,
+    "p_perm": 0.30155
+   },
+   "cosmo": {
+    "n_label_words": 193,
+    "n_pages": 5,
+    "same_page_rate": 0.18652849740932642,
+    "cross_page_rate": 0.06476683937823834,
+    "null_mean": 0.08915673575129533,
+    "null_std": 0.04769516522323933,
+    "z": 2.041543649178659,
+    "p_perm": 0.0511
+   },
+   "herbal": {
+    "n_label_words": 3,
+    "n_pages": 2,
+    "same_page_rate": 0.0,
+    "cross_page_rate": 0.0,
+    "null_mean": 0.0,
+    "null_std": 0.0,
+    "z": null,
+    "p_perm": 1.0
+   },
+   "pharma": {
+    "n_label_words": 235,
+    "n_pages": 15,
+    "same_page_rate": 0.06808510638297872,
+    "cross_page_rate": 0.06717325227963526,
+    "null_mean": 0.06726574468085104,
+    "null_std": 0.012678690732374097,
+    "z": 0.06462510360281135,
+    "p_perm": 0.5477
+   },
+   "text": {
+    "n_label_words": 16,
+    "n_pages": 1,
+    "same_page_rate": 0.125,
+    "cross_page_rate": null,
+    "null_mean": 0.125,
+    "null_std": 0.0,
+    "z": null,
+    "p_perm": 1.0
+   },
+   "zodiac": {
+    "n_label_words": 325,
+    "n_pages": 12,
+    "same_page_rate": 0.09538461538461539,
+    "cross_page_rate": 0.07440559440559441,
+    "null_mean": 0.07604276923076923,
+    "null_std": 0.013363749178081521,
+    "z": 1.447336813651784,
+    "p_perm": 0.092
+   }
+  },
+  "pooled": {
+   "n_label_words": 1025,
+   "same_page_rate": 0.11121951219512195,
+   "null_mean": 0.08575892682926828,
+   "null_std": 0.010795675058405866,
+   "z": 2.3584060494697114,
+   "p_perm": 0.0158
+  }
+ }
+}
