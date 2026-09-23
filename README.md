@@ -2,9 +2,10 @@
 
 **A measured, adversarial multi-agent investigation of the Voynich manuscript.**
 
-This repository is the full public record of a nine-phase statistical campaign against the
-Voynich manuscript (Beinecke MS 408), plus the charter and architecture of the agent swarm
-that continues it. It was produced by a small team of AI agents working under a human
+This repository is the full public record of a statistical campaign against the Voynich
+manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP5) with their
+certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
 
@@ -20,6 +21,11 @@ Turkic) demonstrates that motivated pattern-matching always finds *something*. T
 manuscript cannot object to a wrong reading — so the method has to. Every generative step
 here is paired against a falsification step, negative results are treated as deliverables,
 and each report names its own weakest point.
+
+**The campaign's core product is [`CONSTRAINTS.md`](CONSTRAINTS.md)** — the certified
+constraint ledger: every structural fact that survived preregistration, adversarial
+recomputation, and folio-cluster bootstrap, stated as a falsifier any candidate
+translation or theory must satisfy.
 
 ## Headline findings (Phases 1–9)
 
@@ -40,6 +46,42 @@ is one narrow, externally-anchored fact: a text property (`or-` prefix rate) cor
 a property of the adjacent drawings (root prominence), robust to dialect, scribe, quire,
 transliteration, alphabet, and line position. That is the hardest single fact yet for any
 pure-generator account of the text, and the first brick of an external-constraints wall.
+
+## The swarm rounds (Phase 10 onward) — current status
+
+The multi-agent swarm has since completed **five adversarially-verified rounds**
+(2026-09-18 → 2026-09-23), each a preregistered builder battery followed by an independent
+adversary round that recomputes every headline number from primary data with its own code,
+nulls, and seeds. Full round records: [`rounds/`](rounds/).
+
+| Round | Slate | Outcome |
+|---|---|---|
+| [WP1 — calibration gauntlet](rounds/wp1-calibration.md) | 5 published decipherments + 1 planted synthetic ringer | **All 6 correctly rejected** (18/18 verdicts across both transliterations); the falsifier earned trust before touching anything novel |
+| [WP2 / WP2-A — mechanism discrimination](rounds/wp2.md) | 8 candidate mechanisms for the or-×root correlate | 6 disfavored or confounded; the correlate certified content-linked (survives full production-order conditioning, ΔR²≈.047, p=.001 both translits); a planted fabricated dossier caught by the adversary's fingerprint screen |
+| [WP3 / WP3-A — the or- system](rounds/wp3.md) | linguistic vs process mechanisms (H1–H4) | Master axis: **process-leaning** — no context selectivity; or- = closed prefix family of free stems, appended as a line-final STEP; the one directional "decay" signal killed by the adversary as a forking path |
+| [WP4 / WP4-A — notation mechanisms](rounds/wp4.md) | N1–N4 | No mechanism supported; discovery of **folio-opening (first-paragraph) enrichment** (p=.001/.001), the only strong unexplained signal; two knife-edge results declared non-certifiable rather than spun |
+| [WP5 / WP5-A — opening-boundary battery](rounds/wp5.md) | preregistered test of the opening effect | **Folio-cluster certified**: or- is enriched in a page's first paragraph — both faces, both transliterations, robust to heading geometry, section-modulated (balneo negative); Currier-language specificity UNRESOLVED |
+
+**Headline certified fact:** *or- is enriched in the opening paragraph of the written
+page* — page-physical (recto and verso alike, no quire structure), certified at
+folio-cluster level in both transliterations, robust to geometric heading-likeness, and
+section-modulated with the balneological section negative. Alongside it, the certified
+profile now includes the content-linked root correlate, a corpus-wide
+depleted-at-openings / enriched-at-endings positional grammar (line-final step + a
+paragraph-terminal gradient), closed-prefix-family composition, and absence of linguistic
+context-selectivity. Every certified fact, with effect sizes, p-values, and its
+certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
+
+**Live threads (L5):** (1) the one-line-heading question — enrichment beyond the opening
+paragraph's first line is permutation-strong but cluster-uncertified at every resampling
+grain; blind semantic heading annotation is the identified discharge path. (2) the Currier
+axis — language specificity of the opening effect is unresolved in both directions.
+
+The record keeps its failures on the front page: two fabrication plants caught (that is the
+screen working), several of the campaign's own draft claims downgraded or killed by its own
+adversary (H1's particle reading, H2's directional residue, WP5's "A-language retirement"
+overclaim), and every knife-edge result filed as non-certifiable instead of rounded to a
+conclusion.
 
 ## Honest limits
 
@@ -63,6 +105,8 @@ pure-generator account of the text, and the first brick of an external-constrain
 | Path | Contents |
 |---|---|
 | [`CHARTER.md`](CHARTER.md) | The swarm charter: mission, roles, accountable goal-passing, method rules, calibration gauntlet |
+| [`CONSTRAINTS.md`](CONSTRAINTS.md) | **The certified constraint ledger** — Tier-A facts any theory must reproduce, Tier-B supported-but-uncertified observations, Tier-C retired framings |
+| [`rounds/`](rounds/) | Swarm round records WP1–WP5: design intent, master verdict, adversary outcome, key numbers per round |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | The measured-campaign methodology and the multi-agent swarm architecture |
 | [`docs/DATA.md`](docs/DATA.md) | Data sources, provenance, and fetch instructions (transliterations and images are **not** committed — see licensing note there) |
 | [`reports/`](reports/) | Phase reports 1–9, verbatim research record (lightly scrubbed of machine-internal paths only) |
