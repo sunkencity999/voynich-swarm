@@ -4,7 +4,7 @@
 
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
-swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP6) with their
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP7) with their
 certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
@@ -62,6 +62,7 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [WP4 / WP4-A — notation mechanisms](rounds/wp4.md) | N1–N4 | No mechanism supported; discovery of **folio-opening (first-paragraph) enrichment** (p=.001/.001), the only strong unexplained signal; two knife-edge results declared non-certifiable rather than spun |
 | [WP5 / WP5-A — opening-boundary battery](rounds/wp5.md) | preregistered test of the opening effect | **Folio-cluster certified**: or- is enriched in a page's first paragraph — both faces, both transliterations, robust to heading geometry, section-modulated (balneo negative); Currier-language specificity UNRESOLVED |
 | [WP6 / WP6-A — incipit-index morphology test](rounds/wp6.md) | prereg test of L5-M1 ("page-initial or- is a repeated formula") | **KILLED, adversary-confirmed** — page-initial or- is *more* lexically diverse than body lines; the opening concentration is not a formula. WP7: M3 geometry + M2 image round |
+| [WP7 / WP7-A — M3 geometry + variety cross-link](rounds/wp7.md) | prereg test of L5-M3 (start-x geometry) and the first-line-variety→A7 mechanism link | **H-A NON-RUNNABLE** — the start-x measurand exists in no frozen input (adversary-verified, both translits); needs a blind image-annotation round. **H-B KILLED, adversary-confirmed** — wrong-sign ρ = −0.600: first-line variety is anti-correlated with or- opening enrichment. The image/vision round is now the live path |
 
 **Headline certified fact:** *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
@@ -107,7 +108,7 @@ conclusion.
 |---|---|
 | [`CHARTER.md`](CHARTER.md) | The swarm charter: mission, roles, accountable goal-passing, method rules, calibration gauntlet |
 | [`CONSTRAINTS.md`](CONSTRAINTS.md) | **The certified constraint ledger** — Tier-A facts any theory must reproduce, Tier-B supported-but-uncertified observations, Tier-C retired framings |
-| [`rounds/`](rounds/) | Swarm round records WP1–WP6: design intent, master verdict, adversary outcome, key numbers per round |
+| [`rounds/`](rounds/) | Swarm round records WP1–WP7: design intent, master verdict, adversary outcome, key numbers per round |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | The measured-campaign methodology and the multi-agent swarm architecture |
 | [`docs/DATA.md`](docs/DATA.md) | Data sources, provenance, and fetch instructions (transliterations and images are **not** committed — see licensing note there) |
 | [`reports/`](reports/) | Phase reports 1–9, verbatim research record (lightly scrubbed of machine-internal paths only) |

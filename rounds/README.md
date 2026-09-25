@@ -16,6 +16,7 @@ certified output of all rounds is consolidated in [`../CONSTRAINTS.md`](../CONST
 | [WP4 / WP4-A](wp4.md) | 2026-09-23 | L3: N1–N4 notation-family mechanisms | No mechanism supported; **folio-opening enrichment** emerges as the live signal |
 | [WP5 / WP5-A](wp5.md) | 2026-09-23 | L4: opening-boundary battery | Opening effect **cluster-certified**, heading-geometry-robust, page-level, section-modulated; Currier axis unresolved |
 | [WP6 / WP6-A](wp6.md) | 2026-09-25 | L5-M1: incipit-index stamp morphology test | **KILLED, adversary-confirmed** — page-initial or- is *more* diverse than body, not a formula; M2/M3 lanes to WP7 |
+| [WP7 / WP7-A](wp7.md) | 2026-09-25 | L5-M3 geometry (H-A) + first-line variety cross-link (H-B) | **H-A NON-RUNNABLE** (no horizontal geometry in any frozen input, adversary-verified both translits); **H-B KILLED** wrong-sign ρ=−0.600, adversary-confirmed — image round is the live path |
 
 Conventions shared by all rounds: frozen token parse (38,440 ZL / 37,759 IT; ZL = EVA/ZL3b-n,
 IT = Takahashi/IT2a-n), both transliterations for every claim, permutation nulls nperm=1000
