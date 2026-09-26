@@ -17,6 +17,7 @@ certified output of all rounds is consolidated in [`../CONSTRAINTS.md`](../CONST
 | [WP5 / WP5-A](wp5.md) | 2026-09-23 | L4: opening-boundary battery | Opening effect **cluster-certified**, heading-geometry-robust, page-level, section-modulated; Currier axis unresolved |
 | [WP6 / WP6-A](wp6.md) | 2026-09-25 | L5-M1: incipit-index stamp morphology test | **KILLED, adversary-confirmed** — page-initial or- is *more* diverse than body, not a formula; M2/M3 lanes to WP7 |
 | [WP7 / WP7-A](wp7.md) | 2026-09-25 | L5-M3 geometry (H-A) + first-line variety cross-link (H-B) | **H-A NON-RUNNABLE** (no horizontal geometry in any frozen input, adversary-verified both translits); **H-B KILLED** wrong-sign ρ=−0.600, adversary-confirmed — image round is the live path |
+| [WP8 / WP8-A](wp8.md) | 2026-09-26 | Image round: blind start-x measurand (M3 unlock) + U4 exploratory | **NO VERDICT — two terminal gates, adversary-confirmed:** prereg contrast domain EMPTY corpus-wide (or--initial rank-1 lines 0/206 both translits → ledger A9) AND the CV measurand FAILED blind certification (ICC 0.081 vs ≥0.8); no statistic computed, M3 kill rule still armed; WP8b path filed |
 
 Conventions shared by all rounds: frozen token parse (38,440 ZL / 37,759 IT; ZL = EVA/ZL3b-n,
 IT = Takahashi/IT2a-n), both transliterations for every claim, permutation nulls nperm=1000

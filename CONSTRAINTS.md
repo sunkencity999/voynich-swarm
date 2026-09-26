@@ -40,6 +40,18 @@ its refutation.
   permutation alone can be carried by a few dense pages).
 - **Knife-edge disclosure:** results whose p ranges straddle .05 across defensible null
   choices are declared **NON-CERTIFIABLE** in either direction, with the full range filed.
+- **Contrast-domain existence proofs (campaign law, WP8):** input existence proofs must
+  cover the contrast domain, not just the measurand — **both arms non-empty at
+  preregistered floors** before a battery may be declared runnable. Adopted after WP7
+  (measurand missing from all frozen inputs) and WP8 (measurand exists, contrast arm
+  empty corpus-wide) failed one level apart on the same omission.
+- **Image-derived measurands (WP8):** any image-derived measurand must pass a blind
+  reliability certification (spot-check vs independent measurement, prereg ICC/agreement
+  bars) at a stage-0 commit boundary BEFORE any statistic consumes it; an uncertified
+  measurand is terminal for all downstream statistics, prereg or not. Machinery validated
+  end-to-end in WP8 (negative case: a broken CV pipeline was caught and stopped). Caveat
+  filed by the adversary: proven on a ~9× failure; near-bar cases need ≥100 spot lines +
+  a preregistered CI on the ICC, and the human file committed before scoring runs.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -61,8 +73,8 @@ and global production sequence**. Nested-model ΔR² = 0.047 ZL / 0.045 IT (null
 observed ≈ 8–9× null, > 2× the null 95th percentile), permutation p = .001 / .001.
 - Certified: WP2 M2 (DISFAVORED verdict on the production-order mechanism); adversary
   recompute exact (C3 cells, deltas 0).
-- Evidence: `rounds/wp2.md (builder summary)`, `rounds/wp2.md (M2.json)`,
-  `rounds/wp2.md (adversary outcome)`.
+- Evidence: `rounds/wp2.md (builder evidence)`, `rounds/wp2.md (builder evidence)`,
+  `rounds/wp2.md (adversary)`.
 
 ### A2. or- has a strong positional grammar: depleted at openings, enriched at ends
 Any valid theory MUST reproduce: line-initial position is the most or--depleted content
@@ -70,7 +82,7 @@ position (.0109 ZL / .0114 IT), line-final is enriched (.020 / .022), standalone
 single-token lines highest (.026). (These are the true statistics that exposed the C7
 fabrication, recomputed by the adversary from primary data.)
 - Certified: WP2-A adversary recompute (C7 kill chain, true-statistics paragraph).
-- Evidence: `rounds/wp2.md (adversary outcome)`.
+- Evidence: `rounds/wp2.md (adversary)`.
 
 ### A3. Paragraph-terminal gradient: or- avoids paragraph openings and accumulates toward closings
 Any valid theory MUST reproduce: or- is depleted in paragraph-first lines and enriched in
@@ -81,7 +93,7 @@ attack"). Carried mostly by herbal + S sections; **flat in pharma/balneo**. Both
 and or--compounds roughly double from initial to terminal — a property of the morpheme
 class, not one lexeme.
 - Certified: WP2 M8(i) + WP2-A independent confound attack.
-- Evidence: `rounds/wp2.md (builder summary)`, `rounds/wp2.md (adversary outcome)`.
+- Evidence: `rounds/wp2.md (builder evidence)`, `rounds/wp2.md (adversary)`.
 
 ### A4. The line-final enrichment is a STEP at the final slot, not a ramp
 Any valid theory MUST reproduce: final-minus-penultimate or- rate +.0078 ZL / +.0075 IT
@@ -89,7 +101,7 @@ Any valid theory MUST reproduce: final-minus-penultimate or- rate +.0078 ZL / +.
 medial (if anything below). The enrichment is specific to the physical last slot of the
 line — a slot effect, not a velocity profile along the line.
 - Certified: WP3 T5b; adversary replicate with own estimator/null.
-- Evidence: `rounds/wp3.md (builder summary)` (T5b), `rounds/wp3.md (adversary outcome)` (item 4).
+- Evidence: `rounds/wp3.md (builder evidence)` (T5b), `rounds/wp3.md (adversary)` (item 4).
 
 ### A5. or- words decompose as `or` + free stems from a small closed repertoire
 Any valid theory MUST reproduce: the or- family has drastically lower type/token ratio than
@@ -102,7 +114,7 @@ productive EVA prefix families (or- ranks #7/24 ZL, #4/22 IT on the TTR ladder; 
 particle status.
 - Certified: WP3 T1a/T1b (exact adversary recompute), with the WP3-A item-2 downgrade of
   the H1 claim attached as part of the record.
-- Evidence: `rounds/wp3.md (builder summary)`, `rounds/wp3.md (adversary outcome)` (item 2).
+- Evidence: `rounds/wp3.md (builder evidence)`, `rounds/wp3.md (adversary)` (item 2).
 
 ### A6. or- shows NO linguistic context-selectivity (integration absent)
 Any valid theory MUST reproduce: left-neighbor entropy of or- tokens is at or above the
@@ -114,7 +126,7 @@ from a repertoire, not syntactic integration. (Active *anti*-selectivity is IT-o
 moderate — see B7.)
 - Certified: WP3 T2a/T2b; adversary replicated with own estimator (Miller–Madow), own null,
   own seed; "accepted as campaign fact with the IT-only-strength caveat."
-- Evidence: `rounds/wp3.md (builder summary)`, `rounds/wp3.md (adversary outcome)` (item 4).
+- Evidence: `rounds/wp3.md (builder evidence)`, `rounds/wp3.md (adversary)` (item 4).
 
 ### A7. Folio-opening enrichment: or- is enriched in the FIRST paragraph of a page — the campaign's headline certified fact
 Any valid theory MUST reproduce ALL of the following facets:
@@ -137,8 +149,8 @@ Any valid theory MUST reproduce ALL of the following facets:
   balneological section (−.002 ZL / −.003 IT; adversary reproduced cell-exact,
   −.002246/−.002585). NOT a Currier-language split (the Currier axis is UNRESOLVED — B2).
 - Certified: WP4 T3a + PH3 + WP4-A; WP5 T1a/T2a/T2b/T3a + WP5-A.
-- Evidence: `rounds/wp4.md (builder summary)`, `rounds/wp4.md (adversary outcome)`,
-  `rounds/wp5.md (builder summary)`, `rounds/wp5.md (adversary outcome)`.
+- Evidence: `rounds/wp4.md (builder evidence)`, `rounds/wp4.md (adversary)`,
+  `rounds/wp5.md (builder evidence)`, `rounds/wp5.md (adversary)`.
 
 ### A8. No quire-scale structure anywhere
 Any valid theory MUST NOT require quire-level or- structure: quire-opening folios are not
@@ -147,8 +159,23 @@ trend negative, p = .775/.853; adversary exact), and the quire-opening page carr
 extra opening-paragraph signal (WP5 T3b: p = .36/.26; adversary cells exact,
 13/474 vs 89/4787 ZL). Three independent nulls across three rounds. The or- system is
 anchored to the page, not the codex gathering.
-- Evidence: `rounds/wp2.md (builder summary)`, `rounds/wp4.md (builder summary)`,
-  `rounds/wp5.md (builder summary)`, `rounds/wp5.md (adversary outcome)`.
+- Evidence: `rounds/wp2.md (builder evidence)`, `rounds/wp4.md (builder evidence)`,
+  `rounds/wp5.md (builder evidence)`, `rounds/wp5.md (adversary)`.
+
+### A9. The or--initial page-initial contrast domain is EMPTY: or- never supplies the first token of a page's first line
+Any valid theory MUST accommodate that or- tokens NEVER appear as the FIRST token of a
+page's rank-1 paragraph line: **0/206 pages in ZL and 0/206 in IT** (deterministic corpus
+count, adversary-confirmed by independent raw re-parse with own line-ranking and class
+rules; control-class 10/6, first slots gallows-dominated: pc 32, po 31, ko 14). Body
+lines ranks 2–4: 11 or--initial lines corpus-wide in each transliteration. This sharpens
+A2/A3 (opening depletion) to an absolute zero at the strongest opening position — and it
+renders the WP7-preregistered L5-M3 contrast (or--initial vs control-initial page-initial
+lines) permanently NON-RUNNABLE as written. The contains-based domain (rank-1 line
+contains ≥1 or- token) IS live: 23 ZL / 25 IT pages (12 of ZL's 23 in Herbal), filed for
+a future WP8b prereg.
+- Evidence: `rounds/wp8.md (builder evidence)`,
+  `rounds/wp8.md (adversary)`,
+  `rounds/wp8.md (adversary)`.
 
 ### Composite Tier-A profile (adversary synthesis, WP3-A item 5, extended by WP4/WP5)
 > or- is appended at terminal slots — line-final specifically (step, not ramp), amplified at
@@ -172,60 +199,60 @@ kill a theory alone. Certification levels copied exactly as filed.*
   resamples ≤ 0, zero ties); adversary confirmed at folio, bifolio, AND quire grains
   (P(≤0) .053–.079). A one-line-heading reading is *disfavored* (T2b depletion) but not
   formally discharged — the U1 unlock (blind semantic heading annotation from scans) is the
-  discharge path. `rounds/wp5.md (builder summary)`, `rounds/wp5.md (adversary outcome)`.
+  discharge path. `rounds/wp5.md (builder evidence)`, `rounds/wp5.md (adversary)`.
 - **B2. Currier-language axis: UNRESOLVED.** The B-arm (P-B negative control) is
   NON-CERTIFIABLE both ways: permutation-significant (builder .012/.007; adversary
   .016/.025 — IT in the knife-edge band) but bootstrap-uncertified (P(≤0) = .088/.113,
   CIs include 0). B neither passes nor is cleanly null. The A−B interaction (T1c) is
   NON-CERTIFIABLE (menu range ZL .033–.091 + boot .061; IT .017–.053 + boot .067; adversary
-  paired null .024/.016, boot .051/.063). `rounds/wp5.md (builder summary)`,
-  `rounds/wp5.md (adversary outcome)`.
+  paired null .024/.016, boot .051/.063). `rounds/wp5.md (builder evidence)`,
+  `rounds/wp5.md (adversary)`.
 - **B3. Within-herbal Currier reversal (PH4): ZL-solid, IT-thin.** H-B folios show larger
   opening enrichment than H-A (+.0157/+.0096 vs +.0032/+.0038), NOT_PREREG; the H-B arm is
   8/10 folios, adversary IT perm p = .065, and the IT effect flips negative on a one-folio
   jackknife (drop f39r: +.0096 → −.0008). Quote with the caveat attached (adversary-required
-  wording). `rounds/wp5.md (adversary outcome)`.
+  wording). `rounds/wp5.md (adversary)`.
 - **B4. Pharma-section or- enrichment: real, attribution unknown.** P section .0252/.0265 vs
   corpus .0154/.0161 — replicated, but all 16 P folios are scribe-1/Currier-A (section and
   hand coextensive); huge per-folio spread; register vs scribe vs content not separable with
-  held data. `rounds/wp2.md (adversary outcome)` (item 4).
+  held data. `rounds/wp2.md (adversary)` (item 4).
 - **B5. Register contrast (bare-or share H vs P): pooled-real, folio-cluster
   NON-CERTIFIABLE.** Raw shares exact (77.1% H vs 55.4% P ZL; 76.2% vs 49.3% IT), but the
   clustered contrast ranges p = .008–.088 across defensible nulls at 15–16 P-folio clusters —
   cannot certify fail OR pass (WP4-A amendment retitling the builder's "fails both").
-  `rounds/wp4.md (builder summary)` (T6 + amendment), `rounds/wp4.md (adversary outcome)`.
+  `rounds/wp4.md (builder evidence)` (T6 + amendment), `rounds/wp4.md (adversary)`.
 - **B6. Cross-transliteration repertoire stability: high but not unique.** T5 JSD .0457 vs
   null .1596, exact p = .04995 (49/1000 low nulls, nearest 1.5e-05 below obs — a seed-level
   coin flip); the entire low tail is generated by the `ai` family, which is equally stable.
   Adversary ruling: passes by prereg letter, "not load-bearing evidence" — treat as
-  unproven-but-not-refuted. `rounds/wp4.md (builder summary)`,
-  `rounds/wp4.md (adversary outcome)`.
+  unproven-but-not-refuted. `rounds/wp4.md (builder evidence)`,
+  `rounds/wp4.md (adversary)`.
 - **B7. Active anti-selectivity of or- contexts: IT-only, moderate.** Above-background
   left-neighbor entropy significant in IT (p = .028 builder; .033–.037 adversary estimators),
   ZL trend only (p = .06–.096). The strong claim is A6's *absence of integration*; ship the
-  anti-selective direction with the IT-only label. `rounds/wp3.md (adversary outcome)`.
+  anti-selective direction with the IT-only label. `rounds/wp3.md (adversary)`.
 - **B8. Within-folio line-index drift: straddles .05.** T4b mean Spearman +.019/+.015,
   p = .056/.051 (adversary conventions .060/.065). At most a weak global drift; the geometry
-  is local to line ends. `rounds/wp3.md (builder summary)`.
+  is local to line ends. `rounds/wp3.md (builder evidence)`.
 - **B9. Scribe-hand effects are inseparable from Currier language on this corpus.** WP4 T1
   scribe-variance passes raw (p = .001/.001) but evaporates under section × Currier
   stratification (PH1 p = .148/.121) — with the adversary's caveat that stratification also
   costs ~60% of the domain (171→67 folios), so the honest reading is "cannot be separated,"
   not "shown artifactual." **Binding design rule: Currier A/B is a mandatory stratum in any
-  future scribe/hand test.** `rounds/wp4.md (builder summary)`,
-  `rounds/wp4.md (adversary outcome)`.
+  future scribe/hand test.** `rounds/wp4.md (builder evidence)`,
+  `rounds/wp4.md (adversary)`.
 - **B10. Ink-density coupling: positive, non-significant.** T5c ρ = +.111/+.114,
   p = .071/.073, against a WP2-carried anti-coupling on regularity. No verdict weight.
-  `rounds/wp3.md (builder summary)`.
+  `rounds/wp3.md (builder evidence)`.
 - **B11. The opening-paragraph zone is HEAD-anchored, unlike the corpus line-final step.**
   Inside opening paragraphs the line-final step is NOT established (T4a: ZL fail p = .110;
   IT NON-CERTIFIABLE, menu .037–.082 + boot .042; T4b descriptively flat-to-negative), and
   the first line of the opening paragraph carries the highest rate (PH2, NOT_PREREG:
   opening lines-2+ .0188/.0203 vs interior lines-2+ .0144/.0159). Two distinct positional
   signatures — worth separating in any theory and in L5.
-  `rounds/wp5.md (builder summary)`.
+  `rounds/wp5.md (builder evidence)`.
 - **B12. Opening effect is descriptively carried more by bare `or` than compounds**
-  (PH3 WP5, NOT_PREREG: +.0044 vs +.0019 ZL). `rounds/wp5.md (builder summary)`.
+  (PH3 WP5, NOT_PREREG: +.0044 vs +.0019 ZL). `rounds/wp5.md (builder evidence)`.
 
 ---
 
@@ -234,57 +261,57 @@ kill a theory alone. Certification levels copied exactly as filed.*
 *A theory that depends on any of these inherits its refutation.*
 
 - **C1. Production-order / scribal-timing artifact (WP2 M2): DISFAVORED.** Root signal
-  survives full production conditioning (see A1). `rounds/wp2.md (builder summary)`.
+  survives full production conditioning (see A1). `rounds/wp2.md (builder evidence)`.
 - **C2. Visual-textual prosody / metronome (WP2 M4): DISFAVORED.** No sub-Poisson
   regularity (CV .82–.90, wrong direction in IT); ink-density coupling anti-predicted
-  (ρ = −0.23/−0.27). `rounds/wp2.md (builder summary)`.
+  (ρ = −0.23/−0.27). `rounds/wp2.md (builder evidence)`.
 - **C3. Alchemical/recipe state-marker (WP2 M6): DISFAVORED.** or- flat across
   recipe-initial/medial/terminal lines in pharma paragraphs (p ≈ .995/.861).
-  `rounds/wp2.md (builder summary)`.
+  `rounds/wp2.md (builder evidence)`.
 - **C4. Script-as-ornament (WP2 M8) as stated: MOSTLY DISFAVORED**, and the
   **quire-opening explanation specifically is retired** (openings not enriched,
   p = .774/.860; reinforced by WP4 T3b and WP5 T3b — see A8). The one surviving M8 signal
   (paragraph-terminal gradient) is the *opposite* shape to ornamental headers and was
-  reclassified as positional grammar (A3). `rounds/wp2.md (builder summary)`.
+  reclassified as positional grammar (A3). `rounds/wp2.md (builder evidence)`.
 - **C5. Graphemic parts/segmentation marker (WP2 M3): DISFAVORED** within-section
   (p = .33/.43; stratified arm wrong sign; zodiac 100%-segmented yet or--poor).
-  `rounds/wp2.md (builder summary)`.
+  `rounds/wp2.md (builder evidence)`.
 - **C6. Spatial/depth encoding (WP2 M7): DISFAVORED** — wrong sign in the two effective
   arms; adversary steelman (CMH adjustment for token-length/position composition) FAILED to
   rescue it (OR .854/.866, still ≤ 1), while validly criticizing the "four arms" language.
-  `rounds/wp2.md (builder summary)`, `rounds/wp2.md (adversary outcome)`.
+  `rounds/wp2.md (builder evidence)`, `rounds/wp2.md (adversary)`.
 - **C7. Semantic anchor / block-closure coda (WP3 H3): DISFAVORED.** Paragraph-terminal
   enrichment does NOT exceed line-final (T3a p = .71/.63); counts over-dispersed (opposite
   of one-seal-per-block); gradient weakens in bigger blocks. There is ONE end-position
-  grammar, not a separate block-seal mechanism. `rounds/wp3.md (builder summary)`.
+  grammar, not a separate block-seal mechanism. `rounds/wp3.md (builder evidence)`.
 - **C8. Directional decay residue (WP3 H2's directional component): KILLED.** The T4a
   excess is symmetric (post-hoc mirror p = .001 both); the surviving ZL-only directional
   residue (p = .003) vanishes under residual-length matching (adversary re-run: p = .46) —
   all three signatures of a forking path. What stands is only the symmetric fact (or-
   residues are common substrings of the folio's own material = A5 in positional dress).
-  `rounds/wp3.md (adversary outcome)` (item 3).
+  `rounds/wp3.md (adversary)` (item 3).
 - **C9. Grammatical-particle reading of H1: DOWNGRADED.** The certified content is A5
   (prefix-family composition); particle status is NOT established (or- is mid-pack among
-  productive EVA prefix families on both ladders). `rounds/wp3.md (adversary outcome)` (item 2).
+  productive EVA prefix families on both ladders). `rounds/wp3.md (adversary)` (item 2).
 - **C10. Notational-abbreviation specialist hands (WP4 N1): DISFAVORED** — the scribe
-  effect is inseparable from the Currier division (B9). `rounds/wp4.md (builder summary)`.
+  effect is inseparable from the Currier division (B9). `rounds/wp4.md (builder evidence)`.
 - **C11. Visual-buffer / separator (WP4 N3): MIXED by prereg letter, substantively
   DISFAVORED-leaning.** Local-entropy dip dead null (T4); regular-spacing prediction fails
   clearly both translits; the sole "pass" is the knife-edge, non-unique T5 (B6).
-  `rounds/wp4.md (builder summary)`, `rounds/wp4.md (adversary outcome)`.
+  `rounds/wp4.md (builder evidence)`, `rounds/wp4.md (adversary)`.
 - **C12. Quantitative/inventory tagging (WP4 N4): DISFAVORED.** Carried kill from WP3 T1b
   (stems are free vocabulary, contradicting a closed shorthand inventory) plus T6
-  non-certifiability (B5). `rounds/wp4.md (builder summary)`.
+  non-certifiability (B5). `rounds/wp4.md (builder evidence)`.
 - **C13. Geometric heading-confound explanation of the folio-opening effect: DISFAVORED.**
   T2a certified under both frozen annotation variants and a 0.5–0.9 threshold sweep;
   heading-like paragraphs are or--depleted (T2b). (The *semantic* one-line-heading variant
-  remains open — B1.) `rounds/wp5.md (builder summary)`, `rounds/wp5.md (adversary outcome)`.
+  remains open — B1.) `rounds/wp5.md (builder evidence)`, `rounds/wp5.md (adversary)`.
 - **C14. "A-language retirement" (WP5 draft claim): OVERCLAIM, corrected.** The claim that
   the opening effect is A-language-exclusive was not supported — but its wholesale
   "retirement" was itself overclaimed. Adversary-corrected scoping (binding wording):
   **"language specificity UNRESOLVED: B-arm certifiability fails both ways; section
   modulation observed, balneo-negativity cell-exact reproduced."**
-  `rounds/wp5.md (adversary outcome)`.
+  `rounds/wp5.md (adversary)`.
 - **C16. Incipit-index stamp (L5-M1, WP6): KILLED.** Lucen's top-ranked L5 mechanism —
   that page-initial or- tokens are a restricted, repeated formula (folio label / incipit /
   filing stamp) — gets no support. Prereg kill rule met exactly: page-initial vs body
@@ -298,7 +325,7 @@ kill a theory alone. Certification levels copied exactly as filed.*
   typo: adversary dump is 2,142 rows, not 2,040). Whatever the certified page-opening or-
   concentration (A7) is, it is NOT a narrow repeated formula. Provenance: L5 mechanisms
   were generated by Lucen's AiBox local lane (gemma-4-26B), noted per WP6 DESIGN caveat.
-  `rounds/wp6.md (builder summary)`, `rounds/wp6.md (adversary outcome)`.
+  `rounds/wp6.md (builder summary)`, `rounds/wp6.md (adversary)`.
 - **C17. First-line-variety mechanism for A7 (WP7 H-B): KILLED.** The cross-link
   hypothesis — that elevated first-line lexical diversity (WP6-A's NOT_PREREG lead) is the
   mechanism behind the certified or- opening enrichment (A7), predicting positive
@@ -315,13 +342,13 @@ kill a theory alone. Certification levels copied exactly as filed.*
   variety elevation itself replicated in every section (per-section dh_p: B .0455, H .0001,
   P .0211, S .272) but stays NOT_PREREG — decoupled from A7; if it returns, it returns as
   its own mechanism question. Power disclosure: k=4 ⇒ exact-p floor 1/24 ≈ .0417.
-  `rounds/wp7.md (builder summary)`, `rounds/wp7.md (adversary outcome)`.
+  `rounds/wp7.md (builder summary)`, `rounds/wp7.md (adversary)`.
 - **C15. Fabricated dossier C7 ("grammatical case", WP2 slate): FABRICATION, caught.** A
   planted ringer; line-initial cells inflated ~2.5× (claimed .02742/.02809 vs true
   .01094/.01139), killed by recompute divergence + integer-impossibility fingerprint +
   cross-dossier inconsistency. Retained in the ledger as the calibration proof that the
   adversary screen detects fabrication — and because the TRUE statistics it exposed became
-  A2. `rounds/wp2.md (adversary outcome)`.
+  A2. `rounds/wp2.md (adversary)`.
 
 ### Untestable / no verdict possible (recorded, not retired)
 - **M1 thematic lexicon (WP2): CONFOUNDED + UNDERPOWERED** — water imagery is coextensive
@@ -345,30 +372,53 @@ kill a theory alone. Certification levels copied exactly as filed.*
   x-offsets lived in WP5's para_table — a contract-level input error, not builder
   execution. M3 is neither supported nor killed; the prereg kill rule stays armed for a
   future BLIND start-x annotation round over the folio images (natural companion to U4).
-  `rounds/wp7.md (T7A.json)`, `rounds/wp7.md (adversary outcome)`.
+  `rounds/wp7.md (builder evidence)`, `rounds/wp7.md (adversary)`.
+- **WP8 — L5-M3 image round: NO VERDICT, two independent terminal gates; M3 kill rule
+  still armed.** The image round acquired an admissible corpus (213 scans, ~2700–3900 px,
+  folio mapping proven against the Wayback-frozen Yale IIIF manifest; SHA256 + dims
+  verified 213/213 by the adversary) and unlocked the start-x measurand — but (1) the
+  preregistered contrast domain is EMPTY corpus-wide (see A9), and (2) the blind CV
+  start-x measurand **FAILED stage-0 certification**: ICC(2,1) = 0.081 vs bar ≥ 0.8,
+  median |diff| = 4.46 glyph widths vs bar ≤ 0.5 (adversary recompute 0.0814/4.464 gw,
+  independent ICC implementation; sensitivity variant same verdict). Failure is
+  pipeline-attributable (gutter-shading onsets, red paint admitted as ink, faint strokes
+  missed), so no statistic — prereg or NOT_PREREG — was computed; the planned
+  contains-variant was correctly NOT run. Balneo confound rule: not confounded (balneo
+  joins second-best, .421) but the rule as written is VACUOUS (pooled median coverage
+  0.0) — disclosed degenerate, not scored a pass. Herbal join coverage 0/128 is the main
+  pipeline defect to fix for WP8b. M3 remains neither supported nor killed.
+  `rounds/wp8.md (builder summary)`, `rounds/wp8.md (builder evidence)`,
+  `rounds/wp8.md (adversary)`.
 
 ---
 
-## Live threads (post-WP7)
+## Live threads (post-WP8)
 
 1. **The one-line-heading question (B1):** opening enrichment beyond the first line is
    permutation-strong but cluster-uncertified at every resampling grain; blind semantic
    heading annotation (U1) is the only identified discharge path.
 2. **The Currier axis (B2/B3): UNRESOLVED** — B-arm non-certifiable both directions; the
    within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat.
-3. **L5 disposition after WP7:** M1 killed (C16); M3 NON-RUNNABLE on the text corpus (see
-   untestable subsection) — unlock is a blind start-x annotation round over folio images;
-   M2 → U4 image round (exploratory). **L5 has no live lane testable in the frozen text
-   corpus.** The image/vision round (U4 + start-x annotation) is now the campaign's
-   primary path forward.
-4. **First-line lexical variety (WP6-A lead, WP7-scoped):** MORE diverse first lines
+3. **L5 disposition after WP8:** M1 killed (C16); M3 twice NON-RUNNABLE — no geometry in
+   the text corpus (WP7), and on images the prereg contrast domain is empty (A9) while
+   the CV measurand failed certification (WP8). The only remaining M3 path is **WP8b**:
+   fix the pipeline (herbal segmentation 0/128, paint mask, gutter shading), recertify
+   with ≥100 spot lines + preregistered ICC CI + human-file-committed-before-scoring,
+   and prereg the contains-based contrast (proven non-empty: ZL 23 / IT 25 pages — but
+   12/23 ZL are Herbal, so the coverage fix is a prerequisite).
+4. **U4 exploratory leads (NOT_PREREG, candidate generation only):** (a) balneo has the
+   tightest line spacing (pitch CV .418) vs herbal loosest (.812) — needs a
+   drawing-band-excluded measure; (b) first-line emphasis INVERTED — first bands ~32%
+   LIGHTER than body text, disfavoring rubric-like darkening (L5-M2's expected sign).
+5. **First-line lexical variety (WP6-A lead, WP7-scoped):** MORE diverse first lines
    replicated descriptively in every section, but the mechanism link to A7 is KILLED with
    the wrong sign (C17) — anti-A7 section profile. Survives only as an independent
    NOT_PREREG mechanism question, decoupled from or- enrichment.
 
 *Compiled from: WP2 (2026-09-18), WP2-A (2026-09-18), WP3 (2026-09-19), WP3-A (2026-09-19),
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
-WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25). Claims from
+WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
+(2026-09-26). Claims from
 earlier phases not documented in these round files (e.g. the phase-3 self-citation generator
 result) are deliberately NOT entered here — nothing enters the ledger that cannot be
 verified against a round evidence file.*
