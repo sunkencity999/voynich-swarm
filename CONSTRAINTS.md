@@ -66,6 +66,10 @@ its refutation.
   the certification bar could PASS requires a second annotator independent of the builder
   (or the adversary's pass folded in before certification). Builder-only annotation is
   admissible evidence for failure, never for certification.
+- **Ceiling-quoted coverage bars (campaign law, WP8c-A amendment 3):** every coverage bar
+  must, at freeze, quote its structurally computable ceiling from frozen inputs; a bar
+  above its ceiling is invalid prereg. Counting scripts for hard gates commit before
+  they run.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -428,24 +432,41 @@ kill a theory alone. Certification levels copied exactly as filed.*
   for the balneo rule; second annotator per amendment C.
   `rounds/wp8b.md (builder summary)`, `rounds/wp8b.md (builder evidence)`,
   `rounds/wp8b.md (adversary)`.
+- **WP8c (COVERAGE-FAILED, terminal; adversary-CONFIRMED WP8c-A):** block-aware rebuild
+  raised ZL joins 49→74 (herbal 27→47) and halved hard-edge junk onsets (21→11) but
+  joined only **9/23** or-census pages (bar 15/23; control 65≥30 passed) — verdict
+  COVERAGE-FAILED at the Stage C hard gate; no sample drawn, 0/100 human budget, no
+  statistic, seeds unconsumed. Structural ceiling 18/23 (**5** or-pages lack a
+  single-folio canvas). Absorbed-first-word class worsened 23→62/86 (census median
+  4.79 gw): coverage and onset fidelity are **coupled** — Stage 0 would likely have
+  failed regardless. M3 remains non-runnable; WP7 H-A kill rule stays armed. Adversary
+  reproduced every gate number exactly with independent code (own hash pass, own token
+  parse, own join implementation from the frozen spec text, seed 775001) and verified
+  the r4→r5 freeze decision as self-disfavoring from the QA logs themselves.
+  **WP8d prerequisites (binding, WP8c-A amendment 2):** no further round in this design
+  family without (a) foldout/canvas handling or a gate on canvassed-joinable pages,
+  (b) a join rule robust to ±small band-count noise that doesn't corrupt onsets, and
+  (c) a demonstrated absorbed-first-word fix — coverage and fidelity gated **jointly**.
+  `rounds/wp8c.md (builder summary)`, `rounds/wp8c.md (builder evidence)`,
+  `rounds/wp8c.md (adversary)`.
 
 ---
 
-## Live threads (post-WP8b)
+## Live threads (post-WP8c)
 
 1. **The one-line-heading question (B1):** opening enrichment beyond the first line is
    permutation-strong but cluster-uncertified at every resampling grain; blind semantic
    heading annotation (U1) is the only identified discharge path.
 2. **The Currier axis (B2/B3): UNRESOLVED** — B-arm non-certifiable both directions; the
    within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat.
-3. **L5 disposition after WP8b:** M1 killed (C16); M3 blocked three times — no geometry
-   in the text corpus (WP7), empty prereg domain on images (A9, WP8), and the CV
-   measurand failed certification twice (WP8: 4.46 gw; WP8b: 5.86 gw after repairs).
-   The only remaining M3 path is **WP8c**, gated on the WP8b-A amendment-D
-   prerequisites: block-aware segmentation with geometric edge-band kill (replacing
-   whole-width y-profile banding), or-arm coverage ≥65% of census pages demonstrated
-   before the human spot-check is spent, preregistered ICC bootstrap unit + defined
-   pooled-median balneo term, and a second independent annotator (amendment C). The
+3. **L5 disposition after WP8c:** M1 killed (C16); M3 blocked four times — no geometry
+   in the text corpus (WP7), empty prereg domain on images (A9, WP8), the CV measurand
+   failed certification twice (WP8: 4.46 gw; WP8b: 5.86 gw), and the block-aware
+   rebuild failed the coverage gate (WP8c: or-arm 9/23 vs bar 15, structural ceiling
+   18/23). Any **WP8d** is gated on the WP8c-A amendment-2 prerequisites (foldout/
+   canvas handling, noise-robust join rule, demonstrated absorbed-first-word fix,
+   joint coverage+fidelity gating) on top of the still-standing WP8b-A amendment-D
+   items (prereg bootstrap unit, pooled-median definition, second annotator). The
    kill rule stays armed; nothing about M3 has been supported or falsified.
 4. **U4 exploratory leads (NOT_PREREG, candidate generation only):** (a) balneo has the
    tightest line spacing (pitch CV .418) vs herbal loosest (.812) — needs a
@@ -459,7 +480,8 @@ kill a theory alone. Certification levels copied exactly as filed.*
 *Compiled from: WP2 (2026-09-18), WP2-A (2026-09-18), WP3 (2026-09-19), WP3-A (2026-09-19),
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
 WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
-(2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26). Claims from
+(2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
+(2026-09-26). Claims from
 earlier phases not documented in these round files (e.g. the phase-3 self-citation generator
 result) are deliberately NOT entered here — nothing enters the ledger that cannot be
 verified against a round evidence file.*
