@@ -49,9 +49,23 @@ its refutation.
   reliability certification (spot-check vs independent measurement, prereg ICC/agreement
   bars) at a stage-0 commit boundary BEFORE any statistic consumes it; an uncertified
   measurand is terminal for all downstream statistics, prereg or not. Machinery validated
-  end-to-end in WP8 (negative case: a broken CV pipeline was caught and stopped). Caveat
-  filed by the adversary: proven on a ~9× failure; near-bar cases need ≥100 spot lines +
-  a preregistered CI on the ICC, and the human file committed before scoring runs.
+  end-to-end in WP8 (negative case: a broken CV pipeline was caught and stopped) and
+  again in WP8b (second negative case, upgraded machinery: n=100 spot lines, git-fact
+  stage boundaries, bootstrap-CI prong — the CI prong is load-bearing, closing the
+  sampling-luck hole identified in WP8-A).
+- **Git-fact stage boundaries (campaign law, WP8b-A amendment A):** stage boundaries are
+  proven by commit ordering, never mtime; human measurement files committed BEFORE the
+  scorer runs; measurement code committed BEFORE the corpus run. Freeze/boundary times
+  quoted in prose MUST be generated from `git log --format=%cI` / `stat`, never typed
+  from memory (third occurrence of wall-clock drift; next occurrence is a round defect
+  proper).
+- **Exhaustive triage partitions (campaign law, WP8b-A amendment B):** any post-verdict
+  failure-triage census must be an exhaustive partition of the failure set — every line
+  beyond the bar gets exactly one class, counts sum to n.
+- **Second annotator for passes (campaign law, WP8b-A amendment C):** any round in which
+  the certification bar could PASS requires a second annotator independent of the builder
+  (or the adversary's pass folded in before certification). Builder-only annotation is
+  admissible evidence for failure, never for certification.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -389,23 +403,50 @@ kill a theory alone. Certification levels copied exactly as filed.*
   pipeline defect to fix for WP8b. M3 remains neither supported nor killed.
   `rounds/wp8.md (builder summary)`, `rounds/wp8.md (builder evidence)`,
   `rounds/wp8.md (adversary)`.
+- **WP8b — start-x recertification + contains-domain M3: MEASURAND-FAILED (second
+  consecutive negative case); M3 kill rule still armed.** The repair round fixed what it
+  aimed at — herbal joinability **0/128 → 27/128** (plant-mask + red-paint mask +
+  gutter-shading guard; adversary-verified by independent join), overall joined coverage
+  24 → 49/206, the balneo rule non-vacuous this round (balneo .368 ≥ .232, not
+  confounded) — but the repaired measurand still failed all three certification prongs:
+  **ICC(2,1) = 0.084** vs bar ≥ 0.8, **median |diff| = 5.86 glyph widths** vs ≤ 0.5,
+  bootstrap CI lower bound **−0.158** vs ≥ 0.6 (adversary reproduced every number
+  exactly with an independent ICC implementation and own-seed B=4000 bootstraps, and
+  reproduced the failure magnitude ~8 gw on his own disjoint 8-line annotated sample).
+  Adjudicated failure architecture (WP8b-A ledger ruling 1): whole-width y-profile band
+  segmentation cannot certify a blind start-x measurand on these scans — the two
+  residual failure classes (high-contrast page-edge/adjacent-page slivers admitted as
+  onsets; genuine first words absorbed by plant-halo/contrast repairs) trade off
+  directly. Second independent blocker (NOT_PREREG census, adversary-recounted): even a
+  certified measurand would not unlock M3 — joined or-arm 7 pages (H 6, B 1) < prereg
+  floor 15 (control 42 ≥ 30); unlock requires or-arm coverage ≈65% of census pages.
+  Stage boundaries were literal git facts (WP8-A defects honored; adversary-audited);
+  no statistic ran; seed 664001's permutation stream never consumed; fabrication screen
+  clean. WP8c prerequisites (binding, WP8b-A amendment D): geometric edge-band kill +
+  block-aware segmentation; or-arm coverage ≥65% demonstrated BEFORE the human
+  spot-check is spent; preregistered ICC bootstrap unit and a defined "pooled median"
+  for the balneo rule; second annotator per amendment C.
+  `rounds/wp8b.md (builder summary)`, `rounds/wp8b.md (builder evidence)`,
+  `rounds/wp8b.md (adversary)`.
 
 ---
 
-## Live threads (post-WP8)
+## Live threads (post-WP8b)
 
 1. **The one-line-heading question (B1):** opening enrichment beyond the first line is
    permutation-strong but cluster-uncertified at every resampling grain; blind semantic
    heading annotation (U1) is the only identified discharge path.
 2. **The Currier axis (B2/B3): UNRESOLVED** — B-arm non-certifiable both directions; the
    within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat.
-3. **L5 disposition after WP8:** M1 killed (C16); M3 twice NON-RUNNABLE — no geometry in
-   the text corpus (WP7), and on images the prereg contrast domain is empty (A9) while
-   the CV measurand failed certification (WP8). The only remaining M3 path is **WP8b**:
-   fix the pipeline (herbal segmentation 0/128, paint mask, gutter shading), recertify
-   with ≥100 spot lines + preregistered ICC CI + human-file-committed-before-scoring,
-   and prereg the contains-based contrast (proven non-empty: ZL 23 / IT 25 pages — but
-   12/23 ZL are Herbal, so the coverage fix is a prerequisite).
+3. **L5 disposition after WP8b:** M1 killed (C16); M3 blocked three times — no geometry
+   in the text corpus (WP7), empty prereg domain on images (A9, WP8), and the CV
+   measurand failed certification twice (WP8: 4.46 gw; WP8b: 5.86 gw after repairs).
+   The only remaining M3 path is **WP8c**, gated on the WP8b-A amendment-D
+   prerequisites: block-aware segmentation with geometric edge-band kill (replacing
+   whole-width y-profile banding), or-arm coverage ≥65% of census pages demonstrated
+   before the human spot-check is spent, preregistered ICC bootstrap unit + defined
+   pooled-median balneo term, and a second independent annotator (amendment C). The
+   kill rule stays armed; nothing about M3 has been supported or falsified.
 4. **U4 exploratory leads (NOT_PREREG, candidate generation only):** (a) balneo has the
    tightest line spacing (pitch CV .418) vs herbal loosest (.812) — needs a
    drawing-band-excluded measure; (b) first-line emphasis INVERTED — first bands ~32%
@@ -418,7 +459,7 @@ kill a theory alone. Certification levels copied exactly as filed.*
 *Compiled from: WP2 (2026-09-18), WP2-A (2026-09-18), WP3 (2026-09-19), WP3-A (2026-09-19),
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
 WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
-(2026-09-26). Claims from
+(2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26). Claims from
 earlier phases not documented in these round files (e.g. the phase-3 self-citation generator
 result) are deliberately NOT entered here — nothing enters the ledger that cannot be
 verified against a round evidence file.*

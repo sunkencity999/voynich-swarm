@@ -18,6 +18,7 @@ certified output of all rounds is consolidated in [`../CONSTRAINTS.md`](../CONST
 | [WP6 / WP6-A](wp6.md) | 2026-09-25 | L5-M1: incipit-index stamp morphology test | **KILLED, adversary-confirmed** — page-initial or- is *more* diverse than body, not a formula; M2/M3 lanes to WP7 |
 | [WP7 / WP7-A](wp7.md) | 2026-09-25 | L5-M3 geometry (H-A) + first-line variety cross-link (H-B) | **H-A NON-RUNNABLE** (no horizontal geometry in any frozen input, adversary-verified both translits); **H-B KILLED** wrong-sign ρ=−0.600, adversary-confirmed — image round is the live path |
 | [WP8 / WP8-A](wp8.md) | 2026-09-26 | Image round: blind start-x measurand (M3 unlock) + U4 exploratory | **NO VERDICT — two terminal gates, adversary-confirmed:** prereg contrast domain EMPTY corpus-wide (or--initial rank-1 lines 0/206 both translits → ledger A9) AND the CV measurand FAILED blind certification (ICC 0.081 vs ≥0.8); no statistic computed, M3 kill rule still armed; WP8b path filed |
+| [WP8b / WP8b-A](wp8b.md) | 2026-09-26 | Repair round: pipeline fixes + recertification + contains-domain M3 | **MEASURAND-FAILED (second negative case, adversary-confirmed):** herbal join repaired 0/128→27/128 but ICC 0.084 / 5.86 gw / CI lower −0.158 — all prongs fail; second blocker: or-arm 7 < floor 15; M3 untested, kill rule armed; WP8c prerequisites adopted |
 
 Conventions shared by all rounds: frozen token parse (38,440 ZL / 37,759 IT; ZL = EVA/ZL3b-n,
 IT = Takahashi/IT2a-n), both transliterations for every claim, permutation nulls nperm=1000
