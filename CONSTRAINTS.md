@@ -101,6 +101,48 @@ its refutation.
   W2's P3 must state that the S_w_raw separation depends on the TTR certification bar
   bounding λ < 1, and that the bag-of-attested-words alternative is excluded by S_b/P1,
   not by S_w_raw.
+- **Grid-scoped generator verdicts (campaign law, W3-A amendment AM-W3-1):** a
+  generator-certification verdict binds only to the frozen tuning range. W3's verdict is
+  "GENERATOR-UNCERTIFIED **on the frozen grid**" (0/54 points, both translits); the
+  builder's "cannot be tuned" sentence and its structural-tension explanation are
+  STRUCK — the adversary certified the committed generator jointly off-grid at τ ≥ 6000
+  with the builder's own unchanged code. The AM-W3-1 obligation (a W3b scoring the
+  residue measurands at the certified corridor before W3 may be cited against
+  self-citation in any strength) is **DISCHARGED** by W3b.
+- **Memory-profile wording (campaign law, W3-A amendment AM-W3-2):** the corpus
+  memory-profile gloss reads: certified residue at d=1 (A10); d=2 permutation-clear in
+  both transliterations but cluster-uncertified (lead, not claim); d ≥ 4 at the plug-in
+  bias floor; no cluster-certified long-range residue. "Adjacent-scale only" and
+  "cliff" are struck. A10 itself is unamended.
+- **Probe-scope discipline (campaign law, W3-A amendment AM-W3-3):** conclusions drawn
+  from NOT_PREREG diagnostic scans must state the scanned parameter region explicitly
+  and may not assert structural impossibility beyond it; a "structural limitation"
+  claim requires either a proof over the parameter space or an adversary-grade dense
+  scan.
+- **Narrative timestamps (campaign law, W3-A amendment AM-W3-4):** BUILD_LOG event
+  timestamps must be captured by `date` at event time, never reconstructed; commit
+  hashes + file mtimes remain the authoritative ordering record.
+- **S_d2 de-weighting (campaign law, W3b-A amendment AM-W3b-1):** W3b's four S_d2
+  MISMATCH units stand as frozen-rule outcomes but are NOT independently citable as
+  family failures: (a) d=2 is cluster-uncertified on the real corpus; (b) their
+  CI-disjointness leg does not survive basic-bootstrap bias correction; (c)
+  obs-magnitude S_d2 is reachable at a certified off-grid memory-heavy corner of the
+  same family. Every published statement of the W3b result carries the headline on
+  **S_b and S_w only**. Future rounds scoring MI cells with cluster bootstraps must
+  report bias (boot mean − obs) and a basic-bootstrap sensitivity line whenever a CI
+  leg gates a verdict.
+- **Tuning-scope disclosure (campaign law, W3b-A amendment AM-W3b-2):** W3b's "under
+  fair tuning as implemented here" must be glossed, wherever cited, as "over the frozen
+  144-point grid (p_cont ≤ 0.3); the certified family extends to p_cont ≥ 0.5
+  (adversary-verified joint certification at 6 points up to p_cont = 0.7), where S_b
+  and S_w still fail by adversary probe (n_ge = 0/60 per translit at
+  (24000, .675, .2, .7)) but S_d2 does not." Disclosure, not a reopening obligation;
+  claims about the family beyond the probed region are unsupported until run.
+- **ZL d=2 knife-edge disclosure (campaign law, W3b-A amendment AM-W3b-3):** the
+  AM-W3-2 memory-profile line carries: at folio grain the ZL d=2 delta CI is
+  seed-knife-edge (builder seeds CI ∋ 0 at P(≤0) = .064; adversary seeds CI excludes 0
+  at P(≤0) = .024); non-certification is carried by IT and by coarser grains
+  (section/quire P(≤0) ≥ .085 both translits).
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -288,6 +330,64 @@ remain untested by this round.
 - Evidence: `w2/tests/results/summary.md`,
   `w2/tests/results/T3.json`, `w2/ADVERSARY_REPORT.md`.
 
+### A12. The manuscript is NOT the output of the certified recency-to-uniform copy+mutate family: it fails at the residue layer everywhere it certifies
+Any valid theory MUST NOT model the text as recency-weighted-to-uniform copy+mutate
+generation of the certified family (W3's committed SC generator — the Timm & Schinner
+"self-citation" lineage: recency-weighted source copying + context-conditional mutation
++ optional phrase continuation; at the certified large-τ corridor the copy kernel is
+quasi-uniform, i.e. frequency-preferential copying, so the honest family name is the
+**recency-to-uniform copy+mutate family**, not T&S self-citation proper). The family
+CAN be tuned to the manuscript's unigram/word-structure surface — a joint certification
+corridor at τ ≥ 6000 (same four bars as A11) is certified at **four independent seed
+sets** (W3-A adversary 8/144 joint; W3b builder 15/144, τ ∈ {8000: 2, 12000: 4,
+16000: 4, 24000: 5}; W3b-A adversary 13/144; replay float-exact) — and tuned, it
+**fails to reproduce the certified residue structure** at both selected certified
+configurations (SC-fit = SC-freq = (τ=24000, p_exact=.675, p2=.2, p_cont=0); SC-mem =
+(12000, .675, .2, .3)), in both transliterations: **12/12 scored units MISMATCH with
+n_ge = 0 against K = 1000 generated corpora each** (p_two = 2/1001 everywhere).
+Per **AM-W3b-1 the headline rests on S_b and S_w ONLY**: boundary residue S_b obs
+0.19992 ZL / 0.17836 IT vs generator bands 0.0052–0.0132 (2.5–97.5%, both configs) —
+observed folio-cluster CIs sit ≥ 14× above the generator bands even under
+basic-bootstrap bias correction (adversary-verified; ~8–20× across probed configs) —
+and within-word residue S_w obs 1.39542 / 1.36418 vs generator bands 0.874–1.184.
+The S_d2 cell's MISMATCH stands as a frozen-rule outcome but is not independently
+citable (AM-W3b-1: cluster-uncertified on the real corpus, CI leg bias-fragile, and a
+certified memory-heavy corner p_cont = 0.7 reproduces its magnitude). **AM-W2-1
+travels:** ZL S_b = 0.1999 pooled / **0.1712 hard-space-only** (IT comma-free at
+source, 0.1784/0.1789). **AM-W3b-2 travels:** "fair tuning" = the frozen 144-point
+grid (p_cont ≤ 0.3); the certified family extends to p_cont = 0.7, where the adversary
+probe shows S_b and S_w STILL fail (n_ge = 0/60 per translit at (24000, .675, .2, .7))
+but S_d2 does not. What the family DOES reproduce (descriptive, never scored): the
+repetition texture — ρ_near obs 0.0486/0.0457 sits inside the generator band — i.e.
+copy+mutate makes the repeats but not the digram-class residue; memory of the wrong
+shape.
+**The W3 certification-layer record (honest history, binding wording):** W3's frozen
+54-point grid (τ ≤ 1000, the published T&S recency scales) returned GENERATOR-
+UNCERTIFIED 0/54 in both translits — mechanically exact, adversary-replayed to float
+equality — but the builder's causal headline ("cannot be tuned"; non-overlapping
+TTR/top-100 windows; "structural limitation, NOT grid coarseness") was **OVERTURNED by
+the adversary (W3-A)**, who found the certification corridor with the builder's own
+unchanged code (AM-W3-1). The T&S-recency end of the family (τ ≤ 1000) remains
+excluded at the certification layer by the frozen-grid result; the AM-W3-1 showdown
+obligation was discharged by W3b. The corpus memory profile (AM-W3-2 wording): certified
+residue at d=1 (A10 re-certified in W3b at a fourth seed set — T1 d=1 PASS, n_ge = 0,
+folio-cluster CI [+.164, +.194] ZL / [+.148, +.179] IT, P(≤0) = 0); d=2
+permutation-clear but cluster-uncertified (B13); d ≥ 4 at the plug-in bias floor; no
+cluster-certified long-range residue (W3 T1: S_far ZL perm-marginal AND
+bootstrap-refuted, IT null).
+Scope: this certifies exclusion of the certified recency-to-uniform copy+mutate family
+at the residue layer, in this operator-set implementation — NOT "cipher", NOT
+"language", NOT "meaning". Mutation operators that preserve boundary-digram statistics
+by construction, T&S's exact (paywalled) line-based algorithm, and the p_cont > 0.7
+region are NOT exhausted; the memoryless family exclusion is A11.
+- Certified: W3 (frozen grid) + W3-A (corridor discovery, AM-W3-1..4) + W3b (residue
+  showdown, 12/12 n_ge = 0) + W3b-A (CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; own-seed
+  replay n_ge = 0 in every unit at K = 500).
+- Evidence: `w3/tests/results/summary.md`, `w3/infra/gen_cert.json`,
+  `w3/ADVERSARY_REPORT.md`, `w3b/tests/results/summary.md`,
+  `w3b/tests/results/T2.json`, `w3b/tests/results/T1.json`,
+  `w3b/infra/gen_cert.json`, `w3b/ADVERSARY_REPORT.md`.
+
 ### Composite Tier-A profile (adversary synthesis, WP3-A item 5, extended by WP4/WP5)
 > or- is appended at terminal slots — line-final specifically (step, not ramp), amplified at
 > paragraph-terminal lines, depleted at line and paragraph openings — **and separately enriched
@@ -364,6 +464,17 @@ kill a theory alone. Certification levels copied exactly as filed.*
   `wp5/tests/results/summary.md`.
 - **B12. Opening effect is descriptively carried more by bare `or` than compounds**
   (PH3 WP5, NOT_PREREG: +.0044 vs +.0019 ZL). `wp5/tests/results/summary.md`.
+- **B13. d=2 boundary-class residue: permutation-clear at FOUR independent seed sets,
+  cluster-UNCERTIFIED (lead, not claim).** S_d2 obs 0.01675 ZL / 0.01631 IT clears its
+  permutation null with zero exceedances (obs 0.0038/0.0042 ABOVE the null max) at four
+  seed sets (W3 builder ckpt data, W3-A adversary 777003, W3b builder 20261001, W3b-A
+  adversary 777004), but the folio-cluster bootstrap fails to certify it (builder CIs
+  ∋ 0: ZL P(≤0) = .064, IT .191). AM-W3b-3 knife-edge disclosure travels: at folio grain
+  the ZL CI is seed-knife-edge (adversary seeds exclude 0 at P(≤0) = .024);
+  non-certification is carried by IT and by coarser grains (section/quire P(≤0) ≥ .085
+  both translits). Promotion to a certified measurand is a natural W4 target. AM-W3-2
+  wording binds. `w3b/tests/results/T1.json`,
+  `w3b/ADVERSARY_REPORT.md` (F6), `w3/ADVERSARY_REPORT.md` (§2).
 
 ---
 
@@ -594,12 +705,19 @@ kill a theory alone. Certification levels copied exactly as filed.*
    replicated descriptively in every section, but the mechanism link to A7 is KILLED with
    the wrong sign (C17) — anti-A7 section profile. Survives only as an independent
    NOT_PREREG mechanism question, decoupled from or- enrichment.
-6. **W3 candidate — the memory-bearing / self-citation null family:** W2 certifies
-   exclusion of the *memoryless* generator family only (A10/A11); memory-bearing
-   generators (Timm-style self-citation) are explicitly outside W2's frozen null family
-   and are the natural next exclusion target. (The phase-3 self-citation result predates
-   the ledger's evidence rules and remains deliberately NOT entered — a W-series round
-   would bring that question inside the certified record.)
+6. **Memory-bearing family: RESOLVED at the residue layer (W3 + W3b → A12).** The
+   recency-to-uniform copy+mutate family (T&S self-citation lineage) certifies on the
+   unigram surface across a τ ≥ 6000 corridor and fails S_b/S_w everywhere tested under
+   certification, including the memory-heaviest certified corner probed (p_cont = 0.7).
+   Remaining open edges: mutation operator sets that preserve boundary-digram
+   statistics by construction; T&S's exact (paywalled) line-based algorithm;
+   p_cont > 0.7 / off-probed-region behavior (AM-W3b-2). The phase-3 self-citation
+   result remains deliberately NOT entered — W3/W3b now carry that question inside the
+   certified record.
+6b. **d=2 residue promotion (B13):** permutation-clear at four seed sets,
+   cluster-uncertified — a preregistered, cluster-bootstrapped d=2 measurand (possibly
+   position-conditioned per thread 7) is the natural W4 prong; ZL-only weak far tails
+   (d=8/d=16) remain a bootstrap-refuted watch item.
 7. **Soft word segmentation (W2-A NOT_PREREG leads):** the transcriber's *uncertain*
    spaces (IVTFF commas) concentrate at high-digram-cohesion junctions (comma-only
    S_b ≈ 0.53 bits) — a future round could test whether Voynichese "word" segmentation
@@ -612,7 +730,8 @@ kill a theory alone. Certification levels copied exactly as filed.*
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
 WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
-(2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29).
+(2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
+W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from

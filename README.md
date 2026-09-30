@@ -4,7 +4,7 @@
 
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
-swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2) with their
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W3b) with their
 certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
@@ -49,7 +49,7 @@ pure-generator account of the text, and the first brick of an external-constrain
 
 ## The swarm rounds (Phase 10 onward) — current status
 
-The multi-agent swarm has since completed **twelve adversarially-verified rounds**
+The multi-agent swarm has since completed **fourteen adversarially-verified rounds**
 (2026-09-18 → 2026-09-29), each a preregistered builder battery followed by an independent
 adversary round that recomputes every headline number from primary data with its own code,
 nulls, and seeds. Full round records: [`rounds/`](rounds/).
@@ -68,16 +68,24 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [WP8c / WP8c-A — rebuild round: block-aware segmentation + coverage hard gate](rounds/wp8c.md) | implement the WP8b-A prerequisites (block-aware bands, geometric edge kill), demonstrate or-arm coverage ≥15/23 BEFORE spending human budget, then two-annotator recertification + contains-domain M3 | **COVERAGE-FAILED, terminal (adversary-confirmed):** rebuild raised joins 49→74/206 and halved edge-junk onsets, but or-arm 9/23 vs bar 15 — and the bar was structurally capped at 18/23 (5 pages lack single-folio scans). Absorbed-first-word errors worsened 23→62: coverage and fidelity are coupled. Honest early exit: zero human budget spent, no statistic. M3 now blocked four independent ways; kill rule armed. New law: coverage bars must quote their structural ceiling at freeze |
 | [WP9 / WP9-A — semantics round: blind annotation × or-opening](rounds/wp9.md) | first semantics test: do or-opening pages share blind-annotated visual content within section×Currier cells? Two distinct-family annotators, masked pages, memorization defenses (residual-ink probe, recognition audit), third-family verification gate | **ANNOTATION-FAILED, instrument failure (adversary-confirmed):** reliability gates passed (κ survivors H h1/h3/h4, S s1) but image-groundedness verification scored 17/30 vs bar ≥27/30 — dilation masking that passes the leakage gates destroys the annotatable substrate (median masked fraction .777; 11/30 "unclear"). Token join never performed; B1's semantic reading UNTESTED, not killed; revival requires stroke-level text/drawing separation |
 | [W2 / W2-A — digram-residue battery](rounds/w2.md) | first evidence-FOR instrument: does the character stream carry sequential digram-class structure (across word boundaries; within words beyond the slot grammar) that structure-preserving shuffles destroy and certified memoryless generators (Rugg grille, Stolfi core-mantle) cannot reproduce? | **P1 PASS · P2 PASS · P3 SUPPORTED · master SUPPORTED — the campaign's first positive certified constraint (adversary CONFIRMED-WITH-AMENDMENTS):** boundary residue S_b .1999/.1784 and within-word residue S_w 1.395/1.364 bits, every tail 1/1001 with zero nulls at obs, both translits; the certified memoryless generator family is excluded in all 8 units. The adversary's comma-artifact finding travels with the record (AM-W2-1): ZL hard-space-only S_b .1712, still ~12× null max; IT comma-free and concordant. Certified scope only: inconsistent with memoryless generation — NOT "cipher", NOT "language"; memory-bearing (self-citation) generators are the W3 target |
+| [W3 / W3-A — memory-bearing nulls, part 1](rounds/w3.md) | bring the Timm & Schinner-style self-citation family SC(τ, p_exact, p2, p_cont) under full certification law on a frozen 54-point grid (τ ≤ 1000, the published recency scales), plus a corpus memory-profile prong | **GENERATOR-UNCERTIFIED on the frozen grid (0/54 both translits) — with both interpretive headlines OVERTURNED by the adversary (CONFIRMED-WITH-AMENDMENTS, AM-W3-1..4):** the mechanical verdict replayed float-exact, but the builder's "cannot be tuned" causal claim was falsified — the adversary found a joint certification corridor at τ ≥ 6000 using the builder's own unchanged code — and the "memory profile is a cliff at d=1" gloss was falsified from the builder's own checkpoints (d=2 clears its null with zero exceedances, both translits). The overturned headlines stay on the record; a residue showdown at the certified corridor was made obligatory (W3b) |
+| [W3b / W3b-A — memory-bearing nulls, part 2: the residue showdown](rounds/w3b.md) | obligatory under AM-W3-1: certify the recency-to-uniform copy+mutate corridor (144-point grid, τ to 24000), select configurations by frozen rule, score the certified residue cells S_b / S_w / S_d2 against K=1000 generated corpora per config; preregistered d=1/d=2 cluster certification on the real corpus | **FAMILY-FAILS-AT-RESIDUE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; headline on S_b and S_w only):** the corridor is real at four independent seed sets (15/144 joint at builder seeds), and everywhere the family certifies it fails the certified residue — all 12 scored units n_ge=0 at K=1000; S_b obs .1999/.1784 vs generator bands .005–.013 (≥14× above the bands even at bias-corrected CIs), S_w 1.395/1.364 vs .87–1.18 — including at the memory-heaviest certified corner probed (p_cont=.7). S_d2 de-weighted by the adversary (bias-fragile CI leg; a certified corner reproduces it); d=1 re-certified (A10); d=2 permutation-clear at four seed sets but cluster-uncertified (lead). The family makes the repeats but not the digram residue — memory of the wrong shape → ledger A12/B13 |
 
-**Headline certified facts:** the campaign now has its **first positive certified
-constraint** (W2, 2026-09-29): *the character stream carries sequential digram-class
+**Headline certified facts:** the campaign's central certified result now stands on two
+excluded generator families. *The character stream carries sequential digram-class
 structure — across word boundaries and within words beyond the positional slot grammar —
-that memoryless independent-draw generation cannot reproduce*, and the certified
-memoryless generator family (Rugg-style grille, Stolfi-style core-mantle, tuned to match
-the manuscript's unigram/word statistics) is excluded in both transliterations. Stated at
-exact certified scope: this is an exclusion of a generator class, not a reading — it does
-not certify "cipher" or "language", and memory-bearing (self-citation-class) generators
-remain untested. Alongside it: *or- is enriched in the opening paragraph of the written
+that neither certified generator family reproduces*: the **memoryless family** (Rugg-style
+grille, Stolfi-style core-mantle, tuned to match the manuscript's unigram/word statistics)
+is excluded (W2, ledger A11), and the strongest memory-bearing competitor — the certified
+**recency-to-uniform copy+mutate family** (the Timm & Schinner "self-citation" lineage) —
+is excluded **at the residue layer** (W3b, ledger A12): it can be tuned to the
+unigram/word-structure surface (a certification corridor confirmed at four independent
+seed sets), and everywhere it certifies it fails the certified residue cells S_b and S_w
+by roughly an order of magnitude, in both transliterations, while reproducing the
+manuscript's repetition texture — memory of the wrong shape. Stated at exact certified
+scope: these are exclusions of generator families as implemented, not a reading — they do
+not certify "cipher", "language", or "meaning"; boundary-statistic-preserving mutation
+operators and T&S's exact (paywalled) algorithm remain untested. Alongside it: *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
 folio-cluster level in both transliterations, robust to geometric heading-likeness, and
 section-modulated with the balneological section negative; the content-linked root
@@ -86,22 +94,26 @@ correlate; a corpus-wide depleted-at-openings / enriched-at-endings positional g
 absence of linguistic context-selectivity. Every certified fact, with effect sizes,
 p-values, and its certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
 
-**Live threads:** (1) **W3 candidate — the memory-bearing / self-citation null family:**
-W2 excludes only the *memoryless* generator family; Timm-style self-citation generators
-are the natural next exclusion target. (2) **Soft word segmentation (W2-A lead):** the
-transcriber's uncertain spaces concentrate at high-digram-cohesion junctions — Voynichese
-"word" boundaries may be soft, morpheme-boundary-like; a position-conditioned boundary
-prong would also be more powerful. (3) the one-line-heading question — enrichment beyond
-the opening paragraph's first line is permutation-strong but cluster-uncertified at every
-resampling grain; U1 revival is gated on stroke-level text/drawing separation (WP9).
-(4) the Currier axis — language specificity of the opening effect is unresolved in both
-directions.
+**Live threads:** (1) **the d=2 residue (W3b lead, ledger B13):** permutation-clear at
+four independent seed sets in both transliterations but cluster-uncertified — a
+preregistered, cluster-bootstrapped d=2 measurand is the natural W4 prong. (2) **Soft
+word segmentation (W2-A lead):** the transcriber's uncertain spaces concentrate at
+high-digram-cohesion junctions — Voynichese "word" boundaries may be soft,
+morpheme-boundary-like; a position-conditioned boundary prong would also be more
+powerful. (3) **remaining copy+mutate edges (AM-W3b-2):** mutation operator sets that
+preserve boundary-digram statistics by construction, T&S's exact line-based algorithm,
+and the p_cont > 0.7 region are unprobed. (4) the one-line-heading question — enrichment
+beyond the opening paragraph's first line is permutation-strong but cluster-uncertified
+at every resampling grain; U1 revival is gated on stroke-level text/drawing separation
+(WP9). (5) the Currier axis — language specificity of the opening effect is unresolved
+in both directions.
 
 The record keeps its failures on the front page: two fabrication plants caught (that is the
 screen working), several of the campaign's own draft claims downgraded or killed by its own
 adversary (H1's particle reading, H2's directional residue, WP5's "A-language retirement"
-overclaim), and every knife-edge result filed as non-certifiable instead of rounded to a
-conclusion.
+overclaim, W3's "cannot be tuned" headline and falsified "cliff" gloss — both overturned
+by the adversary with the builder's own code and data, then answered properly in W3b),
+and every knife-edge result filed as non-certifiable instead of rounded to a conclusion.
 
 ## Honest limits
 
@@ -126,7 +138,7 @@ conclusion.
 |---|---|
 | [`CHARTER.md`](CHARTER.md) | The swarm charter: mission, roles, accountable goal-passing, method rules, calibration gauntlet |
 | [`CONSTRAINTS.md`](CONSTRAINTS.md) | **The certified constraint ledger** — Tier-A facts any theory must reproduce, Tier-B supported-but-uncertified observations, Tier-C retired framings |
-| [`rounds/`](rounds/) | Swarm round records WP1–WP9 and W2: design intent, master verdict, adversary outcome, key numbers per round |
+| [`rounds/`](rounds/) | Swarm round records WP1–WP9 and W2–W3b: design intent, master verdict, adversary outcome, key numbers per round |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | The measured-campaign methodology and the multi-agent swarm architecture |
 | [`docs/DATA.md`](docs/DATA.md) | Data sources, provenance, and fetch instructions (transliterations and images are **not** committed — see licensing note there) |
 | [`reports/`](reports/) | Phase reports 1–9, verbatim research record (lightly scrubbed of machine-internal paths only) |
