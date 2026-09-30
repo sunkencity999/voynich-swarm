@@ -9,7 +9,7 @@
 
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
-swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W3b) with their
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W4) with their
 certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
@@ -54,7 +54,7 @@ pure-generator account of the text, and the first brick of an external-constrain
 
 ## The swarm rounds (Phase 10 onward) — current status
 
-The multi-agent swarm has since completed **fourteen adversarially-verified rounds**
+The multi-agent swarm has since completed **fifteen adversarially-verified rounds**
 (2026-09-18 → 2026-09-29), each a preregistered builder battery followed by an independent
 adversary round that recomputes every headline number from primary data with its own code,
 nulls, and seeds. Full round records: [`rounds/`](rounds/).
@@ -75,6 +75,7 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [W2 / W2-A — digram-residue battery](rounds/w2.md) | first evidence-FOR instrument: does the character stream carry sequential digram-class structure (across word boundaries; within words beyond the slot grammar) that structure-preserving shuffles destroy and certified memoryless generators (Rugg grille, Stolfi core-mantle) cannot reproduce? | **P1 PASS · P2 PASS · P3 SUPPORTED · master SUPPORTED — the campaign's first positive certified constraint (adversary CONFIRMED-WITH-AMENDMENTS):** boundary residue S_b .1999/.1784 and within-word residue S_w 1.395/1.364 bits, every tail 1/1001 with zero nulls at obs, both translits; the certified memoryless generator family is excluded in all 8 units. The adversary's comma-artifact finding travels with the record (AM-W2-1): ZL hard-space-only S_b .1712, still ~12× null max; IT comma-free and concordant. Certified scope only: inconsistent with memoryless generation — NOT "cipher", NOT "language"; memory-bearing (self-citation) generators are the W3 target |
 | [W3 / W3-A — memory-bearing nulls, part 1](rounds/w3.md) | bring the Timm & Schinner-style self-citation family SC(τ, p_exact, p2, p_cont) under full certification law on a frozen 54-point grid (τ ≤ 1000, the published recency scales), plus a corpus memory-profile prong | **GENERATOR-UNCERTIFIED on the frozen grid (0/54 both translits) — with both interpretive headlines OVERTURNED by the adversary (CONFIRMED-WITH-AMENDMENTS, AM-W3-1..4):** the mechanical verdict replayed float-exact, but the builder's "cannot be tuned" causal claim was falsified — the adversary found a joint certification corridor at τ ≥ 6000 using the builder's own unchanged code — and the "memory profile is a cliff at d=1" gloss was falsified from the builder's own checkpoints (d=2 clears its null with zero exceedances, both translits). The overturned headlines stay on the record; a residue showdown at the certified corridor was made obligatory (W3b) |
 | [W3b / W3b-A — memory-bearing nulls, part 2: the residue showdown](rounds/w3b.md) | obligatory under AM-W3-1: certify the recency-to-uniform copy+mutate corridor (144-point grid, τ to 24000), select configurations by frozen rule, score the certified residue cells S_b / S_w / S_d2 against K=1000 generated corpora per config; preregistered d=1/d=2 cluster certification on the real corpus | **FAMILY-FAILS-AT-RESIDUE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; headline on S_b and S_w only):** the corridor is real at four independent seed sets (15/144 joint at builder seeds), and everywhere the family certifies it fails the certified residue — all 12 scored units n_ge=0 at K=1000; S_b obs .1999/.1784 vs generator bands .005–.013 (≥14× above the bands even at bias-corrected CIs), S_w 1.395/1.364 vs .87–1.18 — including at the memory-heaviest certified corner probed (p_cont=.7). S_d2 de-weighted by the adversary (bias-fragile CI leg; a certified corner reproduces it); d=1 re-certified (A10); d=2 permutation-clear at four seed sets but cluster-uncertified (lead). The family makes the repeats but not the digram residue — memory of the wrong shape → ledger A12/B13 |
+| [W4 / W4-A — soft word segmentation](rounds/w4.md) | test of the W2-A comma-cohesion lead: is the EVA hard-space "word" the real unit, or is segmentation soft? Cross-trained min-PMI cohesion signal; prongs: comma cohesion, cross-transliteration boundary contest, residue under resegmentation, lexicon sanity | **MIXED by the frozen letter — citable reading NEGATIVE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W4-1..6): EVA hard-space tokenization survives its first direct challenge.** The hypothesis lost its load-bearing prongs: comma cohesion REVERSED (Δ = −.167 at 1/1001 — the adversary amended and discharged his own W2-A lead: the table-MI measurement stands at 0.532, the "high-cohesion" gloss is struck); the boundary contest failed both arms (88.2% comma-overlap disclosure on ZL; the independent IT arm fails too); the one prereg positive (T2 STRENGTHENED) is a demonstrated construction artifact — a wordless first-order-Markov surrogate reproduces the full gain — de-weighted to non-evidential. Emergent certified lead (B14): the scribe's spaces are exceptional final→initial class-independence points — ~7.7×/8.6× more independent than matched-rate random placement and ~5.1×/5.9× more than the cohesion segmenter's own boundaries, both transliterations; no natural-language control claimed |
 
 **Headline certified facts:** the campaign's central certified result now stands on two
 excluded generator families. *The character stream carries sequential digram-class
@@ -90,7 +91,12 @@ by roughly an order of magnitude, in both transliterations, while reproducing th
 manuscript's repetition texture — memory of the wrong shape. Stated at exact certified
 scope: these are exclusions of generator families as implemented, not a reading — they do
 not certify "cipher", "language", or "meaning"; boundary-statistic-preserving mutation
-operators and T&S's exact (paywalled) algorithm remain untested. Alongside it: *or- is enriched in the opening paragraph of the written
+operators and T&S's exact (paywalled) algorithm remain untested. The tokenization those
+results stand on has itself now survived its first direct challenge (W4): no tested
+cohesion-based segmentation beats EVA hard spaces, and the scribe's spaces mark points
+of exceptional final→initial class independence — several-fold more independent than
+matched-rate random placement or a cohesion segmenter's own boundaries (ledger B14, at
+tested-family scope). Alongside it: *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
 folio-cluster level in both transliterations, robust to geometric heading-likeness, and
 section-modulated with the balneological section negative; the content-linked root
@@ -101,11 +107,14 @@ p-values, and its certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
 
 **Live threads:** (1) **the d=2 residue (W3b lead, ledger B13):** permutation-clear at
 four independent seed sets in both transliterations but cluster-uncertified — a
-preregistered, cluster-bootstrapped d=2 measurand is the natural W4 prong. (2) **Soft
-word segmentation (W2-A lead):** the transcriber's uncertain spaces concentrate at
-high-digram-cohesion junctions — Voynichese "word" boundaries may be soft,
-morpheme-boundary-like; a position-conditioned boundary prong would also be more
-powerful. (3) **remaining copy+mutate edges (AM-W3b-2):** mutation operator sets that
+preregistered, cluster-bootstrapped d=2 measurand is the natural next-round prong (W4
+took the soft-segmentation question instead). (2) **The scribe's spaces (W4 lead,
+ledger B14):** soft segmentation itself was tested and discharged NEGATIVE in W4 —
+what emerged instead is the boundary-independence lead: EVA spaces as exceptional
+final→initial class-independence points, adversary-recertified at tested-family scope;
+a natural-language reference corpus and a position-conditioned boundary prong
+(stratified S_b 0.280/0.250 vs pooled 0.200/0.178, W2-A) are the follow-ups.
+(3) **remaining copy+mutate edges (AM-W3b-2):** mutation operator sets that
 preserve boundary-digram statistics by construction, T&S's exact line-based algorithm,
 and the p_cont > 0.7 region are unprobed. (4) the one-line-heading question — enrichment
 beyond the opening paragraph's first line is permutation-strong but cluster-uncertified
@@ -118,7 +127,10 @@ screen working), several of the campaign's own draft claims downgraded or killed
 adversary (H1's particle reading, H2's directional residue, WP5's "A-language retirement"
 overclaim, W3's "cannot be tuned" headline and falsified "cliff" gloss — both overturned
 by the adversary with the builder's own code and data, then answered properly in W3b),
-and every knife-edge result filed as non-certifiable instead of rounded to a conclusion.
+the adversary's own W2-A comma-cohesion lead amended and discharged by the adversary
+himself when W4 tested it (the measurement stood; the gloss reversed at 1/1001 — the
+kill rules bind both directions), and every knife-edge result filed as non-certifiable
+instead of rounded to a conclusion.
 
 ## Honest limits
 
@@ -143,7 +155,7 @@ and every knife-edge result filed as non-certifiable instead of rounded to a con
 |---|---|
 | [`CHARTER.md`](CHARTER.md) | The swarm charter: mission, roles, accountable goal-passing, method rules, calibration gauntlet |
 | [`CONSTRAINTS.md`](CONSTRAINTS.md) | **The certified constraint ledger** — Tier-A facts any theory must reproduce, Tier-B supported-but-uncertified observations, Tier-C retired framings |
-| [`rounds/`](rounds/) | Swarm round records WP1–WP9 and W2–W3b: design intent, master verdict, adversary outcome, key numbers per round |
+| [`rounds/`](rounds/) | Swarm round records WP1–WP9 and W2–W4: design intent, master verdict, adversary outcome, key numbers per round |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | The measured-campaign methodology and the multi-agent swarm architecture |
 | [`docs/DATA.md`](docs/DATA.md) | Data sources, provenance, and fetch instructions (transliterations and images are **not** committed — see licensing note there) |
 | [`reports/`](reports/) | Phase reports 1–9, verbatim research record (lightly scrubbed of machine-internal paths only) |

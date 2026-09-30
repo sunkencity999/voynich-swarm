@@ -143,6 +143,41 @@ its refutation.
   seed-knife-edge (builder seeds CI ∋ 0 at P(≤0) = .064; adversary seeds CI excludes 0
   at P(≤0) = .024); non-certification is carried by IT and by coarser grains
   (section/quire P(≤0) ≥ .085 both translits).
+- **Comma-cohesion lead amended & discharged (campaign law, W4-A amendment AM-W4-1):**
+  the W2-A comma lead's measurement stands (ZL comma-only boundary table-MI
+  S_b = 0.532, adversary re-verified 0.53198) but its cohesion gloss is struck: comma
+  junctions sit at LOWER cross-trained pointwise cohesion than hard junctions
+  (Δ = −0.167, comma mean 0.724 vs hard 0.891; opposite-tail 1/1001 builder seed and
+  1/501 adversary seed, basic CI excludes 0). "MI-hot" is a table-MI
+  (distribution-distinctiveness) fact that dissociates from realized cohesion. Any
+  future citation of the comma finding must state both quantities. The lead is
+  DISCHARGED (tested by W4, resolved negative for the soft-segmentation reading).
+- **T2 letter verdict de-weighted; wordless-surrogate control required (campaign law,
+  W4-A amendment AM-W4-2):** W4 T2's STRENGTHENED is a correct application of the
+  frozen rule and stays in the record AS LETTER ONLY — non-evidential: a wordless
+  first-order-Markov surrogate through the identical pipeline reproduces the full S_w
+  gain (surrogate G_w ≥ real at builder seeds, adversary seeds, and an independent
+  adversary implementation), via within-unit PMI enrichment + (L,i)-strata inflation.
+  T2 STRENGTHENED may never be cited without this disclosure; any citation of W4's
+  master outcome must carry the robustness-adjusted NEGATIVE reading. Corollary: a
+  min-PMI/stratified-S_w exceedance over matched-random is inadmissible as
+  segmentation evidence in future rounds without a wordless-surrogate control run in
+  the same pipeline.
+- **Boundary-independence lead wording (W4-A amendment AM-W4-3):** binding certified
+  wording for W4's emergent lead — entered below as B14; cite only in that wording
+  and scope (7.7×/8.6× vs matched-random, 5.1×/5.9× vs min-PMI's own boundaries;
+  never a blanket "~8×").
+- **Ledger prose correction (W4-A amendment AM-W4-4):** IT S_b quotes as **0.17835**
+  (exact 0.17835460467460207), not "0.17836" — corrected in A10 and A12 below.
+  Committed JSONs remain authoritative over prose everywhere.
+- **Pre-run test-code commits (campaign law, W4-A amendment AM-W4-5):** every future
+  round commits test code in a pre-run commit (W3b pattern) before any outcome-bearing
+  execution; committing tests together with results (as W4 did) is a
+  fabrication-screen defect even when — as in W4 — replays fully reproduce.
+- **T1b arm-overlap disclosure (W4-A amendment AM-W4-6):** any citation of W4 T1b's
+  ZL arm travels with: 88.2% (470/533) of ZL_only contested gaps are comma junctions —
+  the ZL arm largely re-tests T1a on the aligned subdomain; the IT arm (274 hard-only
+  gaps) is the independent arm and also fails.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -273,12 +308,14 @@ Any valid theory MUST reproduce both facets (the campaign's first positive certi
 constraint; round W2, adversary-confirmed):
 - **Boundary digram residue (W2 P1, PASS):** mutual information between word-final and
   word-initial character classes across adjacent-word junctions S_b = 0.19992 bits ZL /
-  0.17836 IT, permutation p = 1/1001 both translits (n_ge = 0 at nperm = 1000; null max
+  0.17835 IT (AM-W4-4), permutation p = 1/1001 both translits (n_ge = 0 at nperm = 1000; null max
   .01333/.01280 — gap to nearest null ≈ 14× the null max), folio-cluster bootstrap CI
   [.145, .184] / [.125, .162], P(≤0) = 0. **AM-W2-1 disclosure (binding, travels with
   this number):** the inherited tokenizer splits on IVTFF uncertain-space commas — 8.02%
-  of ZL boundary junctions are commas and they are MI-hot (comma-only S_b = 0.532 bits),
-  inflating the pooled ZL figure ~14%; the hard-space-only ZL figure is **S_b = 0.1712**
+  of ZL boundary junctions are commas and they are table-MI-hot (comma-only
+  S_b = 0.532 bits — per AM-W4-1 a distribution-distinctiveness fact, NOT high
+  cohesion: comma junctions sit at LOWER cross-trained pointwise cohesion than hard
+  junctions, Δ = −0.167, reversed at 1/1001; W4), inflating the pooled ZL figure ~14%; the hard-space-only ZL figure is **S_b = 0.1712**
   (still ~12× its own null max .01422, p = 1/1001, n_ge = 0), and IT contains zero comma
   junctions at source yet independently agrees.
 - **Within-word positional residue (W2 P2, PASS):** digram MI conditioned on
@@ -346,7 +383,7 @@ configurations (SC-fit = SC-freq = (τ=24000, p_exact=.675, p2=.2, p_cont=0); SC
 (12000, .675, .2, .3)), in both transliterations: **12/12 scored units MISMATCH with
 n_ge = 0 against K = 1000 generated corpora each** (p_two = 2/1001 everywhere).
 Per **AM-W3b-1 the headline rests on S_b and S_w ONLY**: boundary residue S_b obs
-0.19992 ZL / 0.17836 IT vs generator bands 0.0052–0.0132 (2.5–97.5%, both configs) —
+0.19992 ZL / 0.17835 IT (AM-W4-4) vs generator bands 0.0052–0.0132 (2.5–97.5%, both configs) —
 observed folio-cluster CIs sit ≥ 14× above the generator bands even under
 basic-bootstrap bias correction (adversary-verified; ~8–20× across probed configs) —
 and within-word residue S_w obs 1.39542 / 1.36418 vs generator bands 0.874–1.184.
@@ -472,9 +509,26 @@ kill a theory alone. Certification levels copied exactly as filed.*
   ∋ 0: ZL P(≤0) = .064, IT .191). AM-W3b-3 knife-edge disclosure travels: at folio grain
   the ZL CI is seed-knife-edge (adversary seeds exclude 0 at P(≤0) = .024);
   non-certification is carried by IT and by coarser grains (section/quire P(≤0) ≥ .085
-  both translits). Promotion to a certified measurand is a natural W4 target. AM-W3-2
+  both translits). Promotion to a certified measurand remains a natural future-round
+  target (W4 took the soft-segmentation question instead). AM-W3-2
   wording binds. `w3b/tests/results/T1.json`,
   `w3b/ADVERSARY_REPORT.md` (F6), `w3/ADVERSARY_REPORT.md` (§2).
+- **B14. EVA space boundaries are exceptional final→initial class-independence points
+  (W4 certified lead; AM-W4-3 binding wording; NOT_PREREG origin,
+  adversary-recertified).** Exact wording: "At matched boundary rate and identical
+  unit count, EVA space boundaries (hard+comma; ZL/IT) have boundary digram table-MI
+  S_b = 0.201/0.179 (hard-only 0.171 ZL) — ~7.7×/8.6× below matched-rate random gap
+  placement (1.559/1.534) and ~5.1×/5.9× below the min-PMI cohesion segmenter's own
+  boundaries (1.029/1.054). The scribe's spaces mark points of exceptional
+  final→initial class INDEPENDENCE, not points of low pointwise digram cohesion (EVA
+  gaps' mean cross-trained PMI 0.877/0.905 vs the segmenter's selected −0.695/−0.840).
+  Consistent with A10: S_b(EVA) is simultaneously ~12× its label-shuffle null (W2) and
+  many-fold smaller than any tested alternative placement. Scope: relative to the
+  tested family (matched-rate random; add-one-PMI min-cohesion thresholding),
+  cross-trained, both translits; no natural-language reference corpus tested;
+  NOT_PREREG origin (W4, direction reversed from prereg), adversary-recertified at
+  seed 777005." `w4/tests/results/T2.json`,
+  `w4/ADVERSARY_REPORT.md` (F7).
 
 ---
 
@@ -716,22 +770,39 @@ kill a theory alone. Certification levels copied exactly as filed.*
    certified record.
 6b. **d=2 residue promotion (B13):** permutation-clear at four seed sets,
    cluster-uncertified — a preregistered, cluster-bootstrapped d=2 measurand (possibly
-   position-conditioned per thread 7) is the natural W4 prong; ZL-only weak far tails
-   (d=8/d=16) remain a bootstrap-refuted watch item.
-7. **Soft word segmentation (W2-A NOT_PREREG leads):** the transcriber's *uncertain*
-   spaces (IVTFF commas) concentrate at high-digram-cohesion junctions (comma-only
-   S_b ≈ 0.53 bits) — a future round could test whether Voynichese "word" segmentation
-   is soft (morpheme-boundary-like) rather than crisp. Related: position-conditioning
-   *strengthens* the boundary residue (stratified S_b 0.280/0.250 vs pooled
-   0.200/0.178), so a position-conditioned boundary prong would be more powerful; and
-   folio mixing's share of S_w is now quantified at ≈ 0.035 bits.
+   position-conditioned per thread 7) remains the natural next-round prong (W4 took
+   the soft-segmentation question instead); ZL-only weak far tails (d=8/d=16) remain
+   a bootstrap-refuted watch item.
+7. **Soft word segmentation (W2-A NOT_PREREG lead): TESTED AND DISCHARGED NEGATIVE
+   (W4 + W4-A → AM-W4-1..6, B14).** W4 put the lead under preregistration and it lost
+   its load-bearing prongs. Master verdict: **MIXED by the frozen letter (T1b FAIL
+   blocks POSITIVE; T2 letter-STRENGTHENED blocks NEGATIVE); citable reading NEGATIVE
+   per AM-W4-2** — EVA hard-space tokenization SURVIVES its first direct challenge: no
+   tested cohesion segmentation beats it, and the challenge machinery's one positive
+   leg (T2 STRENGTHENED) is a demonstrated construction artifact (a wordless
+   first-order-Markov surrogate reproduces the full S_w gain; non-evidential, never
+   citable without the surrogate disclosure). The comma "high-cohesion" gloss is
+   struck (AM-W4-1): comma junctions are table-MI-distinctive (0.532 stands) but sit
+   at LOWER pointwise cohesion than hard junctions (Δ = −0.167, reversed at 1/1001) —
+   the adversary amended and discharged his own W2-A lead. T1b failed in both arms
+   with the AM-W4-6 overlap disclosure (88.2% of ZL contested gaps are commas; the
+   independent IT arm also fails, CI on the wrong side of 0.5). The emergent certified
+   lead is B14 (the scribe's spaces as exceptional class-independence points). Scope:
+   the tested family is per-gap add-one PMI with rate-matched global thresholding,
+   cross-transliteration/cross-fold trained; richer segmenters (branching entropy,
+   higher-order context, Bayesian) are NOT excluded. Still live from W2-A:
+   position-conditioning *strengthens* the boundary residue (stratified S_b
+   0.280/0.250 vs pooled 0.200/0.178), so a position-conditioned boundary prong
+   remains the more powerful future design; folio mixing's share of S_w is quantified
+   at ≈ 0.035 bits.
 
 *Compiled from: WP2 (2026-09-18), WP2-A (2026-09-18), WP3 (2026-09-19), WP3-A (2026-09-19),
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
 WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
 (2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
-W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29).
+W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29), W4 (2026-09-29),
+W4-A (2026-09-29).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from
