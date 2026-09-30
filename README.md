@@ -2,6 +2,11 @@
 
 **A measured, adversarial multi-agent investigation of the Voynich manuscript.**
 
+> 📖 **Companion site: [The Voynich Atlas](https://sunkencity999.github.io/voynich-atlas/)** —
+> all 213 folios, searchable EVA transliteration, and methods; the campaign's public
+> showcase, and the home for any eventual translation work that survives this record's
+> falsification discipline.
+
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
 swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W3b) with their
