@@ -140,6 +140,9 @@ its refutation.
   and S_w still fail by adversary probe (n_ge = 0/60 per translit at
   (24000, .675, .2, .7)) but S_d2 does not." Disclosure, not a reopening obligation;
   claims about the family beyond the probed region are unsupported until run.
+  [DISCHARGED for the memory-heavy region by W3c: the spot probe is superseded by the
+  preregistered 300-point sweep + the W3c-A strip probes — AM-W3c-1..3 now govern; the
+  A12 gloss below carries the binding upgraded text.]
 - **ZL d=2 knife-edge disclosure (campaign law, W3b-A amendment AM-W3b-3):**
   [CONTRACTED by AM-W5-3 — no longer travels with the d=2 residue claim; historical
   statement about W3b's delta-method leg only, which W5-A retroactively explains as the
@@ -205,6 +208,38 @@ its refutation.
   sign uncertainty — and conversely, the basic-CI non-robustness at quire grain must be
   quoted wherever the quire figure travels." Bifolio-proxy and Currier-stratified
   grains pass all intervals (no disclosure).
+- **Ceiling scope weld (campaign law, W3c-A amendment AM-W3c-1):** wherever
+  CORNER-CLOSED / H-W3c is cited: "closed over the preregistered grid (p_cont ≤ 0.9)".
+  The trend sentence "never reaches obs" is STRUCK unless scoped to the grid; binding
+  replacement: "within the grid the generator's S_b band never reaches obs; adversary
+  NOT_PREREG strip probe (seed 777007, τ {12k,16k,24k} × p_exact {.60–.70} × p2
+  {0,.2} × p_cont {.92,.95,.98}) found joint certification persists above the grid
+  (2 joint points, singles to p_cont = 0.98) and individual S_b draws cross obs at
+  p_cont = 0.95 (n_ge 2/200 ZL, max 0.2089 vs obs 0.19992) while the tail stays
+  MISMATCH-level and **S_w remains untouched (n_ge = 0/200 everywhere probed, gen
+  p97.5 ≈ 1.12 vs obs 1.395/1.364)** — no probed point survives; claims beyond the
+  scanned strip are unsupported." S_w, not S_b, is the binding discriminator at
+  extreme memory; closure wording may say so. Ledger corollary: because individual
+  S_b draws cross obs at p_cont = 0.95, **S_b alone may not be cited against this
+  family above the sweep grid** — above p_cont = 0.9 the exclusion rests on S_w.
+- **Ceiling seed wobble (campaign law, W3c-A amendment AM-W3c-2):** "Certified
+  ceiling p_cont = 0.9" is a builder-seed statistic: at adversary seed 777007 the
+  300-pt grid yields 33 joint points with ceiling 0.8 (overlap 14/38). Citations of
+  the ceiling carry "(seed-wobbly ±0.1 at 5 draws/point; region robust at a fifth
+  seed set; adversary strip probe certifies to 0.95 jointly)" — cite the certified
+  REGION qualitatively, not the point count.
+- **p_exact edge disclosure (campaign law, W3c-A amendment AM-W3c-3):** the frozen
+  p_exact window .60–.70 does not bracket the corridor: both edges carry joint
+  certifications at two seed sets. Adversary probes at .55/.575 (high τ, high p_cont)
+  and .725/.75 (low τ) found no joint certification (2 singles at .575), so the joint
+  footprint stands as probed; any claim about p_exact outside [.55, .75] × the probed
+  sub-region is unsupported.
+- **A13/W5 weld strengthening (campaign law, W3c-A amendment AM-W3c-4):** the
+  AM-W3b-2-derived weld on W5's d=2 certification upgrades to: "W5's d=2
+  certification does not discriminate the memory axis of the recency-to-uniform
+  copy+mutate family: the W3c K = 1000 sweep (adversary-verified at seed 777007)
+  shows S_d2 crossing obs magnitude at p_cont ≈ 0.7 and overshooting ~3.5× by 0.9;
+  d=2 residue constrains memoryless/short-memory mechanisms only."
 - **AM-W3b-3 contraction (W5-A amendment AM-W5-3):** the AM-W3b-3 knife-edge disclosure
   no longer travels with the d=2 residue claim: it is contracted to a historical
   statement about W3b's delta-method leg ("the W3b estimator's folio-grain CI was
@@ -402,7 +437,7 @@ remain untested by this round.
 - Evidence: `w2/tests/results/summary.md`,
   `w2/tests/results/T3.json`, `w2/ADVERSARY_REPORT.md`.
 
-### A12. The manuscript is NOT the output of the certified recency-to-uniform copy+mutate family: it fails at the residue layer everywhere it certifies
+### A12. The manuscript is NOT the output of the certified recency-to-uniform copy+mutate family: closed up to p_cont = 0.9 by preregistered sweep, failure extended through the certified strip to 0.95 by adversary probe
 Any valid theory MUST NOT model the text as recency-weighted-to-uniform copy+mutate
 generation of the certified family (W3's committed SC generator — the Timm & Schinner
 "self-citation" lineage: recency-weighted source copying + context-conditional mutation
@@ -426,10 +461,32 @@ The S_d2 cell's MISMATCH stands as a frozen-rule outcome but is not independentl
 citable (AM-W3b-1: cluster-uncertified on the real corpus, CI leg bias-fragile, and a
 certified memory-heavy corner p_cont = 0.7 reproduces its magnitude). **AM-W2-1
 travels:** ZL S_b = 0.1999 pooled / **0.1712 hard-space-only** (IT comma-free at
-source, 0.1784/0.1789). **AM-W3b-2 travels:** "fair tuning" = the frozen 144-point
-grid (p_cont ≤ 0.3); the certified family extends to p_cont = 0.7, where the adversary
-probe shows S_b and S_w STILL fail (n_ge = 0/60 per translit at (24000, .675, .2, .7))
-but S_d2 does not. What the family DOES reproduce (descriptive, never scored): the
+source, 0.1784/0.1789).
+**Memory-heavy closure (W3c + W3c-A; A12 gloss upgrade APPROVED-AS-AMENDED —
+binding text):** "preregistered W3c sweep: 38 certified points across p_cont 0.4–0.9
+(builder seed; 33 points / ceiling 0.8 at adversary seed — region robust, point set
+seed-wobbly), S_b and S_w fail at every one (n_ge = 0/1000 per unit; adversary replay
+n_ge = 0/500 incl. both p_cont = 0.9 units); certified ceiling p_cont = 0.9 = grid
+max, not bracketed above — adversary NOT_PREREG strip probe certifies jointly to
+p_cont = 0.95, where S_b single draws reach obs but the tail stays MISMATCH and S_w
+remains unbridged (n_ge = 0/200, ~0.25 bits below obs); S_d2 crosses obs magnitude at
+p_cont ≈ 0.7 and overshoots beyond — non-discriminating for this family's memory axis
+(AM-W3c-4)." The closure claim stands as **"closed up to p_cont = 0.9 by
+preregistered sweep, with adversary probes extending the S_b/S_w failure through the
+certified strip to 0.95"** — not as an unqualified "everywhere it certifies", since
+certification demonstrably continues above the grid (W3c-A F7). Per AM-W3c-1, **S_w
+is the binding discriminator at extreme memory** — flat in memory (~0.25 bits below
+obs, n_ge = 0 everywhere including the adversary's strip probes) — while individual
+S_b draws CROSS obs at p_cont = 0.95 (n_ge 2/200 ZL, max draw 0.2089 ≥ obs 0.19992;
+p_two ≈ .03, still MISMATCH): **S_b alone may not be cited against this family above
+the sweep grid**. AM-W3c-2 travels (ceiling seed-wobbly ±0.1 at 5 draws/point; cite
+the region, not the count). AM-W3c-3 travels (p_exact window .60–.70 does not bracket
+the corridor — edges occupied at two seed sets; adversary escape probes at .55–.575
+and .725–.75 found no joint escape). Trend, scoped per AM-W3c-1: within the grid the
+generator's S_b band rises with p_cont (band hi 0.016 at 0.4 → 0.110 at 0.9; max
+single draw 0.148) and never reaches obs; the climb continues above the grid and
+begins to touch obs at p_cont ≈ 0.95 without ever bridging S_w.
+What the family DOES reproduce (descriptive, never scored): the
 repetition texture — ρ_near obs 0.0486/0.0457 sits inside the generator band — i.e.
 copy+mutate makes the repeats but not the digram-class residue; memory of the wrong
 shape.
@@ -451,15 +508,26 @@ bootstrap-refuted, IT null).
 Scope: this certifies exclusion of the certified recency-to-uniform copy+mutate family
 at the residue layer, in this operator-set implementation — NOT "cipher", NOT
 "language", NOT "meaning". Mutation operators that preserve boundary-digram statistics
-by construction, T&S's exact (paywalled) line-based algorithm, and the p_cont > 0.7
-region are NOT exhausted; the memoryless family exclusion is A11.
+by construction, T&S's exact (paywalled) line-based algorithm, the region beyond the
+adversary's scanned strip (p_cont > 0.98; p_exact outside [.55, .75] × the probed
+sub-region — AM-W3c-1/-3), and p_cont = 1.0 (degenerate deterministic replay,
+excluded by design) are NOT exhausted; the memoryless family exclusion is A11.
 - Certified: W3 (frozen grid) + W3-A (corridor discovery, AM-W3-1..4) + W3b (residue
   showdown, 12/12 n_ge = 0) + W3b-A (CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; own-seed
-  replay n_ge = 0 in every unit at K = 500).
+  replay n_ge = 0 in every unit at K = 500) + W3c (preregistered 300-pt closure sweep,
+  CORNER-CLOSED: 38 certified points × both translits = 76 units, all FAIL S_b and
+  S_w with n_ge = 0/1000) + W3c-A (CONFIRMED-WITH-AMENDMENTS, AM-W3c-1..4; fabrication
+  clean, float replays 0.0 incl. crash boundary, all-76-unit ckpt recounts exact,
+  own-seed showdown n_ge = 0/500, 138-pt NOT_PREREG strip/edge probe). W3c's one
+  operational deviation (first cert-gate launch died with its shell before any output;
+  relaunched, draw-identical by determinism) was audited and CLEARED (W3c-A F10).
 - Evidence: `w3/tests/results/summary.md`, `w3/infra/gen_cert.json`,
   `w3/ADVERSARY_REPORT.md`, `w3b/tests/results/summary.md`,
   `w3b/tests/results/T2.json`, `w3b/tests/results/T1.json`,
-  `w3b/infra/gen_cert.json`, `w3b/ADVERSARY_REPORT.md`.
+  `w3b/infra/gen_cert.json`, `w3b/ADVERSARY_REPORT.md`,
+  `w3c/tests/results/summary.md`, `w3c/tests/results/T1.json`,
+  `w3c/infra/gen_cert.json`, `w3c/ADVERSARY_REPORT.md`,
+  `w3c/adversary/{C_own_seed_cert_grid,D_own_seed_showdown,E_ceiling_edge_probe}.json`.
 
 ### A13. Certified multi-distance digram-class residue: d=1 AND d=2 (B13 upgraded; W5 + W5-A)
 Any valid theory MUST reproduce digram-class dependence that survives folio-clustered
@@ -487,10 +555,14 @@ certified it instead. Certification record:
 - Knife-edge menu never fired (no scored p in [.02, .10]); the AM-W3b-3 knife-edge is
   dead at this design (AM-W5-3).
 **Welds that MUST travel with any citation of this fact:**
-1. **AM-W3b-2 verbatim:** the d=2 residue does not by itself discriminate against the
-   certified copy+mutate memory-heavy corner (p_cont = 0.7 reproduces obs-magnitude
-   S_d2 while S_b and S_w still fail, n_ge = 0/60 per translit) — a claim about the
-   corpus, not a new family exclusion; NOT cipher, NOT language, NOT meaning.
+1. **AM-W3c-4 (strengthened from the AM-W3b-2 weld by W3c + W3c-A):** "W5's d=2
+   certification does not discriminate the memory axis of the recency-to-uniform
+   copy+mutate family: the W3c K = 1000 sweep (adversary-verified at seed 777007)
+   shows S_d2 crossing obs magnitude at p_cont ≈ 0.7 and overshooting ~3.5× by 0.9;
+   d=2 residue constrains memoryless/short-memory mechanisms only." (Historical
+   AM-W3b-2 wording — the one-corner probe at p_cont = 0.7, n_ge = 0/60 — is
+   subsumed by the sweep.) A claim about the corpus, not a new family exclusion;
+   NOT cipher, NOT language, NOT meaning.
 2. **AM-W5-2 coarse-grain disclosure** (quire basic-CI dip = right-skewness artifact at
    tiny cluster counts; quoted in full above under campaign law).
 3. **AM-W2-1 hard-space companion:** d=2 residue restricted to double-hard junction
@@ -852,20 +924,25 @@ kill a theory alone. Certification levels copied exactly as filed.*
    replicated descriptively in every section, but the mechanism link to A7 is KILLED with
    the wrong sign (C17) — anti-A7 section profile. Survives only as an independent
    NOT_PREREG mechanism question, decoupled from or- enrichment.
-6. **Memory-bearing family: RESOLVED at the residue layer (W3 + W3b → A12).** The
-   recency-to-uniform copy+mutate family (T&S self-citation lineage) certifies on the
-   unigram surface across a τ ≥ 6000 corridor and fails S_b/S_w everywhere tested under
-   certification, including the memory-heaviest certified corner probed (p_cont = 0.7).
-   Remaining open edges: mutation operator sets that preserve boundary-digram
-   statistics by construction; T&S's exact (paywalled) line-based algorithm;
-   p_cont > 0.7 / off-probed-region behavior (AM-W3b-2). The phase-3 self-citation
-   result remains deliberately NOT entered — W3/W3b now carry that question inside the
-   certified record.
+6. **Memory-bearing family: RESOLVED at the residue layer (W3 + W3b + W3c → A12).**
+   The recency-to-uniform copy+mutate family (T&S self-citation lineage) certifies on
+   the unigram surface across a τ ≥ 6000 corridor and fails S_b/S_w at every certified
+   point tested — now closed up to p_cont = 0.9 by the preregistered W3c sweep (38
+   certified points, n_ge = 0/1000 × 76 units), with the adversary's strip probe
+   extending the failure through the certified strip to p_cont = 0.95, where single
+   S_b draws touch obs but S_w stays unbridged (AM-W3c-1: S_w is the binding
+   discriminator at extreme memory). Remaining open edges: mutation operator sets that
+   preserve boundary-digram statistics by construction; T&S's exact (paywalled)
+   line-based algorithm; the region beyond the scanned strip (p_cont > 0.98; p_exact
+   outside [.55, .75] × the probed sub-region — AM-W3c-3). The phase-3 self-citation
+   result remains deliberately NOT entered — W3/W3b/W3c now carry that question inside
+   the certified record.
 6b. **d=2 residue promotion (B13): RESOLVED — CERTIFIED (W5 + W5-A → A13).** The
    preregistered certify-or-kill power round (joint power .943 vs ≥ .80 target, armed
    kill rule) certified the pooled d=2 statistic at folio grain in both
    transliterations; six permutation seed sets, four bootstrap seed sets, adversary
-   Tier-A upgrade granted. AM-W5-1..3 + AM-W3b-2 + AM-W2-1 welds travel. Still open
+   Tier-A upgrade granted. AM-W5-1..3 + AM-W3c-4 (superseding the AM-W3b-2 weld) +
+   AM-W2-1 welds travel. Still open
    from this thread: the E2 line-null residue (strengthened lead only — perm p
    .006/.003 but folio CI ∋ 0); a position-conditioned boundary prong (thread 7);
    ZL-only weak far tails (d=8/d=16) remain a descriptive watch item (W5: d8 p .003
@@ -899,7 +976,7 @@ WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
 (2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
 W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29), W4 (2026-09-29),
-W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29).
+W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29), W3c (2026-09-30), W3c-A (2026-09-30).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from

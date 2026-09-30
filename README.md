@@ -54,8 +54,8 @@ pure-generator account of the text, and the first brick of an external-constrain
 
 ## The swarm rounds (Phase 10 onward) — current status
 
-The multi-agent swarm has since completed **sixteen adversarially-verified rounds**
-(2026-09-18 → 2026-09-29), each a preregistered builder battery followed by an independent
+The multi-agent swarm has since completed **seventeen adversarially-verified rounds**
+(2026-09-18 → 2026-09-30), each a preregistered builder battery followed by an independent
 adversary round that recomputes every headline number from primary data with its own code,
 nulls, and seeds. Full round records: [`rounds/`](rounds/).
 
@@ -77,6 +77,7 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [W3b / W3b-A — memory-bearing nulls, part 2: the residue showdown](rounds/w3b.md) | obligatory under AM-W3-1: certify the recency-to-uniform copy+mutate corridor (144-point grid, τ to 24000), select configurations by frozen rule, score the certified residue cells S_b / S_w / S_d2 against K=1000 generated corpora per config; preregistered d=1/d=2 cluster certification on the real corpus | **FAMILY-FAILS-AT-RESIDUE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; headline on S_b and S_w only):** the corridor is real at four independent seed sets (15/144 joint at builder seeds), and everywhere the family certifies it fails the certified residue — all 12 scored units n_ge=0 at K=1000; S_b obs .1999/.1784 vs generator bands .005–.013 (≥14× above the bands even at bias-corrected CIs), S_w 1.395/1.364 vs .87–1.18 — including at the memory-heaviest certified corner probed (p_cont=.7). S_d2 de-weighted by the adversary (bias-fragile CI leg; a certified corner reproduces it); d=1 re-certified (A10); d=2 permutation-clear at four seed sets but cluster-uncertified (lead). The family makes the repeats but not the digram residue — memory of the wrong shape → ledger A12/B13 |
 | [W4 / W4-A — soft word segmentation](rounds/w4.md) | test of the W2-A comma-cohesion lead: is the EVA hard-space "word" the real unit, or is segmentation soft? Cross-trained min-PMI cohesion signal; prongs: comma cohesion, cross-transliteration boundary contest, residue under resegmentation, lexicon sanity | **MIXED by the frozen letter — citable reading NEGATIVE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W4-1..6): EVA hard-space tokenization survives its first direct challenge.** The hypothesis lost its load-bearing prongs: comma cohesion REVERSED (Δ = −.167 at 1/1001 — the adversary amended and discharged his own W2-A lead: the table-MI measurement stands at 0.532, the "high-cohesion" gloss is struck); the boundary contest failed both arms (88.2% comma-overlap disclosure on ZL; the independent IT arm fails too); the one prereg positive (T2 STRENGTHENED) is a demonstrated construction artifact — a wordless first-order-Markov surrogate reproduces the full gain — de-weighted to non-evidential. Emergent certified lead (B14): the scribe's spaces are exceptional final→initial class-independence points — ~7.7×/8.6× more independent than matched-rate random placement and ~5.1×/5.9× more than the cohesion segmenter's own boundaries, both transliterations; no natural-language control claimed |
 | [W5 / W5-A — the d=2 power round](rounds/w5.md) | certify-or-kill round on the d=2 residue lead (ledger B13): bootstrap the pooled statistic B13 actually quotes at folio grain, at preregistered adequate power (joint .943 vs ≥.80 target) with an armed kill rule — no more limbo | **CERTIFIED — B13 upgraded to Tier-A (adversary confirmed with amendments): the corpus carries certified multi-distance digram-class residue structure at d=1 AND d=2.** Permutation-clear at six independent seed sets (zero exceedances everywhere, both transliterations); folio-cluster basic+BCa intervals exclude zero in all three builder seed streams AND at the adversary's own seeds with an independently re-seeded null layer (P(≤0) = 0 in 24,000 replicates); the adversary's estimand probe found W3b's failed bootstrap leg had targeted a different, ~1.4–1.7× smaller functional — estimand re-alignment, not shopping, and the builder's "same pooled quantity" sentence struck; the quire-grain basic-CI dip ruled a right-skewness artifact (BCa positive everywhere, ≤1/12,000 coarse-grain replicates ≤0) and welded as a disclosure; carries AM-W3b-2 verbatim — no discrimination against the certified memory-heavy copy+mutate corner |
+| [W3c / W3c-A — closing the memory-heavy corner](rounds/w3c.md) | formal closure of A12's spot-probe debt: a preregistered 300-point sweep of the memory-heavy region (τ 6000–24000 × p_exact .60–.70 × p2 {0,.2} × p_cont .4–.9), scoring the certified residue cells S_b / S_w at every jointly certified point against K=1000 generated corpora, S_d2 as descriptive companion | **CORNER-CLOSED — adversary CONFIRMED-WITH-AMENDMENTS (AM-W3c-1..4); the A12 gloss upgrade APPROVED-AS-AMENDED:** 38/300 points certify jointly and every one fails both residue cells with zero exceedances in all 76 point×translit units (n_ge = 0/1000 each). The generator's S_b rises with memory (band hi .016 → .110) yet never reaches obs inside the grid — and the adversary's pre-named strip probe showed why that sentence must stay grid-scoped: certification persists above the grid (joint to p_cont = .95, singles to .98) and individual S_b draws cross obs there (2/200 ZL, max .2089 vs obs .19992, tail still MISMATCH). **S_w holds the closure** — flat in memory, ~0.25 bits below obs, n_ge = 0 everywhere probed — so S_b alone may not be cited against this family above the sweep grid. Ceiling seed-wobbly (adversary grid: 33 points, ceiling 0.8; region robust at a fifth seed set); S_d2 sweeps THROUGH obs magnitude at p_cont ≈ 0.7 and overshoots ~3.5× by 0.9, strengthening A13's weld (AM-W3c-4). Closure: closed up to p_cont 0.9 by prereg sweep, failure extended through the certified strip to 0.95 by adversary probe |
 
 **Headline certified facts:** the campaign's central certified result now stands on two
 excluded generator families. *The character stream carries sequential digram-class
@@ -85,11 +86,15 @@ that neither certified generator family reproduces*: the **memoryless family** (
 grille, Stolfi-style core-mantle, tuned to match the manuscript's unigram/word statistics)
 is excluded (W2, ledger A11), and the strongest memory-bearing competitor — the certified
 **recency-to-uniform copy+mutate family** (the Timm & Schinner "self-citation" lineage) —
-is excluded **at the residue layer** (W3b, ledger A12): it can be tuned to the
-unigram/word-structure surface (a certification corridor confirmed at four independent
-seed sets), and everywhere it certifies it fails the certified residue cells S_b and S_w
-by roughly an order of magnitude, in both transliterations, while reproducing the
-manuscript's repetition texture — memory of the wrong shape. Stated at exact certified
+is excluded **at the residue layer** (W3b + W3c, ledger A12): it can be tuned to the
+unigram/word-structure surface (a certification corridor confirmed at five independent
+seed sets), and at every certified point tested it fails the certified residue cells S_b
+and S_w, in both transliterations, while reproducing the manuscript's repetition
+texture — memory of the wrong shape. That closure is now a preregistered sweep, not a
+spot probe (W3c): closed up to p_cont = 0.9 across the memory-heavy region, with
+adversary probes extending the failure through the certifying strip to 0.95 — where
+single S_b draws touch the manuscript but the within-word residue S_w stays ~0.25 bits
+unbridged (S_w is the binding discriminator at extreme memory). Stated at exact certified
 scope: these are exclusions of generator families as implemented, not a reading — they do
 not certify "cipher", "language", or "meaning"; boundary-statistic-preserving mutation
 operators and T&S's exact (paywalled) algorithm remain untested. The tokenization those
@@ -102,8 +107,10 @@ tested-family scope). The residue structure is now certified at **multiple dista
 uncertainty in both transliterations — permutation-clear at six independent seed sets,
 bootstrap-certified in four, adversary-recertified with an independent null layer — so
 any candidate generator or mapping must reproduce sequential class structure at both
-distances, with the welded caveat that d=2 does not by itself discriminate against the
-certified memory-heavy copy+mutate corner (AM-W3b-2). Alongside it: *or- is enriched in the opening paragraph of the written
+distances, with the welded caveat — strengthened by W3c's sweep (AM-W3c-4) — that d=2
+is quantitatively non-discriminating along the copy+mutate family's memory axis (it
+crosses obs magnitude at p_cont ≈ 0.7 and overshoots ~3.5× by 0.9): d=2 residue
+constrains memoryless/short-memory mechanisms only. Alongside it: *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
 folio-cluster level in both transliterations, robust to geometric heading-likeness, and
 section-modulated with the balneological section negative; the content-linked root
@@ -121,9 +128,11 @@ what emerged instead is the boundary-independence lead: EVA spaces as exceptiona
 final→initial class-independence points, adversary-recertified at tested-family scope;
 a natural-language reference corpus and a position-conditioned boundary prong
 (stratified S_b 0.280/0.250 vs pooled 0.200/0.178, W2-A) are the follow-ups.
-(3) **remaining copy+mutate edges (AM-W3b-2):** mutation operator sets that
+(3) **remaining copy+mutate edges (AM-W3c-1/-3):** mutation operator sets that
 preserve boundary-digram statistics by construction, T&S's exact line-based algorithm,
-and the p_cont > 0.7 region are unprobed. (4) the one-line-heading question — enrichment
+and the region beyond the adversary's scanned strip (p_cont > 0.98; p_exact outside
+[.55, .75] × the probed sub-region) are unprobed — the p_cont ≤ 0.95 memory axis is
+now closed (W3c). (4) the one-line-heading question — enrichment
 beyond the opening paragraph's first line is permutation-strong but cluster-uncertified
 at every resampling grain; U1 revival is gated on stroke-level text/drawing separation
 (WP9). (5) the Currier axis — language specificity of the opening effect is unresolved
