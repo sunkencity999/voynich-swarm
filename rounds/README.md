@@ -3,7 +3,9 @@
 Phase 10 onward, the campaign runs as work packages (WP): a preregistered builder round
 followed by an independent adversary round (WP*n*-A) that recomputes every headline number
 from primary data with its own code, nulls, and seeds. Nothing enters the campaign record
-until the adversary round has filed.
+until the adversary round has filed. From 2026-09-29 the campaign's second arc (the
+digram/sequence-structure rounds) uses W-series numbering (W2, W2-A, …); the
+builder/adversary structure is unchanged.
 
 One file per round: design intent, master verdict, adversary outcome, key numbers. The
 certified output of all rounds is consolidated in [`../CONSTRAINTS.md`](../CONSTRAINTS.md).
@@ -21,6 +23,7 @@ certified output of all rounds is consolidated in [`../CONSTRAINTS.md`](../CONST
 | [WP8b / WP8b-A](wp8b.md) | 2026-09-26 | Repair round: pipeline fixes + recertification + contains-domain M3 | **MEASURAND-FAILED (second negative case, adversary-confirmed):** herbal join repaired 0/128→27/128 but ICC 0.084 / 5.86 gw / CI lower −0.158 — all prongs fail; second blocker: or-arm 7 < floor 15; M3 untested, kill rule armed; WP8c prerequisites adopted |
 | [WP8c / WP8c-A](wp8c.md) | 2026-09-26 | Rebuild round: block-aware segmentation + geometric edge kill + coverage hard gate | **COVERAGE-FAILED, terminal (adversary-confirmed):** joins 49→74/206 and edge junk halved (21→11), but or-arm 9/23 < bar 15 (structural ceiling 18/23); absorbed-first-word class worsened 23→62 — coverage and fidelity coupled; no human budget spent, no statistic; M3 untested, kill rule armed; ceiling-quoted-bars law + WP8d prerequisites adopted |
 | [WP9 / WP9-A](wp9.md) | 2026-09-26 | Semantics round: blind two-family visual annotation × or-opening contrast, memorization defenses, third-family verification gate | **ANNOTATION-FAILED, instrument failure (adversary-confirmed):** probes passed (P1 thin .0555/.0570; folio recognition 0.6%), both annotators + κ gate passed (survivors H h1/h3/h4, S s1), but image-groundedness verification 17/30 vs bar ≥27/30 — agreement without groundedness; token join never ran, seeds unconsumed. B1 semantic reading UNTESTED; revival gated on stroke-level text/drawing separation; AM-1..AM-5 law adopted |
+| [W2 / W2-A](w2.md) | 2026-09-29 | Digram-residue battery: boundary + within-word digram-class MI vs structure-preserving shuffles and certified memoryless generators (Rugg grille, Stolfi core-mantle) | **P1 PASS · P2 PASS · P3 SUPPORTED · master SUPPORTED — the campaign's first positive certified constraint (adversary CONFIRMED-WITH-AMENDMENTS, AM-W2-1..4):** sequential digram-class structure inconsistent with memoryless generation, both translits, every tail 1/1001 n_ge=0; adversary's comma-artifact finding disclosed per AM-W2-1 (ZL S_b .1999 pooled / **.1712 hard-space-only**, still ~12× null max; IT comma-free, concordant .1784); certified memoryless generator family excluded (all 8 units, robust to λ=.95 probe); NOT cipher, NOT language — memory-bearing generators are the W3 target |
 
 Conventions shared by all rounds: frozen token parse (38,440 ZL / 37,759 IT; ZL = EVA/ZL3b-n,
 IT = Takahashi/IT2a-n), both transliterations for every claim, permutation nulls nperm=1000

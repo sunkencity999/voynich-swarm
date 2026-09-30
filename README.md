@@ -4,7 +4,7 @@
 
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
-swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP8c) with their
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2) with their
 certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
@@ -49,8 +49,8 @@ pure-generator account of the text, and the first brick of an external-constrain
 
 ## The swarm rounds (Phase 10 onward) — current status
 
-The multi-agent swarm has since completed **five adversarially-verified rounds**
-(2026-09-18 → 2026-09-23), each a preregistered builder battery followed by an independent
+The multi-agent swarm has since completed **twelve adversarially-verified rounds**
+(2026-09-18 → 2026-09-29), each a preregistered builder battery followed by an independent
 adversary round that recomputes every headline number from primary data with its own code,
 nulls, and seeds. Full round records: [`rounds/`](rounds/).
 
@@ -67,21 +67,35 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [WP8b / WP8b-A — repair round: recertification + contains-domain M3](rounds/wp8b.md) | fix the three adjudicated pipeline failure modes, recertify under upgraded machinery (n=100, git-fact boundaries, CI prong), then run M3 on the contains-domain (proven non-empty) | **MEASURAND-FAILED, second consecutive negative case (adversary-confirmed):** herbal joinability repaired 0/128→27/128, but ICC 0.084 / median error 5.86 glyph widths — whole-width band segmentation adjudicated the wrong architecture; second blocker: joined or-arm 7 < floor 15. M3 untested, kill rule armed. WP8c gated on block-aware segmentation + 65% or-arm coverage + second annotator |
 | [WP8c / WP8c-A — rebuild round: block-aware segmentation + coverage hard gate](rounds/wp8c.md) | implement the WP8b-A prerequisites (block-aware bands, geometric edge kill), demonstrate or-arm coverage ≥15/23 BEFORE spending human budget, then two-annotator recertification + contains-domain M3 | **COVERAGE-FAILED, terminal (adversary-confirmed):** rebuild raised joins 49→74/206 and halved edge-junk onsets, but or-arm 9/23 vs bar 15 — and the bar was structurally capped at 18/23 (5 pages lack single-folio scans). Absorbed-first-word errors worsened 23→62: coverage and fidelity are coupled. Honest early exit: zero human budget spent, no statistic. M3 now blocked four independent ways; kill rule armed. New law: coverage bars must quote their structural ceiling at freeze |
 | [WP9 / WP9-A — semantics round: blind annotation × or-opening](rounds/wp9.md) | first semantics test: do or-opening pages share blind-annotated visual content within section×Currier cells? Two distinct-family annotators, masked pages, memorization defenses (residual-ink probe, recognition audit), third-family verification gate | **ANNOTATION-FAILED, instrument failure (adversary-confirmed):** reliability gates passed (κ survivors H h1/h3/h4, S s1) but image-groundedness verification scored 17/30 vs bar ≥27/30 — dilation masking that passes the leakage gates destroys the annotatable substrate (median masked fraction .777; 11/30 "unclear"). Token join never performed; B1's semantic reading UNTESTED, not killed; revival requires stroke-level text/drawing separation |
+| [W2 / W2-A — digram-residue battery](rounds/w2.md) | first evidence-FOR instrument: does the character stream carry sequential digram-class structure (across word boundaries; within words beyond the slot grammar) that structure-preserving shuffles destroy and certified memoryless generators (Rugg grille, Stolfi core-mantle) cannot reproduce? | **P1 PASS · P2 PASS · P3 SUPPORTED · master SUPPORTED — the campaign's first positive certified constraint (adversary CONFIRMED-WITH-AMENDMENTS):** boundary residue S_b .1999/.1784 and within-word residue S_w 1.395/1.364 bits, every tail 1/1001 with zero nulls at obs, both translits; the certified memoryless generator family is excluded in all 8 units. The adversary's comma-artifact finding travels with the record (AM-W2-1): ZL hard-space-only S_b .1712, still ~12× null max; IT comma-free and concordant. Certified scope only: inconsistent with memoryless generation — NOT "cipher", NOT "language"; memory-bearing (self-citation) generators are the W3 target |
 
-**Headline certified fact:** *or- is enriched in the opening paragraph of the written
+**Headline certified facts:** the campaign now has its **first positive certified
+constraint** (W2, 2026-09-29): *the character stream carries sequential digram-class
+structure — across word boundaries and within words beyond the positional slot grammar —
+that memoryless independent-draw generation cannot reproduce*, and the certified
+memoryless generator family (Rugg-style grille, Stolfi-style core-mantle, tuned to match
+the manuscript's unigram/word statistics) is excluded in both transliterations. Stated at
+exact certified scope: this is an exclusion of a generator class, not a reading — it does
+not certify "cipher" or "language", and memory-bearing (self-citation-class) generators
+remain untested. Alongside it: *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
 folio-cluster level in both transliterations, robust to geometric heading-likeness, and
-section-modulated with the balneological section negative. Alongside it, the certified
-profile now includes the content-linked root correlate, a corpus-wide
-depleted-at-openings / enriched-at-endings positional grammar (line-final step + a
-paragraph-terminal gradient), closed-prefix-family composition, and absence of linguistic
-context-selectivity. Every certified fact, with effect sizes, p-values, and its
-certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
+section-modulated with the balneological section negative; the content-linked root
+correlate; a corpus-wide depleted-at-openings / enriched-at-endings positional grammar
+(line-final step + a paragraph-terminal gradient); closed-prefix-family composition; and
+absence of linguistic context-selectivity. Every certified fact, with effect sizes,
+p-values, and its certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
 
-**Live threads (L5):** (1) the one-line-heading question — enrichment beyond the opening
-paragraph's first line is permutation-strong but cluster-uncertified at every resampling
-grain; blind semantic heading annotation is the identified discharge path. (2) the Currier
-axis — language specificity of the opening effect is unresolved in both directions.
+**Live threads:** (1) **W3 candidate — the memory-bearing / self-citation null family:**
+W2 excludes only the *memoryless* generator family; Timm-style self-citation generators
+are the natural next exclusion target. (2) **Soft word segmentation (W2-A lead):** the
+transcriber's uncertain spaces concentrate at high-digram-cohesion junctions — Voynichese
+"word" boundaries may be soft, morpheme-boundary-like; a position-conditioned boundary
+prong would also be more powerful. (3) the one-line-heading question — enrichment beyond
+the opening paragraph's first line is permutation-strong but cluster-uncertified at every
+resampling grain; U1 revival is gated on stroke-level text/drawing separation (WP9).
+(4) the Currier axis — language specificity of the opening effect is unresolved in both
+directions.
 
 The record keeps its failures on the front page: two fabrication plants caught (that is the
 screen working), several of the campaign's own draft claims downgraded or killed by its own
@@ -112,7 +126,7 @@ conclusion.
 |---|---|
 | [`CHARTER.md`](CHARTER.md) | The swarm charter: mission, roles, accountable goal-passing, method rules, calibration gauntlet |
 | [`CONSTRAINTS.md`](CONSTRAINTS.md) | **The certified constraint ledger** — Tier-A facts any theory must reproduce, Tier-B supported-but-uncertified observations, Tier-C retired framings |
-| [`rounds/`](rounds/) | Swarm round records WP1–WP8c: design intent, master verdict, adversary outcome, key numbers per round |
+| [`rounds/`](rounds/) | Swarm round records WP1–WP9 and W2: design intent, master verdict, adversary outcome, key numbers per round |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | The measured-campaign methodology and the multi-agent swarm architecture |
 | [`docs/DATA.md`](docs/DATA.md) | Data sources, provenance, and fetch instructions (transliterations and images are **not** committed — see licensing note there) |
 | [`reports/`](reports/) | Phase reports 1–9, verbatim research record (lightly scrubbed of machine-internal paths only) |

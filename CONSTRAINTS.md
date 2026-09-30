@@ -85,6 +85,22 @@ its refutation.
   probe/verifier deployment must be logged in a commit that PRECEDES the first
   probe-call artifact commit; same-commit logging was ruled benign once (WP9) and is
   disallowed going forward.
+- **Junction-type disclosure (campaign law, W2-A amendment AM-W2-1):** any claim built
+  on token adjacency must classify junction types at freeze (hard / uncertain-space /
+  dropped-token), and any published boundary statistic must carry the hard-junction-only
+  figure alongside the pooled one. For W2: ZL S_b = 0.1999 pooled / 0.1712 hard-only;
+  IT = 0.1784 (comma-free at source).
+- **Certification draw floor (campaign law, W2-A amendment AM-W2-2):** generator-
+  certification grids use ≥5 draws per grid point (mean metrics vs bars), or a
+  preregistered noise rule; single-draw selection is a seed lottery at bar boundaries.
+- **Computed ceilings (campaign law, W2-A amendment AM-W2-3):** ceiling notes quoted at
+  freeze must be computed from frozen inputs by committed code, never asserted from
+  theory (extends WP8c-A amendment 3 from coverage bars to all frozen feasibility
+  claims).
+- **λ-asymmetry caveat travels (campaign law, W2-A amendment AM-W2-4):** any citation of
+  W2's P3 must state that the S_w_raw separation depends on the TTR certification bar
+  bounding λ < 1, and that the bag-of-attested-words alternative is excluded by S_b/P1,
+  not by S_w_raw.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -209,6 +225,68 @@ a future WP8b prereg.
 - Evidence: `wp8/tests/results/T7_contains_domain_census.json`,
   `wp8/verdicts-adversary/SUMMARY.md`,
   `wp8/verdicts-adversary/adversary_results.json`.
+
+### A10. The character stream carries sequential digram-class structure — within words beyond the slot grammar, AND across word boundaries
+Any valid theory MUST reproduce both facets (the campaign's first positive certified
+constraint; round W2, adversary-confirmed):
+- **Boundary digram residue (W2 P1, PASS):** mutual information between word-final and
+  word-initial character classes across adjacent-word junctions S_b = 0.19992 bits ZL /
+  0.17836 IT, permutation p = 1/1001 both translits (n_ge = 0 at nperm = 1000; null max
+  .01333/.01280 — gap to nearest null ≈ 14× the null max), folio-cluster bootstrap CI
+  [.145, .184] / [.125, .162], P(≤0) = 0. **AM-W2-1 disclosure (binding, travels with
+  this number):** the inherited tokenizer splits on IVTFF uncertain-space commas — 8.02%
+  of ZL boundary junctions are commas and they are MI-hot (comma-only S_b = 0.532 bits),
+  inflating the pooled ZL figure ~14%; the hard-space-only ZL figure is **S_b = 0.1712**
+  (still ~12× its own null max .01422, p = 1/1001, n_ge = 0), and IT contains zero comma
+  junctions at source yet independently agrees.
+- **Within-word positional residue (W2 P2, PASS):** digram MI conditioned on
+  (word-length, position) cells — i.e. beyond the positional slot grammar —
+  S_w = 1.39542 ZL / 1.36418 IT bits, p = 1/1001 both (null max .04968/.04762),
+  folio-cluster bootstrap CI [.742, .816] / [.738, .811], P(≤0) = 0. Adversary
+  folio-stratified (folio × length × position) null — which preserves every folio's
+  positional unigram profile and kills hand/section/folio mixing as an explanation —
+  still gives n_ge = 0/1000 (null max .0855/.0819; folio mixing contributes only
+  ~0.035 bits of the pooled statistic).
+- GLYPH-domain robustness (prereg'd variant): same direction, same 1/1001 tails
+  everywhere; no downgrades.
+**Frozen scope (verbatim, binding):** a pass supports "sequential digram-class structure
+inconsistent with memoryless independent-draw generation as implemented here" — it does
+NOT certify "cipher" or "language"; memory-bearing (self-citation-class) generators are
+outside this round's null family. P1's pass means the residue extends ACROSS word
+boundaries — the Naibbe-compatible channel is live, not just word-internal structure
+(frozen interpretive wording).
+- Certified: W2 T1/T2 (P1 PASS, P2 PASS); adversary W2-A recomputed every statistic with
+  independent code to ~1e-13, replayed checkpoints bit-identical from the declared
+  SeedSequence mapping, and re-ran nulls at disjoint seeds (2000 draws on P1) with
+  n_ge = 0 everywhere; comma, line-position (induced-MI bound 0.027; stratified S_b
+  *rises* to 0.280/0.250), and Currier/folio kill vectors all fail.
+- Evidence: `w2/tests/results/summary.md`,
+  `w2/tests/results/T1.json`, `w2/tests/results/T2.json`,
+  `w2/ADVERSARY_REPORT.md`.
+
+### A11. The manuscript is NOT the output of the certified memoryless generator family (Rugg grille / Stolfi core-mantle)
+Any valid theory MUST NOT model the text as memoryless independent-draw generation of
+the certified family: generators certified pre-run on four unigram/word-statistic bars
+(H1 ± 0.10 bits, mean length ± 0.50, TTR ± 20% rel, top-100 mass ± 20% rel) — A1
+Rugg-style grille at λ = 0.75 ZL / 0.70 IT and A2 Stolfi-style core-mantle at λ = 0.90
+both translits, i.e. 70–90% bag-of-attested-words, the STRONGEST memoryless competitors
+on unigram statistics — fail to reproduce the observed statistics in all 4 preregistered
+cells (generator × statistic), each in both transliterations (8/8 cell × translit
+units): every generator-null tail p = 1/1001 with n_ge = 0 for both S_b and the raw
+within-word MI S_w_raw (obs 1.66059 ZL / 1.62396 IT), and the observed bootstrap CI lows
+(1.63447/1.59840) clear every generator 97.5th percentile (A1: 1.46496/1.40473; A2:
+1.36334/1.33550). Verdict **SUPPORTED** per the frozen rule (exact certification level —
+not upgraded); master axis **SUPPORTED**; adversary **CONFIRMED** at own seeds (K = 500
+fresh corpora per cell, n_ge = 0 in all 8 units), robust up to a λ = 0.95 probe (the
+strongest admissible bag-of-attested-words). **AM-W2-4 caveat (binding, travels with any
+citation):** the S_w_raw separation depends on the TTR bar bounding λ < 1 (a pure
+attested-word bag reproduces the real digram table by construction); the exchangeable
+bag-of-attested-words alternative is excluded by S_b/P1, which is the λ-robust
+separator. Scope: this certifies exclusion of the certified memoryless generator family
+only — not "cipher", not "language"; memory-bearing (self-citation-class) generators
+remain untested by this round.
+- Evidence: `w2/tests/results/summary.md`,
+  `w2/tests/results/T3.json`, `w2/ADVERSARY_REPORT.md`.
 
 ### Composite Tier-A profile (adversary synthesis, WP3-A item 5, extended by WP4/WP5)
 > or- is appended at terminal slots — line-final specifically (step, not ramp), amplified at
@@ -489,7 +567,7 @@ kill a theory alone. Certification levels copied exactly as filed.*
 
 ---
 
-## Live threads (post-WP9)
+## Live threads (post-W2)
 
 1. **The one-line-heading question (B1):** opening enrichment beyond the first line is
    permutation-strong but cluster-uncertified at every resampling grain; blind semantic
@@ -516,12 +594,28 @@ kill a theory alone. Certification levels copied exactly as filed.*
    replicated descriptively in every section, but the mechanism link to A7 is KILLED with
    the wrong sign (C17) — anti-A7 section profile. Survives only as an independent
    NOT_PREREG mechanism question, decoupled from or- enrichment.
+6. **W3 candidate — the memory-bearing / self-citation null family:** W2 certifies
+   exclusion of the *memoryless* generator family only (A10/A11); memory-bearing
+   generators (Timm-style self-citation) are explicitly outside W2's frozen null family
+   and are the natural next exclusion target. (The phase-3 self-citation result predates
+   the ledger's evidence rules and remains deliberately NOT entered — a W-series round
+   would bring that question inside the certified record.)
+7. **Soft word segmentation (W2-A NOT_PREREG leads):** the transcriber's *uncertain*
+   spaces (IVTFF commas) concentrate at high-digram-cohesion junctions (comma-only
+   S_b ≈ 0.53 bits) — a future round could test whether Voynichese "word" segmentation
+   is soft (morpheme-boundary-like) rather than crisp. Related: position-conditioning
+   *strengthens* the boundary residue (stratified S_b 0.280/0.250 vs pooled
+   0.200/0.178), so a position-conditioned boundary prong would be more powerful; and
+   folio mixing's share of S_w is now quantified at ≈ 0.035 bits.
 
 *Compiled from: WP2 (2026-09-18), WP2-A (2026-09-18), WP3 (2026-09-19), WP3-A (2026-09-19),
 WP4 (2026-09-23), WP4-A (2026-09-23), WP5 (2026-09-23), WP5-A (2026-09-23), WP6 (2026-09-25),
 WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-A
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
-(2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26). Claims from
+(2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29).
+W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
+structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
+Claims from
 earlier phases not documented in these round files (e.g. the phase-3 self-citation generator
 result) are deliberately NOT entered here — nothing enters the ledger that cannot be
 verified against a round evidence file.*
