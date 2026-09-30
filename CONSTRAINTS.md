@@ -267,6 +267,15 @@ its refutation.
 - **Record correction (W6-A amendment AM-W6-3):** the duplicate-cache disclosure
   undercounts: 25 duplicate-keyed records (not 23), all identical-answer, zero
   conflicts, zero effect on scored counts.
+- **Contiguity-preserving null for contiguous-block contrasts (campaign law,
+  forward-binding, W7-A amendment AM-W7-5):** for any future preregistered
+  contrast whose arms are contiguous codicological blocks (sections, quires,
+  gathering runs), folio-exchange permutation is inadmissible as the SOLE
+  certifying null: a contiguity-preserving null (exact cyclic rotation or a
+  block-resampling equivalent) must be preregistered as a load-bearing prong,
+  not merely a knife-edge menu item. (W7's omnibus survives this standard;
+  its contrast does not — the gap between the two is exactly what this law
+  prevents from recurring silently.)
 - **G3 failure decomposition (campaign law, W6-A amendment AM-W6-4, welded to any
   citation of W6's 21/30):** The 9 round-1 unverified cells decompose (adversary
   re-read): 2 genuine segmenter drawing-damage failures (f112r/f112v stars), 3
@@ -621,6 +630,110 @@ and independently re-seeded null-table layer.
   `w5/infra/power_analysis.json`, `w5/ADVERSARY_REPORT.md`,
   `w5/adversary/adv_w5_{A,D,E,F}.json`.
 
+### A14. The certified digram-class residue structure is heterogeneous across section labels — the manuscript is statistically STRATIFIED (W7 + W7-A; separability from Currier INDETERMINATE)
+Any valid theory MUST reproduce that the certified sequential residue structure (A10/A13)
+is NOT uniform across the manuscript's codicological sections. Certified fact per the
+adversary's compile wording: **"the digram-class residue structure is heterogeneous
+across section labels (M_b, M_d1; omnibus folio-exchange AND rotation-robust,
+Currier-stratification-robust at two seed sets), with the balneo-vs-herbal pairwise
+contrast certified under the frozen folio-exchange rule only"** — carrying the AM-W7-1..4
+welds verbatim (below). Master verdict: **STRATIFIED (separability from Currier
+INDETERMINATE)**. A10/A13's pooled certifications are untouched (W7 measures their
+SECTION decomposition, not the pooled facts).
+- **T1 omnibus (load-bearing, HETEROGENEOUS):** weighted between-section dispersion Q of
+  per-section residue Δ, folio-grain label permutation (nperm = 1000, seed 20261006,
+  6 floor sections B/C/H/P/S/Z, 211 pooled folios). M_b: Q = 108.05 ZL / 113.34 IT,
+  raw p = .001/.001, n_ge = 0, gap to nearest null 67.6/72.2. M_d1: Q = 101.66/105.36,
+  p = .001/.001, n_ge = 0. M_d2 rejects at frozen Holm (.00999 ZL / .003 IT) but is NOT
+  independently citable (AM-W7-3). **Rotation-robust** (the load-bearing standard per
+  AM-W7-1/-5): under the exact contiguity-preserving cyclic-rotation null, one-sided
+  p = .038 ZL / .019 IT (M_b) and .024 / .0095 (M_d1); M_d2 knife-edge in ZL (.0569).
+  **Currier-stratification-robust** (T1c, within-Currier label permutation): M_b
+  .001/.001, M_d1 .002/.003 at builder seeds; ≤ .004 at adversary seed 777008. M_d2
+  collapses under Currier stratification (.617/.542) — per frozen wording it cannot be
+  separated from Currier on this corpus.
+- **T2 primary contrast (CONTRAST-CERTIFIED under the frozen folio-exchange rule, with
+  welds):** balneological − herbal residue difference D, folio-exchange permutation +
+  folio-cluster bootstrap (B = 2000, basic AND BCa must exclude 0). M_b:
+  D = +.1456 ZL / +.1528 IT, p_two = .004/.002, basic CI [.0996, .1906] / [.1109, .1927],
+  BCa [.1035, .1940] / [.1135, .1952]. M_d1: D = +.1046 / +.1077, p_two = .004/.002,
+  basic [.0698, .1424] / [.0764, .1396], BCa [.0678, .1402] / [.0731, .1370]. M_d2 null
+  (p .735/.533) — the d=2 residue is section-flat, consistent with its small pooled
+  magnitude (A13). P(≤0) = 0 and |bias| ≤ .0035 on all certified cells; basic and BCa
+  never disagree. Arm-broad, not few-folio: adversary leave-one-balneo-folio-out keeps
+  all 19 LOO values positive (min +.1339, dropping f80v); greedy drop-top-3 leaves
+  +.121/+.084 ZL and +.1315/+.0912 IT (M_b/M_d1).
+- **Per-section ordering (descriptive-with-CIs only):** Δ M_b ZL: B .2855 > S .2506 >
+  C .2248 > Z .1830 > P .1441 > H .1399 (IT ordering identical; M_d1 same with S edging
+  B). The herbal section — the manuscript's largest — is the LOW end of the residue
+  range; balneo and stars/recipes the high end: the pooled corpus statistics (A10) are
+  averages over genuinely different section regimes. Per AM-W7-2(c) this ordering must
+  carry: "ordering tracks Currier composition (Currier-B-dominated sections high,
+  Currier-A low; a pure-hand contrast within herbal reproduces ≈half the B−H gap at
+  p .004)". Cross-section comparisons quote CIs (point estimates retain second-order
+  size sensitivity).
+- **T3 (descriptive, no verdict weight):** balneo-vs-herbal digram-class distribution
+  JSD = .1474/.1475 bits vs label-exchange null mean ≈ .029, n_ge = 0/1000 both
+  translits; lexicon Jaccard B–H .236/.233 vs B–S .307/.292 — balneo shares more
+  vocabulary with stars/recipes than with herbal.
+- **Adversary verification (W7-A, CONFIRMED-WITH-AMENDMENTS, seed 777008):** fabrication
+  screen clean (design/code/results commit separation; DESIGN untouched after freeze;
+  inherited W5→W2 chain unmodified); section map independently re-parsed from the IVTFF
+  source — 227 headers, 226 mapped folios, **0 section and 0 Currier mismatches**;
+  independent obs recompute of all 36 per-section Δ, 6 omnibus Q, 12 contrasts, and the
+  JSD exact to max |dev| 7.1e-14; builder-seed replays float-exact (0.0) for permutation
+  draws spanning the crash-resume boundary, null tables, and full B = 2000 bootstrap
+  CIs; own-seed replication reproduces every verdict leg (omnibus p = .002 M_b/M_d1;
+  T2 p = .004 with basic+BCa excluding 0 both translits).
+**Welds that MUST travel with any citation (AM-W7-1..4, verbatim):**
+1. **AM-W7-1 (rotation caveat travels; campaign law for this round's citation):**
+   T2's CONTRAST-CERTIFIED stands as a frozen-rule outcome (folio-exchange null +
+   basic/BCa cluster bootstrap; the knife-edge menu never triggered on a
+   load-bearing cell). But every citation of the W7 balneo-vs-herbal
+   certification MUST carry: *"not rotation-robust: under the exact
+   contiguity-preserving cyclic-rotation null the contrast does not clear .05
+   (M_b p_two .068 ZL / .081 IT; M_d1 .081 / .122; adversary-recomputed exactly),
+   i.e. it is not distinguishable at .05 from 'some contiguous ~19-folio window
+   differs'."* The rotation-ROBUST citable claim from W7 is the T1 omnibus
+   heterogeneity on M_b/M_d1 (one-sided rotation p ≤ .038 ZL / ≤ .019 IT).
+2. **AM-W7-2 (Currier confound weld; genre wording forbidden):** the T2 arms are
+   Currier-unbalanced (balneo 19/19 Currier-B; herbal 95/129 Currier-A). The
+   Currier-controlled T2b certifies nothing (ZL M_b Holm .072; ZL M_d1 p .186) and
+   every T2b cell fails the rotation item (p_two ≥ .196 — including IT M_b, raw
+   p .002). Adversary probes (NOT_PREREG, seed 777008, scanned region = the two
+   stated contrasts only): hand-only within herbal (H∩A vs H∩B) D ≈ −.08,
+   p_two = .004 in all four M_b/M_d1 cells; section-only at fixed hand
+   (B vs S∩Currier-B) null (p_two .22–.34, sign-inconsistent). Binding
+   consequences: (a) the W7 contrast may NEVER be cited as a genre/content
+   effect — it is a section-LABEL contrast with a demonstrated, large
+   Currier-correlated component; (b) "separability INDETERMINATE" is the ceiling
+   wording — no citation may lean it toward "section-specific"; (c) the
+   per-section ordering B>S>C>Z>P>H must carry "ordering tracks Currier
+   composition (Currier-B-dominated sections high, Currier-A low; a pure-hand
+   contrast within herbal reproduces ≈half the B−H gap at p .004)".
+3. **AM-W7-3 (M_d2 de-weight):** W7's M_d2 omnibus rejection stands as a
+   frozen-rule outcome but is NOT independently citable as heterogeneity
+   evidence (fails Currier stratification .617/.542; ZL rotation knife-edge
+   .0569; contrast null). The W7 heterogeneity headline is **M_b and M_d1 only**;
+   "6/6 units reject" may only be quoted with this rider.
+4. **AM-W7-4 (C-cell weld):** any citation of the C-section M_d2 (ZL) estimate
+   carries *"one-folio-driven: sign flips when f57v — the known W5 top
+   influencer — is dropped (+.059 → −.002)"*.
+AM-W7-5 (contiguity-preserving null law) is entered above under campaign law and is
+forward-binding on all future contiguous-block contrast designs.
+Scope (frozen): rejection means section labels carry information beyond folio
+exchangeability (and, for M_b/M_d1, beyond the Currier split at the omnibus level).
+Genre vs correlated production covariates: only the Currier axis was preregistered;
+scribe, folio size, and line geometry remain unmodeled section correlates. Verdicts bind
+to the frozen IVTFF $I mapping.
+- Certified: W7 T1 (HETEROGENEOUS) + T2 (CONTRAST-CERTIFIED, M_b/M_d1) per frozen rules;
+  W7-A (CONFIRMED-WITH-AMENDMENTS, AM-W7-1..5).
+- Evidence: `w7/tests/results/summary.md`,
+  `w7/tests/results/{T1,T2,T3}.json`,
+  `w7/tests/results/NP_rotation.json`, `w7/ADVERSARY_REPORT.md`,
+  `w7/adversary/adv_w7_{A,B,C,C2,D,E,F,G,H,I}.json`,
+  `w7/infra/section_map.json`.
+
 ### Composite Tier-A profile (adversary synthesis, WP3-A item 5, extended by WP4/WP5)
 > or- is appended at terminal slots — line-final specifically (step, not ramp), amplified at
 > paragraph-terminal lines, depleted at line and paragraph openings — **and separately enriched
@@ -649,7 +762,11 @@ kill a theory alone. Certification levels copied exactly as filed.*
   .016/.025 — IT in the knife-edge band) but bootstrap-uncertified (P(≤0) = .088/.113,
   CIs include 0). B neither passes nor is cleanly null. The A−B interaction (T1c) is
   NON-CERTIFIABLE (menu range ZL .033–.091 + boot .061; IT .017–.053 + boot .067; adversary
-  paired null .024/.016, boot .051/.063). `wp5/tests/results/summary.md`,
+  paired null .024/.016, boot .051/.063). *Reinforced (unchanged) by W7-A: the
+  adversary's NOT_PREREG hand-only probe within herbal (H∩A vs H∩B) fires at p = .004
+  in all four M_b/M_d1 cells while the section-only probe at fixed hand is null — the
+  Currier axis remains UNRESOLVED and load-bearing; the probe certifies nothing about
+  it (AM-W3-3 scope).* `wp5/tests/results/summary.md`,
   `wp5/verdicts-adversary/SUMMARY.md`.
 - **B3. Within-herbal Currier reversal (PH4): ZL-solid, IT-thin.** H-B folios show larger
   opening enrichment than H-A (+.0157/+.0096 vs +.0032/+.0038), NOT_PREREG; the H-B arm is
@@ -683,7 +800,10 @@ kill a theory alone. Certification levels copied exactly as filed.*
   stratification (PH1 p = .148/.121) — with the adversary's caveat that stratification also
   costs ~60% of the domain (171→67 folios), so the honest reading is "cannot be separated,"
   not "shown artifactual." **Binding design rule: Currier A/B is a mandatory stratum in any
-  future scribe/hand test.** `wp4/tests/results/summary.md`,
+  future scribe/hand test.** *Reinforced (unchanged) by W7-A: W7's balneo-vs-herbal
+  arms are Currier-unbalanced (19/19 B vs 95/129 A), the Currier-controlled T2b
+  certifies nothing, and separability lands INDETERMINATE — hand/section inseparability
+  again binds the wording (AM-W7-2).* `wp4/tests/results/summary.md`,
   `wp4/verdicts-adversary/SUMMARY.md`.
 - **B10. Ink-density coupling: positive, non-significant.** T5c ρ = +.111/+.114,
   p = .071/.073, against a WP2-carried anti-coupling on regularity. No verdict weight.
@@ -1018,7 +1138,13 @@ kill a theory alone. Certification levels copied exactly as filed.*
    gate stronger than page-level yes/no — plus AM-W6-1..4. U1/B1 remain gated on a
    certified instrument that does not yet exist.
 2. **The Currier axis (B2/B3): UNRESOLVED** — B-arm non-certifiable both directions; the
-   within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat.
+   within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat. W7
+   reinforces without resolving: the residue-stratification contrast is heavily
+   Currier-loaded (AM-W7-2; hand-only probe ≈half the B−H gap at p .004, NOT_PREREG),
+   and W7's separability verdict is INDETERMINATE — a Currier-balanced or
+   Currier-stratified contrast with adequate power (T2b's 148→51-folio domain shrink
+   conflates confound control with power loss; B9/WP4-PH1 precedent) remains the open
+   design problem.
 3. **L5 disposition after WP8c:** M1 killed (C16); M3 blocked four times — no geometry
    in the text corpus (WP7), empty prereg domain on images (A9, WP8), the CV measurand
    failed certification twice (WP8: 4.46 gw; WP8b: 5.86 gw), and the block-aware
@@ -1059,6 +1185,16 @@ kill a theory alone. Certification levels copied exactly as filed.*
    .006/.003 but folio CI ∋ 0); a position-conditioned boundary prong (thread 7);
    ZL-only weak far tails (d=8/d=16) remain a descriptive watch item (W5: d8 p .003
    ZL / .062 IT; d16 .046 / .879, unscored).
+6c. **Section stratification (W7 + W7-A → A14): RESOLVED at the omnibus layer — the
+   residue structure is STRATIFIED across section labels (rotation- and
+   Currier-stratification-robust on M_b/M_d1).** Still open from this thread: (a)
+   separability of the balneo-vs-herbal CONTRAST from Currier is INDETERMINATE
+   (AM-W7-2 caps the wording; genre/content attribution forbidden); (b) the contrast
+   is not rotation-robust (AM-W7-1) — a contiguity-aware contrast design satisfying
+   AM-W7-5 is the required successor; (c) the d=2 residue is section-flat (contrast
+   null, omnibus not independently citable per AM-W7-3) — consistent with A13's small
+   pooled magnitude; (d) scribe, folio size, and line geometry remain unmodeled
+   section correlates (frozen scope).
 7. **Soft word segmentation (W2-A NOT_PREREG lead): TESTED AND DISCHARGED NEGATIVE
    (W4 + W4-A → AM-W4-1..6, B14).** W4 put the lead under preregistration and it lost
    its load-bearing prongs. Master verdict: **MIXED by the frozen letter (T1b FAIL
@@ -1089,7 +1225,7 @@ WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-
 (2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
 W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29), W4 (2026-09-29),
 W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29), W3c (2026-09-30), W3c-A (2026-09-30),
-W6 (2026-09-30), W6-A (2026-09-30).
+W6 (2026-09-30), W6-A (2026-09-30), W7 (2026-09-30), W7-A (2026-09-30).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from
