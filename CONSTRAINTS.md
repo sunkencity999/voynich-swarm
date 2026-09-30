@@ -248,6 +248,33 @@ its refutation.
   B = 16,000 total"). AM-W3-2's memory-profile wording is superseded per the W5
   DESIGN's pre-committed upgrade text: **certified multi-distance residue structure
   (d=1 AND d=2)** — see A13.
+- **G1 label rider (campaign law, W6-A amendment AM-W6-1):** W6's G1 line carries the
+  frozen label GATE-INFRA-FAILED, but it may never be cited as "the probe was
+  inadequate, the segmenter was untested." The probe was adequate (it answered 7/7
+  textless patches correctly; ceiling analysis confirmed pre-run). The precondition
+  failed because the v1.9 segmenter misclassified drawing/edge ink as removable text,
+  placing positive controls on textless spots. Any citation of W6's G1 line must
+  state: *positive-control construction was violated by segmenter false-positive
+  removals — this is segmenter-defect evidence, not probe-defect evidence.*
+- **Round-0 G1 downgrade (campaign law, W6-A amendment AM-W6-2):** Round-0's G1 PASS
+  (54/60, bar exactly met) is downgraded to *passed-by-luck*: adversary reconstruction
+  proved ≥4 of its 6 positive-control misses were textless placements (the round-1
+  defect already active), giving an honest round-0 ceiling of ≤56/60. Consequently
+  round-0's leakage numbers (1/60 patch, 0/30 page) are **observations under a
+  compromised power precondition** and may not be cited as certified leakage evidence
+  for the approach class. (Extends the builder's welded disclosures 1 and 6, which
+  are otherwise accurate.)
+- **Record correction (W6-A amendment AM-W6-3):** the duplicate-cache disclosure
+  undercounts: 25 duplicate-keyed records (not 23), all identical-answer, zero
+  conflicts, zero effect on scored counts.
+- **G3 failure decomposition (campaign law, W6-A amendment AM-W6-4, welded to any
+  citation of W6's 21/30):** The 9 round-1 unverified cells decompose (adversary
+  re-read): 2 genuine segmenter drawing-damage failures (f112r/f112v stars), 3
+  annotator errors on intact features, 2 defensible judgment calls, 2 arguable
+  verifier misfires (f37v, f51v root-form rejections). The FAIL is robust (max
+  charitable flip reaches 25 < 27), but W6's G3 counts measure the annotate→verify
+  CHAIN, not segmenter fidelity alone; successor rounds must budget for
+  annotator/verifier noise explicitly (see the W6 successor prerequisites).
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -892,8 +919,83 @@ kill a theory alone. Certification levels copied exactly as filed.*
   27 usable pairs (published "13" is an erratum, self-disfavoring); intra-rater gates
   were largely vacuous on the over-masked corpus (A: 7/10 duplicates with zero shared
   definite axes). Adversary-audited WP9-A: chain, gates, and verdict CONFIRMED.
+  **W6-A certified addendum to the WP9 method constraint (binding wording):**
+  *stroke-level separation of the W6 class demonstrably preserves substrate (G2, two
+  rounds, 38 distinct held-out pages: median footprint ≈.15 vs WP9's .777, zero
+  catastrophic pages, 60/60 page-level drawing retention), but W6 certifies NO leakage
+  bound and NO drawing-fidelity bound; classification fidelity is the open failure
+  mode (drawing ink misclassified as text; fine drawing detail degraded near text).*
+  WP9-A's thin-P1 caveat is untouched (W6 produced no certified leakage evidence to
+  replace it — AM-W6-2).
   `wp9/SUMMARY.md`, `wp9/infra/verify_sample_results.json`,
   `wp9/ADVERSARY_REPORT.md`.
+- **W6 (U1 revival stage 1 — stroke-level text/drawing separation INSTRUMENT):
+  INSTRUMENT-FAILED (terminal) — adversary-CONFIRMED (W6-A,
+  CONFIRMED-WITH-AMENDMENTS, AM-W6-1..4).** The stroke-morphology + local-VL-
+  arbitration hybrid segmenter (frozen v1.8; the ONE preregistered revision v1.9 =
+  exactly the DRAW_GUARD_PRIMARY guard, 13 changed lines, proven **bit-exact-shipped**
+  by adversary re-render of f112r — sha256 identical to the committed round-1
+  manifest, removal_frac equal to full float precision) failed round-1 G3
+  groundedness **21/30 verified vs bar ≥27/30** (definite pool 65), terminal per the
+  frozen verdict rule — and the FAIL is **robust to the adversary's most charitable
+  re-read: flipping every questionable rejection reaches max 25/30 < 27**. Round-1 G1
+  is **GATE-INFRA-FAILED** (patch probe-power 49/60 prompt v1 → 52/60 preregistered
+  prompt v2, bar ≥54/60; page power 29/30 passed; honest ceiling 53/60 — 7 of the 11
+  prompt-v1 "no" patches are textless, so no prompt could pass the precondition on
+  this patch population), carrying the AM-W6-1 rider: *positive-control construction
+  was violated by segmenter false-positive removals — this is segmenter-defect
+  evidence, not probe-defect evidence* (the patch population was corrupted by the
+  segmenter's own misclassification; never citable as exculpating the segmenter).
+  Round 0: G1 passed at exactly 54/60 — **downgraded per AM-W6-2 to passed-by-luck**
+  (≥4 of its 6 misses adversary-reconstructed as textless placements; honest ceiling
+  ≤56/60; round-0 leakage 1/60 patch / 0/30 page are observations under a compromised
+  power precondition, NOT citable as certified leakage evidence); G3 failed 25/30
+  (pool 66; star-arm thinning on f112r/f112v + annotator errors). AM-W6-4 welds to
+  any citation of the 21/30: the G3 count measures the annotate→verify CHAIN (2
+  genuine drawing-damage failures, 3 annotator errors, 2 defensible calls, 2 arguable
+  verifier misfires), not segmenter fidelity alone. AM-W6-3 corrects the
+  duplicate-cache disclosure (25 duplicate-keyed records, not 23; identical-answer,
+  zero conflicts, zero scoring effect). No semantic claim of any kind was made; U1/B1
+  remain gated on a certified instrument that does not yet exist. Fabrication screen
+  CLEAN (commit chain from git alone; all gate counts recompute exactly from committed
+  call caches; all seeded draws replay exactly; 30/30 + 30/30 render sha256 verified).
+  **CERTIFIED LEAD (W6-A, adversary-granted, scoped wording binding — blanket
+  "solved" is forbidden):** *On 38 distinct held-out pages over two seeded rounds,
+  the W6 stroke-level segmenter class held removal footprint to median ≈.15 (max .43,
+  zero pages >0.60) with 60/60 page-level drawing retention under an
+  independent-family probe — versus WP9 dilation-masking's median .777 with 22/171
+  pages >90% masked. Substrate* survival *is solved for this approach class;
+  substrate* fidelity *(fine drawing detail near text) and removal* targeting
+  *(drawing ink misclassified as text) are explicitly NOT solved and are the proven
+  failure modes.*
+  **Binding prerequisites for any W6-successor instrument round (U1 revival stage-1
+  requirements, updating the WP9 constraint):** (1) **Decoupled positive controls** —
+  G1 probe-power patches drawn from text locations verified independently of the
+  segmenter under test (probe-confirmed on originals, or a frozen text-location
+  inventory), never from the segmenter's own removed-component centroids; (2) **a
+  drawing-fidelity gate stronger than page-level retention** — a preregistered bar on
+  drawing-detail survival (e.g. star-count preservation on S pages, or drawing-ink
+  IoU original-vs-removed), since G2b provably passes while star arms are shaved;
+  (3) **annotator-noise budget for G3** — an adjudication protocol, a pre-measured
+  annotator error rate on TUNE with the bar set net of it, or a multi-annotator
+  scheme (3+ of 9 round-1 failures were annotator errors on intact features, which a
+  27/30 bar cannot absorb at pool ≈65); (4) **power-precondition margin** —
+  probe-power bars passed with margin ≥2 above the bar or replicated on a second draw
+  before leakage is scored (the W6 round-0 knife-edge pass is the cautionary
+  precedent); (5) **family-separation disclosure** — any VL assist inside the
+  segmenter declared at freeze with its family relationship to the G3 annotator
+  (W6's Qwen/Qwen overlap was disclosed late, at v1.7–1.8, though verifier
+  independence held throughout).
+  Welded builder disclosures travel (T-section f1r-class faded ink never gate-tested;
+  G1 leakage numbers do not exist for round 1; prompt-v2 ordering after the sealed
+  verdict ruled acceptable record-completion, preregistration-before-run verified
+  from git).
+  `w6/summary.md`, `w6/DESIGN.md`,
+  `w6/BUILD_LOG.md`, `w6/gates/g1_result.json`,
+  `w6/gates/g1_result_r1.json`, `w6/gates/g1_result_r1v2.json`,
+  `w6/gates/g2_result.json`, `w6/gates/g2_result_r1.json`,
+  `w6/gates/g3_result.json`, `w6/gates/g3_result_r1.json`,
+  `w6/ADVERSARY_REPORT.md`.
 
 ---
 
@@ -904,7 +1006,17 @@ kill a theory alone. Certification levels copied exactly as filed.*
    heading annotation (U1) — the only identified discharge path — was attempted in WP9
    and exited ANNOTATION-FAILED (instrument failure, claim UNTESTED). Revival is gated
    on stroke-level text/drawing separation (WP9 method constraint); the WP9-A caveats
-   (P1-thin, 14/27 domain) travel with any reuse of the masking method.
+   (P1-thin, 14/27 domain) travel with any reuse of the masking method. **W6 (stage 1
+   of the revival) built and gated a stroke-level segmenter and exited
+   INSTRUMENT-FAILED (terminal, adversary-CONFIRMED):** substrate SURVIVAL is
+   certified as a lead (median footprint ≈.15 vs WP9's .777, 38 distinct held-out
+   pages, two rounds, 60/60 page-level retention — scoped wording in the W6 record;
+   substrate fidelity and removal targeting explicitly NOT certified), but
+   classification fidelity is the proven failure mode. Any successor stage-1
+   instrument round is additionally gated on the five W6-A prerequisites — headlined
+   by positive controls decoupled from the segmenter under test and a drawing-fidelity
+   gate stronger than page-level yes/no — plus AM-W6-1..4. U1/B1 remain gated on a
+   certified instrument that does not yet exist.
 2. **The Currier axis (B2/B3): UNRESOLVED** — B-arm non-certifiable both directions; the
    within-H reversal is ZL-solid/IT-thin with a one-folio jackknife caveat.
 3. **L5 disposition after WP8c:** M1 killed (C16); M3 blocked four times — no geometry
@@ -976,7 +1088,8 @@ WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
 (2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
 W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29), W4 (2026-09-29),
-W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29), W3c (2026-09-30), W3c-A (2026-09-30).
+W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29), W3c (2026-09-30), W3c-A (2026-09-30),
+W6 (2026-09-30), W6-A (2026-09-30).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from
