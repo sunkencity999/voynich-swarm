@@ -9,7 +9,7 @@
 
 This repository is the full public record of a statistical campaign against the Voynich
 manuscript (Beinecke MS 408): nine solo phases, the charter and architecture of the agent
-swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W4) with their
+swarm that continues it, and the swarm's adversarially-verified rounds (WP1–WP9, W2–W5) with their
 certified constraint ledger. It was produced by a small team of AI agents working under a human
 Principal (Christopher Bradford), with every claim gated by preregistration,
 multiple-comparison discipline, and adversarial review.
@@ -54,7 +54,7 @@ pure-generator account of the text, and the first brick of an external-constrain
 
 ## The swarm rounds (Phase 10 onward) — current status
 
-The multi-agent swarm has since completed **fifteen adversarially-verified rounds**
+The multi-agent swarm has since completed **sixteen adversarially-verified rounds**
 (2026-09-18 → 2026-09-29), each a preregistered builder battery followed by an independent
 adversary round that recomputes every headline number from primary data with its own code,
 nulls, and seeds. Full round records: [`rounds/`](rounds/).
@@ -76,6 +76,7 @@ nulls, and seeds. Full round records: [`rounds/`](rounds/).
 | [W3 / W3-A — memory-bearing nulls, part 1](rounds/w3.md) | bring the Timm & Schinner-style self-citation family SC(τ, p_exact, p2, p_cont) under full certification law on a frozen 54-point grid (τ ≤ 1000, the published recency scales), plus a corpus memory-profile prong | **GENERATOR-UNCERTIFIED on the frozen grid (0/54 both translits) — with both interpretive headlines OVERTURNED by the adversary (CONFIRMED-WITH-AMENDMENTS, AM-W3-1..4):** the mechanical verdict replayed float-exact, but the builder's "cannot be tuned" causal claim was falsified — the adversary found a joint certification corridor at τ ≥ 6000 using the builder's own unchanged code — and the "memory profile is a cliff at d=1" gloss was falsified from the builder's own checkpoints (d=2 clears its null with zero exceedances, both translits). The overturned headlines stay on the record; a residue showdown at the certified corridor was made obligatory (W3b) |
 | [W3b / W3b-A — memory-bearing nulls, part 2: the residue showdown](rounds/w3b.md) | obligatory under AM-W3-1: certify the recency-to-uniform copy+mutate corridor (144-point grid, τ to 24000), select configurations by frozen rule, score the certified residue cells S_b / S_w / S_d2 against K=1000 generated corpora per config; preregistered d=1/d=2 cluster certification on the real corpus | **FAMILY-FAILS-AT-RESIDUE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W3b-1..3; headline on S_b and S_w only):** the corridor is real at four independent seed sets (15/144 joint at builder seeds), and everywhere the family certifies it fails the certified residue — all 12 scored units n_ge=0 at K=1000; S_b obs .1999/.1784 vs generator bands .005–.013 (≥14× above the bands even at bias-corrected CIs), S_w 1.395/1.364 vs .87–1.18 — including at the memory-heaviest certified corner probed (p_cont=.7). S_d2 de-weighted by the adversary (bias-fragile CI leg; a certified corner reproduces it); d=1 re-certified (A10); d=2 permutation-clear at four seed sets but cluster-uncertified (lead). The family makes the repeats but not the digram residue — memory of the wrong shape → ledger A12/B13 |
 | [W4 / W4-A — soft word segmentation](rounds/w4.md) | test of the W2-A comma-cohesion lead: is the EVA hard-space "word" the real unit, or is segmentation soft? Cross-trained min-PMI cohesion signal; prongs: comma cohesion, cross-transliteration boundary contest, residue under resegmentation, lexicon sanity | **MIXED by the frozen letter — citable reading NEGATIVE (adversary CONFIRMED-WITH-AMENDMENTS, AM-W4-1..6): EVA hard-space tokenization survives its first direct challenge.** The hypothesis lost its load-bearing prongs: comma cohesion REVERSED (Δ = −.167 at 1/1001 — the adversary amended and discharged his own W2-A lead: the table-MI measurement stands at 0.532, the "high-cohesion" gloss is struck); the boundary contest failed both arms (88.2% comma-overlap disclosure on ZL; the independent IT arm fails too); the one prereg positive (T2 STRENGTHENED) is a demonstrated construction artifact — a wordless first-order-Markov surrogate reproduces the full gain — de-weighted to non-evidential. Emergent certified lead (B14): the scribe's spaces are exceptional final→initial class-independence points — ~7.7×/8.6× more independent than matched-rate random placement and ~5.1×/5.9× more than the cohesion segmenter's own boundaries, both transliterations; no natural-language control claimed |
+| [W5 / W5-A — the d=2 power round](rounds/w5.md) | certify-or-kill round on the d=2 residue lead (ledger B13): bootstrap the pooled statistic B13 actually quotes at folio grain, at preregistered adequate power (joint .943 vs ≥.80 target) with an armed kill rule — no more limbo | **CERTIFIED — B13 upgraded to Tier-A (adversary confirmed with amendments): the corpus carries certified multi-distance digram-class residue structure at d=1 AND d=2.** Permutation-clear at six independent seed sets (zero exceedances everywhere, both transliterations); folio-cluster basic+BCa intervals exclude zero in all three builder seed streams AND at the adversary's own seeds with an independently re-seeded null layer (P(≤0) = 0 in 24,000 replicates); the adversary's estimand probe found W3b's failed bootstrap leg had targeted a different, ~1.4–1.7× smaller functional — estimand re-alignment, not shopping, and the builder's "same pooled quantity" sentence struck; the quire-grain basic-CI dip ruled a right-skewness artifact (BCa positive everywhere, ≤1/12,000 coarse-grain replicates ≤0) and welded as a disclosure; carries AM-W3b-2 verbatim — no discrimination against the certified memory-heavy copy+mutate corner |
 
 **Headline certified facts:** the campaign's central certified result now stands on two
 excluded generator families. *The character stream carries sequential digram-class
@@ -96,7 +97,13 @@ results stand on has itself now survived its first direct challenge (W4): no tes
 cohesion-based segmentation beats EVA hard spaces, and the scribe's spaces mark points
 of exceptional final→initial class independence — several-fold more independent than
 matched-rate random placement or a cohesion segmenter's own boundaries (ledger B14, at
-tested-family scope). Alongside it: *or- is enriched in the opening paragraph of the written
+tested-family scope). The residue structure is now certified at **multiple distances**
+(W5, ledger A13): digram-class dependence at d=1 AND d=2 survives folio-clustered
+uncertainty in both transliterations — permutation-clear at six independent seed sets,
+bootstrap-certified in four, adversary-recertified with an independent null layer — so
+any candidate generator or mapping must reproduce sequential class structure at both
+distances, with the welded caveat that d=2 does not by itself discriminate against the
+certified memory-heavy copy+mutate corner (AM-W3b-2). Alongside it: *or- is enriched in the opening paragraph of the written
 page* — page-physical (recto and verso alike, no quire structure), certified at
 folio-cluster level in both transliterations, robust to geometric heading-likeness, and
 section-modulated with the balneological section negative; the content-linked root
@@ -105,10 +112,10 @@ correlate; a corpus-wide depleted-at-openings / enriched-at-endings positional g
 absence of linguistic context-selectivity. Every certified fact, with effect sizes,
 p-values, and its certifying round: [`CONSTRAINTS.md`](CONSTRAINTS.md).
 
-**Live threads:** (1) **the d=2 residue (W3b lead, ledger B13):** permutation-clear at
-four independent seed sets in both transliterations but cluster-uncertified — a
-preregistered, cluster-bootstrapped d=2 measurand is the natural next-round prong (W4
-took the soft-segmentation question instead). (2) **The scribe's spaces (W4 lead,
+**Live threads:** (1) **the d=2 residue: RESOLVED — certified by W5 (B13 → A13);**
+still open from that thread: the E2 line-null residue (a strengthened lead — part of
+the d=2 residue survives a stronger within-line permutation null at p .006/.003, but
+its folio-grain CI includes 0), and the remaining copy+mutate corner (thread 3). (2) **The scribe's spaces (W4 lead,
 ledger B14):** soft segmentation itself was tested and discharged NEGATIVE in W4 —
 what emerged instead is the boundary-independence lead: EVA spaces as exceptional
 final→initial class-independence points, adversary-recertified at tested-family scope;

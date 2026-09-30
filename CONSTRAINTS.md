@@ -109,8 +109,10 @@ its refutation.
   with the builder's own unchanged code. The AM-W3-1 obligation (a W3b scoring the
   residue measurands at the certified corridor before W3 may be cited against
   self-citation in any strength) is **DISCHARGED** by W3b.
-- **Memory-profile wording (campaign law, W3-A amendment AM-W3-2):** the corpus
-  memory-profile gloss reads: certified residue at d=1 (A10); d=2 permutation-clear in
+- **Memory-profile wording (campaign law, W3-A amendment AM-W3-2):** [SUPERSEDED by
+  W5 per AM-W5-3 and the W5 DESIGN's pre-committed upgrade text — the gloss now reads:
+  **certified multi-distance residue structure (d=1 AND d=2)**, see A13.] Historical
+  wording: certified residue at d=1 (A10); d=2 permutation-clear in
   both transliterations but cluster-uncertified (lead, not claim); d ≥ 4 at the plug-in
   bias floor; no cluster-certified long-range residue. "Adjacent-scale only" and
   "cliff" are struck. A10 itself is unamended.
@@ -138,8 +140,11 @@ its refutation.
   and S_w still fail by adversary probe (n_ge = 0/60 per translit at
   (24000, .675, .2, .7)) but S_d2 does not." Disclosure, not a reopening obligation;
   claims about the family beyond the probed region are unsupported until run.
-- **ZL d=2 knife-edge disclosure (campaign law, W3b-A amendment AM-W3b-3):** the
-  AM-W3-2 memory-profile line carries: at folio grain the ZL d=2 delta CI is
+- **ZL d=2 knife-edge disclosure (campaign law, W3b-A amendment AM-W3b-3):**
+  [CONTRACTED by AM-W5-3 — no longer travels with the d=2 residue claim; historical
+  statement about W3b's delta-method leg only, which W5-A retroactively explains as the
+  expected regime at z ≈ 1.5 on a mismatched estimand (AM-W5-1).] Historical wording:
+  at folio grain the ZL d=2 delta CI is
   seed-knife-edge (builder seeds CI ∋ 0 at P(≤0) = .064; adversary seeds CI excludes 0
   at P(≤0) = .024); non-certification is carried by IT and by coarser grains
   (section/quire P(≤0) ≥ .085 both translits).
@@ -178,6 +183,36 @@ its refutation.
   ZL arm travels with: 88.2% (470/533) of ZL_only contested gaps are comma junctions —
   the ZL arm largely re-tests T1a on the aligned subdomain; the IT arm (274 hard-only
   gaps) is the independent arm and also fails.
+- **Estimand history correction (campaign law, W5-A amendment AM-W5-1):** the sentence
+  "W3b's per-folio delta was an inefficient estimator of the same pooled quantity" is
+  STRUCK wherever it appears or is paraphrased. Binding replacement: "W3b's bootstrap
+  leg targeted a DIFFERENT functional (weighted mean of per-folio MI deltas: .00443 ZL
+  / .00384 IT on identical tables) than the pooled B13 statistic (.00633 / .00649) — a
+  ~1.4–1.7× smaller estimand measured with far higher noise. B13's 'CI ∋ 0' was a
+  mismatched, underpowered leg, not evidence about the pooled statistic. W5's bootstrap
+  targets the pooled statistic B13 actually quotes (obs bit-identical to W3b T1)."
+  Citations of the W5 certification may summarize this as "estimand re-alignment";
+  "power artifact" alone is not a permitted summary. Verified functional comparison on
+  the SAME committed null tables (adversary, zero seed noise): pooled .006334 ZL /
+  .006492 IT vs per-folio-weighted .004430 / .003843 — ratios 1.43× / 1.69×.
+- **Coarse-grain disclosure wording (campaign law, W5-A amendment AM-W5-2):** the
+  welded quire disclosure becomes: "Certified at folio grain (campaign-law sampling
+  unit). At quire grain (18 clusters) the basic CI lower bound is seed-wobbly and can
+  dip below 0 (builder −.00004 ZL / −.00064 IT; adversary −.00104 / −.00141); BCa
+  remains positive (≥ +.0033) and P(≤0) ≤ .0005 in every coarse-grain stream (≤ 1 of
+  12,000 replicates incl. adversary section-grain NOT_PREREG probe at 8 clusters). The
+  dip is a right-skewness artifact of the basic interval at small cluster counts, not
+  sign uncertainty — and conversely, the basic-CI non-robustness at quire grain must be
+  quoted wherever the quire figure travels." Bifolio-proxy and Currier-stratified
+  grains pass all intervals (no disclosure).
+- **AM-W3b-3 contraction (W5-A amendment AM-W5-3):** the AM-W3b-3 knife-edge disclosure
+  no longer travels with the d=2 residue claim: it is contracted to a historical
+  statement about W3b's delta-method leg ("the W3b estimator's folio-grain CI was
+  seed-knife-edged, as expected at z ≈ 1.5 on a mismatched estimand; superseded by W5,
+  where 4 seed sets × basic+BCa concur with margins ≥ +.002 and P(≤0) = 0 at
+  B = 16,000 total"). AM-W3-2's memory-profile wording is superseded per the W5
+  DESIGN's pre-committed upgrade text: **certified multi-distance residue structure
+  (d=1 AND d=2)** — see A13.
 
 Rounds: WP2 (mechanism discrimination, L1 slate), WP3 (H1–H4, L2 slate), WP4 (N1–N4, L3
 slate), WP5 (opening-boundary battery, L4 round). Each has a builder `tests/results/summary.md`
@@ -406,10 +441,11 @@ TTR/top-100 windows; "structural limitation, NOT grid coarseness") was **OVERTUR
 the adversary (W3-A)**, who found the certification corridor with the builder's own
 unchanged code (AM-W3-1). The T&S-recency end of the family (τ ≤ 1000) remains
 excluded at the certification layer by the frozen-grid result; the AM-W3-1 showdown
-obligation was discharged by W3b. The corpus memory profile (AM-W3-2 wording): certified
-residue at d=1 (A10 re-certified in W3b at a fourth seed set — T1 d=1 PASS, n_ge = 0,
+obligation was discharged by W3b. The corpus memory profile (AM-W3-2 wording as
+superseded by W5 per AM-W5-3): **certified multi-distance residue structure (d=1 AND
+d=2)** — d=1 (A10 re-certified in W3b at a fourth seed set — T1 d=1 PASS, n_ge = 0,
 folio-cluster CI [+.164, +.194] ZL / [+.148, +.179] IT, P(≤0) = 0); d=2
-permutation-clear but cluster-uncertified (B13); d ≥ 4 at the plug-in bias floor; no
+folio-cluster-certified by W5 (A13); d ≥ 4 at the plug-in bias floor; no
 cluster-certified long-range residue (W3 T1: S_far ZL perm-marginal AND
 bootstrap-refuted, IT null).
 Scope: this certifies exclusion of the certified recency-to-uniform copy+mutate family
@@ -424,6 +460,67 @@ region are NOT exhausted; the memoryless family exclusion is A11.
   `w3/ADVERSARY_REPORT.md`, `w3b/tests/results/summary.md`,
   `w3b/tests/results/T2.json`, `w3b/tests/results/T1.json`,
   `w3b/infra/gen_cert.json`, `w3b/ADVERSARY_REPORT.md`.
+
+### A13. Certified multi-distance digram-class residue: d=1 AND d=2 (B13 upgraded; W5 + W5-A)
+Any valid theory MUST reproduce digram-class dependence that survives folio-clustered
+uncertainty at BOTH distances d=1 and d=2 — the corpus memory profile per the W5 DESIGN's
+pre-committed upgrade text: **certified multi-distance residue structure (d=1 AND d=2)**.
+The d=2 leg (the B13 statistic, pooled Δ_d2 = MI(pooled d=2 pair table) − mean within-
+folio-permuted table MI): obs S_d2 = 0.016749 ZL / 0.016312 IT (37,988 / 37,309 same-folio
+row-distance-2 pairs; bit-identical to W3b T1 obs), effect Δ = .006334 ZL / .006492 IT.
+Preregistered as a certify-or-kill power round (joint power target ≥ .80; projected .943,
+ZL .987 / IT .957) with an armed kill rule — the design was empowered to retire B13 and
+certified it instead. Certification record:
+- **Permutation-clear at SIX independent seed sets** (n_ge = 0/1000 each, both
+  translits): W3 builder, W3-A 777003, W3b builder, W3b-A 777004, W5 builder 20261004,
+  W5-A 777006. W5 gap to nearest null +.0041 ZL / +.0047 IT.
+- **Folio-cluster bootstrap basic+BCa lower bounds > 0 in FOUR independent seed sets**
+  (12/12 builder folio-grain intervals + adversary): three disjoint builder streams
+  (primary B = 4000: basic/BCa lo **+.00227/+.00404** ZL, **+.00213/+.00395** IT; rep2
+  B = 2000: +.00247/+.00396, +.00204/+.00386; rep3 B = 2000: +.00250/+.00395,
+  +.00196/+.00386) plus the adversary's own-seed stream with an independently re-seeded
+  null-table layer (B = 4000: basic lo +.00226 ZL / +.00234 IT, BCa lo +.00384/+.00425;
+  own effect .006374/.006791, null-table MC noise consistent with the frozen
+  m-sensitivity analysis). P(≤0) = 0 in every folio-grain stream — 24,000 replicates
+  across builder + adversary. Bias (boot mean − effect) reported and small (≤ +.0003).
+- **d=1 control re-certified at every layer** (A10 unamended; 6/6 intervals, n_ge = 0).
+- Knife-edge menu never fired (no scored p in [.02, .10]); the AM-W3b-3 knife-edge is
+  dead at this design (AM-W5-3).
+**Welds that MUST travel with any citation of this fact:**
+1. **AM-W3b-2 verbatim:** the d=2 residue does not by itself discriminate against the
+   certified copy+mutate memory-heavy corner (p_cont = 0.7 reproduces obs-magnitude
+   S_d2 while S_b and S_w still fail, n_ge = 0/60 per translit) — a claim about the
+   corpus, not a new family exclusion; NOT cipher, NOT language, NOT meaning.
+2. **AM-W5-2 coarse-grain disclosure** (quire basic-CI dip = right-skewness artifact at
+   tiny cluster counts; quoted in full above under campaign law).
+3. **AM-W2-1 hard-space companion:** d=2 residue restricted to double-hard junction
+   pairs is STRONGER: obs 0.022485 ZL (24,533 pairs) / 0.018955 IT (28,019 pairs),
+   n_ge = 0 both.
+4. **AM-W5-1 estimand history** (W3b's bootstrap leg targeted a different functional;
+   "power artifact" alone is a forbidden summary).
+Descriptive notes of record: influence audit (NOT_PREREG) — top folio f57v carries
+15.6% ZL / 20.1% IT of the effect; dropping the top 10 influencers leaves +.00367 /
++.00346, far above the certified lower bounds — the certification is corpus-broad.
+E2 line-null residue (prereg'd descriptive-only, underpowered): effect +.00286 ZL /
++.00356 IT, perm p .006/.003 (n_ge 5/2), folio basic CI ∋ 0 both (−.00142/−.00128),
+BCa marginal (+.00012/+.00090), P(≤0) .025/.017 — NOT certified, filed as a
+strengthened LEAD only (part of the d=2 residue persists under the stronger within-line
+null at the permutation layer). Far distances stay descriptive/unscored: d=4 p .16/.10;
+d=8 p .003 ZL / .062 IT (ZL-only weak far tail persists); d=16 p .046 ZL / .879 IT.
+Honesty note of record (W5-A F9f, no amendment): in a fixed-corpus power round the
+sanctioned pre-freeze power analysis necessarily PREVIEWS the likely outcome
+(z ≈ 3.5 ⇒ certification was near-certain before freeze). Disclosed in BUILD_LOG §0;
+POWER stream disjoint from every frozen-run stream (adversary-verified); the frozen rule
+bound the builder regardless; the real protection is the adversary's independent seeds
+and independently re-seeded null-table layer.
+- Certified: W5 T1 (CERTIFIED per frozen rules) + W5-A (CONFIRMED-WITH-AMENDMENTS,
+  AM-W5-1..3; B13 Tier-A upgrade granted; obs recompute exact with independent MI code;
+  builder-seed replay float-exact incl. the crash boundary; own-seed certification
+  reproduced).
+- Evidence: `w5/tests/results/T1.json`,
+  `w5/tests/results/summary.md`, `w5/DESIGN.md`,
+  `w5/infra/power_analysis.json`, `w5/ADVERSARY_REPORT.md`,
+  `w5/adversary/adv_w5_{A,D,E,F}.json`.
 
 ### Composite Tier-A profile (adversary synthesis, WP3-A item 5, extended by WP4/WP5)
 > or- is appended at terminal slots — line-final specifically (step, not ramp), amplified at
@@ -501,18 +598,14 @@ kill a theory alone. Certification levels copied exactly as filed.*
   `wp5/tests/results/summary.md`.
 - **B12. Opening effect is descriptively carried more by bare `or` than compounds**
   (PH3 WP5, NOT_PREREG: +.0044 vs +.0019 ZL). `wp5/tests/results/summary.md`.
-- **B13. d=2 boundary-class residue: permutation-clear at FOUR independent seed sets,
-  cluster-UNCERTIFIED (lead, not claim).** S_d2 obs 0.01675 ZL / 0.01631 IT clears its
-  permutation null with zero exceedances (obs 0.0038/0.0042 ABOVE the null max) at four
-  seed sets (W3 builder ckpt data, W3-A adversary 777003, W3b builder 20261001, W3b-A
-  adversary 777004), but the folio-cluster bootstrap fails to certify it (builder CIs
-  ∋ 0: ZL P(≤0) = .064, IT .191). AM-W3b-3 knife-edge disclosure travels: at folio grain
-  the ZL CI is seed-knife-edge (adversary seeds exclude 0 at P(≤0) = .024);
-  non-certification is carried by IT and by coarser grains (section/quire P(≤0) ≥ .085
-  both translits). Promotion to a certified measurand remains a natural future-round
-  target (W4 took the soft-segmentation question instead). AM-W3-2
-  wording binds. `w3b/tests/results/T1.json`,
-  `w3b/ADVERSARY_REPORT.md` (F6), `w3/ADVERSARY_REPORT.md` (§2).
+- **B13. → UPGRADED TO TIER-A (A13) by W5 + W5-A.** Historical record: entered as
+  permutation-clear at four seed sets but folio-cluster-UNCERTIFIED (W3b builder CIs
+  ∋ 0: ZL P(≤0) = .064, IT .191). W5's preregistered certify-or-kill power round
+  certified the pooled B13 statistic at folio grain in both transliterations
+  (adversary-confirmed at a 6th seed set with an independently re-seeded null layer);
+  per AM-W5-1 the W3b non-certification was an estimand MISMATCH plus power — its
+  bootstrap leg targeted a different, ~1.4–1.7× smaller functional — not evidence about
+  the pooled statistic. See A13; AM-W5-1..3 bind.
 - **B14. EVA space boundaries are exceptional final→initial class-independence points
   (W4 certified lead; AM-W4-3 binding wording; NOT_PREREG origin,
   adversary-recertified).** Exact wording: "At matched boundary rate and identical
@@ -768,11 +861,15 @@ kill a theory alone. Certification levels copied exactly as filed.*
    p_cont > 0.7 / off-probed-region behavior (AM-W3b-2). The phase-3 self-citation
    result remains deliberately NOT entered — W3/W3b now carry that question inside the
    certified record.
-6b. **d=2 residue promotion (B13):** permutation-clear at four seed sets,
-   cluster-uncertified — a preregistered, cluster-bootstrapped d=2 measurand (possibly
-   position-conditioned per thread 7) remains the natural next-round prong (W4 took
-   the soft-segmentation question instead); ZL-only weak far tails (d=8/d=16) remain
-   a bootstrap-refuted watch item.
+6b. **d=2 residue promotion (B13): RESOLVED — CERTIFIED (W5 + W5-A → A13).** The
+   preregistered certify-or-kill power round (joint power .943 vs ≥ .80 target, armed
+   kill rule) certified the pooled d=2 statistic at folio grain in both
+   transliterations; six permutation seed sets, four bootstrap seed sets, adversary
+   Tier-A upgrade granted. AM-W5-1..3 + AM-W3b-2 + AM-W2-1 welds travel. Still open
+   from this thread: the E2 line-null residue (strengthened lead only — perm p
+   .006/.003 but folio CI ∋ 0); a position-conditioned boundary prong (thread 7);
+   ZL-only weak far tails (d=8/d=16) remain a descriptive watch item (W5: d8 p .003
+   ZL / .062 IT; d16 .046 / .879, unscored).
 7. **Soft word segmentation (W2-A NOT_PREREG lead): TESTED AND DISCHARGED NEGATIVE
    (W4 + W4-A → AM-W4-1..6, B14).** W4 put the lead under preregistration and it lost
    its load-bearing prongs. Master verdict: **MIXED by the frozen letter (T1b FAIL
@@ -802,7 +899,7 @@ WP6-A (2026-09-25), WP7 (2026-09-25), WP7-A (2026-09-25), WP8 (2026-09-26), WP8-
 (2026-09-26), WP8b (2026-09-26), WP8b-A (2026-09-26), WP8c (2026-09-26), WP8c-A
 (2026-09-26), WP9 (2026-09-26), WP9-A (2026-09-26), W2 (2026-09-29), W2-A (2026-09-29),
 W3 (2026-09-29), W3-A (2026-09-29), W3b (2026-09-29), W3b-A (2026-09-29), W4 (2026-09-29),
-W4-A (2026-09-29).
+W4-A (2026-09-29), W5 (2026-09-29), W5-A (2026-09-29).
 W2 opens the W-series numbering (digram/sequence-structure arc); builder/adversary
 structure unchanged, adversary record filed as `ADVERSARY_REPORT.md` at the round root.
 Claims from
